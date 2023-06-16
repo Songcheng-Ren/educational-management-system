@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scu.springboot.demo.dao.TakesDao">
+
+    <resultMap type="com.scu.springboot.demo.entity.Takes" id="TakesMap">
+        <result property="sid" column="sID" jdbcType="VARCHAR"/>
+        <result property="courseId" column="course_id" jdbcType="VARCHAR"/>
+        <result property="secId" column="sec_id" jdbcType="VARCHAR"/>
+        <result property="semester" column="semester" jdbcType="VARCHAR"/>
+        <result property="year" column="year" jdbcType="VARCHAR"/>
+        <result property="grade" column="grade" jdbcType="NUMERIC"/>
+        <result property="teacherId" column="teacher_ID" jdbcType="VARCHAR"/>
+        <result property="courseEvaluate" column="course_evaluate" jdbcType="VARCHAR"/>
+    </resultMap>
+    <resultMap type="com.scu.springboot.demo.vo.EvaluateVo" id="EvaluateMap">
+        <result property="sid" column="sID" jdbcType="VARCHAR"/>
+        <result property="courseId" column="course_id" jdbcType="VARCHAR"/>
+        <result property="secId" column="sec_id" jdbcType="VARCHAR"/>
+        <result property="semester" column="semester" jdbcType="VARCHAR"/>
+        <result property="year" column="year" jdbcType="VARCHAR"/>
+        <result property="grade" column="grade" jdbcType="NUMERIC"/>
+        <result property="teacherId" column="teacher_ID" jdbcType="VARCHAR"/>
+        <result property="courseEvaluate" column="course_evaluate" jdbcType="VARCHAR"/>
+        <result property="course_name" column="course_name" jdbcType="VARCHAR"/>
+        <result property="teacher_name" column="teacher_name" jdbcType="VARCHAR"/>
+    </resultMap>
+    <resultMap type="com.scu.springboot.demo.vo.ScoreVo" id="ScoreMap">
+        <result property="sid" column="sID" jdbcType="VARCHAR"/>
+        <result property="courseId" column="course_id" jdbcType="VARCHAR"/>
+        <result property="secId" column="sec_id" jdbcType="VARCHAR"/>
+        <result property="semester" column="semester" jdbcType="VARCHAR"/>
+        <result property="year" column="year" jdbcType="VARCHAR"/>
+        <result property="grade" column="grade" jdbcType="NUMERIC"/>
+        <result property="teacherId" column="teacher_ID" jdbcType="VARCHAR"/>
+        <result property="courseEvaluate" column="course_evaluate" jdbcType="VARCHAR"/>
+        <result property="score" column="score" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <resultMap type="com.scu.springboot.demo.vo.Student_listVo" id="Student_listVoMap">
+        <result property="sid" column="sID" jdbcType="VARCHAR"/>
+        <result property="courseId" column="course_id" jdbcType="VARCHAR"/>
+        <result property="secId" column="sec_id" jdbcType="VARCHAR"/>
+        <result property="semester" column="semester" jdbcType="VARCHAR"/>
+        <result property="year" column="year" jdbcType="VARCHAR"/>
+        <result property="grade" column="grade" jdbcType="NUMERIC"/>
+        <result property="teacherId" column="teacher_ID" jdbcType="VARCHAR"/>
+        <result property="courseEvaluate" column="course_evaluate" jdbcType="VARCHAR"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="deptName" column="dept_name" jdbcType="VARCHAR"/>
+        <result property="home" column="home" jdbcType="VARCHAR"/>
+    </resultMap>
+    <!--查询单个-->
+    <select id="queryById" resultMap="TakesMap">
+        select
+          sID, course_id, sec_id, semester, year, grade, teacher_ID, course_evaluate
+        from takes
+        where sID = #{sid}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="TakesMap">
+        select
+          sID, course_id, sec_id, semester, year, grade, teacher_ID, course_evaluate
+        from takes
+        <where>
+            <if test="sid != null and sid != ''">
+                and sID = #{sid}
+            </if>
+            <if test="courseId != null and courseId != ''">
+                and course_id = #{courseId}
+            </if>
+            <if test="secId != null and secId != ''">
+                and sec_id = #{secId}
+            </if>
+            <if test="semester != null and semester != ''">
+                and semester = #{semester}
+            </if>
+            <if test="year != null and year != ''">
+                and year = #{year}
+            </if>
+            <if test="grade != null">
+                and grade = #{grade}
+            </if>
+            <if test="teacherId != null and teacherId != ''">
+                and teacher_ID = #{teacherId}
+            </if>
+            <if test="courseEvaluate != null and courseEvaluate != ''">
+                and course_evaluate = #{courseEvaluate}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from takes
+        <where>
+            <if test="sid != null and sid != ''">
+                and sID = #{sid}
+            </if>
+            <if test="courseId != null and courseId != ''">
+                and course_id = #{courseId}
+            </if>
+            <if test="secId != null and secId != ''">
+                and sec_id = #{secId}
+            </if>
+            <if test="semester != null and semester != ''">
+                and semester = #{semester}
+            </if>
+            <if test="year != null and year != ''">
+                and year = #{year}
+            </if>
+            <if test="grade != null">
+                and grade = #{grade}
+            </if>
+            <if test="teacherId != null and teacherId != ''">
+                and teacher_ID = #{teacherId}
+            </if>
+            <if test="courseEvaluate != null and courseEvaluate != ''">
+                and course_evaluate = #{courseEvaluate}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="sid" useGeneratedKeys="true">
+        insert into takes(grade, course_evaluate)
+        values (#{grade}, #{courseEvaluate})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="sid" useGeneratedKeys="true">
+        insert into takes(grade, course_evaluate)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.grade}, #{entity.courseEvaluate})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="sid" useGeneratedKeys="true">
+        insert into takes(grade, course_evaluate)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.grade}, #{entity.courseEvaluate})
+        </foreach>
+        on duplicate key update
+        grade = values(grade),
+        course_evaluate = values(course_evaluate)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update takes
+        <set>
+            <if test="grade != null">
+                grade = #{grade},
+            </if>
+            <if test="courseEvaluate != null and courseEvaluate != ''">
+                course_evaluate = #{courseEvaluate},
+            </if>
+        </set>
+        where sID = #{sid}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from takes where sID = #{sid}
+    </delete>
+
+    <select id="evaluate" resultMap="EvaluateMap">
+        select takes.sID ,takes.course_id,sec_id,semester,year,teacher_ID,course.title as course_name,instructor.name as teacher_name,course_evaluate
+        from takes,course,instructor
+        where takes.course_id=course.course_id and takes.teacher_ID=instructor.tID
+        and course_evaluate='否' and takes.sID = #{sid}
+    </select>
+
+    <update id="update_evaluate" >
+        update takes
+        set course_evaluate='是'
+        where sID=#{id} and course_id=#{course_id} and sec_id=#{sec_id} and teacher_ID=#{teacher_ID}
+        and semester=#{semester} and year=#{year}
+    </update>
+
+    <insert id="update_score" keyProperty="index">
+        insert into comment_on_teaching(tID, course_id,score)
+        value (#{teacher_ID}, #{course_id},#{score})
+    </insert>
+
+
+    <select id="student_list" resultMap="Student_listVoMap">
+        select takes.sID, name, dept_name, home
+        from takes,student
+        where takes.sID=student.sID and course_id=#{courseId} and sec_id=#{secId}
+    </select>
+
+
+</mapper>
+

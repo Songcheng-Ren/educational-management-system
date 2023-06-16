@@ -1,0 +1,1282 @@
+[INFO]2022-07-17 08:54:32,698 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 17912 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 08:54:32,700 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 08:54:32,773 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 08:54:32,774 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 08:54:34,284 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 08:54:34,291 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 08:54:34,292 - Starting service [Tomcat]
+[INFO]2022-07-17 08:54:34,293 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 08:54:34,356 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 08:54:34,356 - Root WebApplicationContext: initialization completed in 1582 ms
+[INFO]2022-07-17 08:54:34,948 - Adding welcome page template: index
+[INFO]2022-07-17 08:54:35,118 - LiveReload server is running on port 35729
+[INFO]2022-07-17 08:54:35,134 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 08:54:35,165 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 08:54:35,218 - Started Demo1Application in 3.024 seconds (JVM running for 3.874)
+[INFO]2022-07-17 08:55:08,649 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 08:55:08,649 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 08:55:08,650 - Completed initialization in 1 ms
+[INFO]2022-07-17 10:01:27,268 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 23092 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 10:01:27,269 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 10:01:27,295 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 10:01:27,295 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 10:01:27,990 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 10:01:27,995 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:01:27,996 - Starting service [Tomcat]
+[INFO]2022-07-17 10:01:27,996 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 10:01:28,044 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 10:01:28,044 - Root WebApplicationContext: initialization completed in 749 ms
+[INFO]2022-07-17 10:01:28,414 - Adding welcome page template: index
+[INFO]2022-07-17 10:01:28,519 - LiveReload server is running on port 35729
+[INFO]2022-07-17 10:01:28,531 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:01:28,549 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 10:01:28,584 - Started Demo1Application in 1.575 seconds (JVM running for 2.086)
+[INFO]2022-07-17 10:02:04,834 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 10:02:04,834 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 10:02:04,834 - Completed initialization in 0 ms
+[INFO]2022-07-17 10:02:05,303 - HikariPool-1 - Starting...
+[INFO]2022-07-17 10:02:05,396 - HikariPool-1 - Start completed.
+[WARN]2022-07-17 10:02:05,410 - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.scu.springboot.demo.dao.StudentDao.getAllStudentinfo]
+[WARN]2022-07-17 10:02:12,245 - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.scu.springboot.demo.dao.StudentDao.getAllStudentinfo]
+[INFO]2022-07-17 10:03:20,618 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 10:03:20,622 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-17 10:03:23,573 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 12200 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 10:03:23,574 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 10:03:23,601 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 10:03:23,602 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 10:03:24,299 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 10:03:24,304 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:03:24,304 - Starting service [Tomcat]
+[INFO]2022-07-17 10:03:24,304 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 10:03:24,351 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 10:03:24,351 - Root WebApplicationContext: initialization completed in 749 ms
+[INFO]2022-07-17 10:03:24,770 - Adding welcome page template: index
+[INFO]2022-07-17 10:03:24,895 - LiveReload server is running on port 35729
+[INFO]2022-07-17 10:03:24,908 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:03:24,929 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 10:03:24,975 - Started Demo1Application in 1.672 seconds (JVM running for 2.243)
+[INFO]2022-07-17 10:03:26,069 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 10:03:26,069 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 10:03:26,069 - Completed initialization in 0 ms
+[INFO]2022-07-17 10:03:26,457 - HikariPool-1 - Starting...
+[INFO]2022-07-17 10:03:26,559 - HikariPool-1 - Start completed.
+[INFO]2022-07-17 10:07:00,400 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 10:07:00,404 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-17 10:07:00,470 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 12200 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 10:07:00,470 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 10:07:00,662 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 10:07:00,663 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:07:00,663 - Starting service [Tomcat]
+[INFO]2022-07-17 10:07:00,663 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 10:07:00,684 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 10:07:00,684 - Root WebApplicationContext: initialization completed in 212 ms
+[INFO]2022-07-17 10:07:00,844 - Adding welcome page template: index
+[INFO]2022-07-17 10:07:00,882 - LiveReload server is running on port 35729
+[INFO]2022-07-17 10:07:00,888 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:07:00,890 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 10:07:00,908 - Started Demo1Application in 0.462 seconds (JVM running for 218.177)
+[INFO]2022-07-17 10:07:00,910 - Condition evaluation unchanged
+[INFO]2022-07-17 10:07:02,414 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 12200 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 10:07:02,414 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 10:07:02,554 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 10:07:02,555 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:07:02,555 - Starting service [Tomcat]
+[INFO]2022-07-17 10:07:02,555 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 10:07:02,570 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 10:07:02,570 - Root WebApplicationContext: initialization completed in 155 ms
+[INFO]2022-07-17 10:07:02,690 - Adding welcome page template: index
+[INFO]2022-07-17 10:07:02,723 - LiveReload server is running on port 35729
+[INFO]2022-07-17 10:07:02,729 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:07:02,730 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 10:07:02,746 - Started Demo1Application in 0.348 seconds (JVM running for 220.015)
+[INFO]2022-07-17 10:07:02,747 - Condition evaluation unchanged
+[INFO]2022-07-17 10:07:03,594 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 10:07:03,594 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 10:07:03,594 - Completed initialization in 0 ms
+[INFO]2022-07-17 10:07:03,925 - HikariPool-2 - Starting...
+[INFO]2022-07-17 10:07:03,929 - HikariPool-2 - Start completed.
+[WARN]2022-07-17 10:08:43,413 - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [106] milliseconds.
+[INFO]2022-07-17 10:31:11,798 - HikariPool-2 - Shutdown initiated...
+[INFO]2022-07-17 10:31:11,800 - HikariPool-2 - Shutdown completed.
+[INFO]2022-07-17 10:31:15,990 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 21032 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 10:31:15,991 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 10:31:16,017 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 10:31:16,017 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 10:31:16,683 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 10:31:16,687 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:31:16,688 - Starting service [Tomcat]
+[INFO]2022-07-17 10:31:16,688 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 10:31:16,736 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 10:31:16,736 - Root WebApplicationContext: initialization completed in 719 ms
+[INFO]2022-07-17 10:31:17,124 - Adding welcome page template: index
+[INFO]2022-07-17 10:31:17,227 - LiveReload server is running on port 35729
+[INFO]2022-07-17 10:31:17,238 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:31:17,258 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 10:31:17,295 - Started Demo1Application in 1.549 seconds (JVM running for 2.08)
+[INFO]2022-07-17 10:31:23,531 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 10:31:23,532 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 10:31:23,533 - Completed initialization in 1 ms
+[INFO]2022-07-17 10:32:11,200 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 1492 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 10:32:11,201 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 10:32:11,233 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 10:32:11,233 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 10:32:11,932 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 10:32:11,937 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:32:11,938 - Starting service [Tomcat]
+[INFO]2022-07-17 10:32:11,938 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 10:32:11,990 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 10:32:11,990 - Root WebApplicationContext: initialization completed in 757 ms
+[INFO]2022-07-17 10:32:12,377 - Adding welcome page template: index
+[INFO]2022-07-17 10:32:12,483 - LiveReload server is running on port 35729
+[INFO]2022-07-17 10:32:12,495 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:32:12,514 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 10:32:12,551 - Started Demo1Application in 1.597 seconds (JVM running for 2.128)
+[INFO]2022-07-17 10:32:15,127 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 10:32:15,127 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 10:32:15,128 - Completed initialization in 1 ms
+[INFO]2022-07-17 10:32:15,542 - HikariPool-1 - Starting...
+[INFO]2022-07-17 10:32:15,638 - HikariPool-1 - Start completed.
+[INFO]2022-07-17 10:44:54,577 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 10:44:54,582 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-17 10:44:54,644 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 1492 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 10:44:54,644 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 10:44:54,973 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 10:44:54,973 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:44:54,973 - Starting service [Tomcat]
+[INFO]2022-07-17 10:44:54,973 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 10:44:54,989 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 10:44:54,990 - Root WebApplicationContext: initialization completed in 345 ms
+[INFO]2022-07-17 10:44:55,165 - Adding welcome page template: index
+[INFO]2022-07-17 10:44:55,196 - LiveReload server is running on port 35729
+[INFO]2022-07-17 10:44:55,203 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:44:55,206 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 10:44:55,225 - Started Demo1Application in 0.609 seconds (JVM running for 764.802)
+[INFO]2022-07-17 10:44:55,226 - Condition evaluation unchanged
+[INFO]2022-07-17 10:44:56,727 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 1492 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 10:44:56,727 - No active profile set, falling back to 1 default profile: "default"
+[WARN]2022-07-17 10:44:56,846 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.Controller [Xlint:invalidAbsoluteTypeName]
+[ERROR]2022-07-17 10:44:56,874 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.Controller [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.scu.springboot.demo.Demo1Application.main(Demo1Application.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.Controller [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:255)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.Controller [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:341)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:455)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 41 common frames omitted
+[INFO]2022-07-17 10:46:45,158 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 20500 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 10:46:45,159 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 10:46:45,187 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 10:46:45,187 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 10:46:45,890 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 10:46:45,895 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:46:45,896 - Starting service [Tomcat]
+[INFO]2022-07-17 10:46:45,896 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 10:46:45,946 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 10:46:45,946 - Root WebApplicationContext: initialization completed in 759 ms
+[INFO]2022-07-17 10:46:46,372 - Adding welcome page template: index
+[INFO]2022-07-17 10:46:46,493 - LiveReload server is running on port 35729
+[INFO]2022-07-17 10:46:46,506 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 10:46:46,525 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 10:46:46,567 - Started Demo1Application in 1.647 seconds (JVM running for 2.212)
+[INFO]2022-07-17 10:46:51,154 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 10:46:51,154 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 10:46:51,155 - Completed initialization in 1 ms
+[INFO]2022-07-17 10:46:57,090 - HikariPool-1 - Starting...
+[INFO]2022-07-17 10:46:57,156 - HikariPool-1 - Start completed.
+[INFO]2022-07-17 11:32:03,245 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 11:32:03,247 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-17 19:55:57,972 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 10304 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 19:55:57,972 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 19:55:58,005 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 19:55:58,005 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 19:55:58,942 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 19:55:58,949 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 19:55:58,950 - Starting service [Tomcat]
+[INFO]2022-07-17 19:55:58,950 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 19:55:59,009 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 19:55:59,009 - Root WebApplicationContext: initialization completed in 1003 ms
+[INFO]2022-07-17 19:55:59,463 - Adding welcome page template: index
+[INFO]2022-07-17 19:55:59,600 - LiveReload server is running on port 35729
+[INFO]2022-07-17 19:55:59,613 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 19:55:59,635 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 19:55:59,677 - Started Demo1Application in 2.058 seconds (JVM running for 2.711)
+[INFO]2022-07-17 19:56:07,147 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 19:56:07,147 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 19:56:07,148 - Completed initialization in 1 ms
+[INFO]2022-07-17 19:56:14,339 - HikariPool-1 - Starting...
+[INFO]2022-07-17 19:56:14,423 - HikariPool-1 - Start completed.
+[INFO]2022-07-17 20:04:05,607 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 20:04:05,611 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-17 20:32:21,403 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 21952 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 20:32:21,404 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 20:32:21,434 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 20:32:21,434 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 20:32:22,197 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 20:32:22,202 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 20:32:22,202 - Starting service [Tomcat]
+[INFO]2022-07-17 20:32:22,202 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 20:32:22,257 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 20:32:22,257 - Root WebApplicationContext: initialization completed in 822 ms
+[INFO]2022-07-17 20:32:22,907 - Adding welcome page template: index
+[INFO]2022-07-17 20:32:23,051 - LiveReload server is running on port 35729
+[INFO]2022-07-17 20:32:23,063 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 20:32:23,082 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 20:32:23,118 - Started Demo1Application in 1.962 seconds (JVM running for 2.519)
+[INFO]2022-07-17 20:32:35,516 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 20:32:35,516 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 20:32:35,517 - Completed initialization in 1 ms
+[INFO]2022-07-17 21:22:11,236 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 9688 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:22:11,236 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:22:11,263 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 21:22:11,263 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 21:22:11,944 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:22:11,949 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:22:11,950 - Starting service [Tomcat]
+[INFO]2022-07-17 21:22:11,950 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:22:11,996 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:22:11,996 - Root WebApplicationContext: initialization completed in 733 ms
+[INFO]2022-07-17 21:22:12,415 - Adding welcome page template: index
+[INFO]2022-07-17 21:22:12,537 - LiveReload server is running on port 35729
+[INFO]2022-07-17 21:22:12,548 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:22:12,565 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 21:22:12,602 - Started Demo1Application in 1.613 seconds (JVM running for 2.158)
+[INFO]2022-07-17 21:27:14,911 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 23180 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:27:14,912 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:27:14,942 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 21:27:14,942 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 21:27:15,631 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:27:15,636 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:27:15,638 - Starting service [Tomcat]
+[INFO]2022-07-17 21:27:15,638 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:27:15,688 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:27:15,688 - Root WebApplicationContext: initialization completed in 746 ms
+[INFO]2022-07-17 21:27:16,103 - Adding welcome page template: index
+[INFO]2022-07-17 21:27:16,254 - LiveReload server is running on port 35729
+[INFO]2022-07-17 21:27:16,276 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:27:16,301 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 21:27:16,349 - Started Demo1Application in 1.694 seconds (JVM running for 2.252)
+[INFO]2022-07-17 21:27:20,956 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 21:27:20,956 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 21:27:20,956 - Completed initialization in 0 ms
+[INFO]2022-07-17 21:30:58,444 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 12428 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:30:58,444 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:30:58,477 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 21:30:58,477 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 21:30:59,335 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:30:59,340 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:30:59,341 - Starting service [Tomcat]
+[INFO]2022-07-17 21:30:59,342 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:30:59,396 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:30:59,396 - Root WebApplicationContext: initialization completed in 918 ms
+[INFO]2022-07-17 21:30:59,805 - Adding welcome page template: index
+[INFO]2022-07-17 21:30:59,930 - LiveReload server is running on port 35729
+[INFO]2022-07-17 21:30:59,944 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:30:59,962 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 21:30:59,999 - Started Demo1Application in 1.817 seconds (JVM running for 2.455)
+[INFO]2022-07-17 21:34:02,357 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:34:02,358 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:34:02,385 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 21:34:02,385 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 21:34:03,056 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:34:03,060 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:34:03,061 - Starting service [Tomcat]
+[INFO]2022-07-17 21:34:03,061 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:34:03,108 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:34:03,108 - Root WebApplicationContext: initialization completed in 722 ms
+[INFO]2022-07-17 21:34:03,509 - Adding welcome page template: index
+[INFO]2022-07-17 21:34:03,652 - LiveReload server is running on port 35729
+[INFO]2022-07-17 21:34:03,664 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:34:03,686 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 21:34:03,728 - Started Demo1Application in 1.635 seconds (JVM running for 2.411)
+[INFO]2022-07-17 21:34:08,350 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 21:34:08,350 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 21:34:08,351 - Completed initialization in 1 ms
+[INFO]2022-07-17 21:34:15,633 - HikariPool-1 - Starting...
+[INFO]2022-07-17 21:34:15,705 - HikariPool-1 - Start completed.
+[WARN]2022-07-17 21:34:15,782 - Resolved [org.springframework.dao.DataIntegrityViolationException: <EOL><EOL>### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Incorrect datetime value: 'Fri Jul 01 2022 08:00:00 GMT+0800 (中国标准时间)' for column 'work_date' at row 1<EOL><EOL>### The error may exist in file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]<EOL><EOL>### The error may involve defaultParameterMap<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: insert into work_plan (tID, work_plan, work_date) values (?, ?, ?)<EOL><EOL>### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Incorrect datetime value: 'Fri Jul 01 2022 08:00:00 GMT+0800 (中国标准时间)' for column 'work_date' at row 1<EOL>; Data truncation: Incorrect datetime value: 'Fri Jul 01 2022 08:00:00 GMT+0800 (中国标准时间)' for column 'work_date' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Incorrect datetime value: 'Fri Jul 01 2022 08:00:00 GMT+0800 (中国标准时间)' for column 'work_date' at row 1]
+[INFO]2022-07-17 21:45:39,092 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 21:45:39,096 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-17 21:45:39,161 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:45:39,161 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:45:39,324 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:45:39,324 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:45:39,324 - Starting service [Tomcat]
+[INFO]2022-07-17 21:45:39,324 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:45:39,342 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:45:39,342 - Root WebApplicationContext: initialization completed in 180 ms
+[INFO]2022-07-17 21:45:39,508 - Adding welcome page template: index
+[INFO]2022-07-17 21:45:39,549 - LiveReload server is running on port 35729
+[INFO]2022-07-17 21:45:39,556 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:45:39,558 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 21:45:39,576 - Started Demo1Application in 0.442 seconds (JVM running for 698.259)
+[INFO]2022-07-17 21:45:39,577 - Condition evaluation unchanged
+[INFO]2022-07-17 21:45:41,112 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:45:41,112 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:45:41,257 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:45:41,257 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:45:41,257 - Starting service [Tomcat]
+[INFO]2022-07-17 21:45:41,257 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:45:41,272 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:45:41,272 - Root WebApplicationContext: initialization completed in 159 ms
+[WARN]2022-07-17 21:45:41,355 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'workPlanController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.scu.springboot.demo.service.WorkPlanService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+[INFO]2022-07-17 21:45:41,356 - Stopping service [Tomcat]
+[ERROR]2022-07-17 21:45:41,385 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.scu.springboot.demo.service.WorkPlanService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.scu.springboot.demo.service.WorkPlanService' in your configuration.
+
+[INFO]2022-07-17 21:47:33,538 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:47:33,538 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:47:33,698 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:47:33,698 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:47:33,699 - Starting service [Tomcat]
+[INFO]2022-07-17 21:47:33,699 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:47:33,714 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:47:33,714 - Root WebApplicationContext: initialization completed in 174 ms
+[WARN]2022-07-17 21:47:33,801 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorityDao' defined in file [D:\js\springboot\demo\target\classes\com\scu\springboot\demo\dao\AuthorityDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+[INFO]2022-07-17 21:47:33,801 - Stopping service [Tomcat]
+[ERROR]2022-07-17 21:47:33,823 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorityDao' defined in file [D:\js\springboot\demo\target\classes\com\scu\springboot\demo\dao\AuthorityDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.scu.springboot.demo.Demo1Application.main(Demo1Application.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorityDao' defined in file [D:\js\springboot\demo\target\classes\com\scu\springboot\demo\dao\AuthorityDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorityDao' defined in file [D:\js\springboot\demo\target\classes\com\scu\springboot\demo\dao\AuthorityDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 63 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9fef5182.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9fef5182$$FastClassBySpringCGLIB$$b5d97a72.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9fef5182.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 64 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 77 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
+	... 79 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 83 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 85 common frames omitted
+[INFO]2022-07-17 21:47:35,329 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:47:35,330 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:47:35,469 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:47:35,469 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:47:35,469 - Starting service [Tomcat]
+[INFO]2022-07-17 21:47:35,469 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:47:35,488 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:47:35,488 - Root WebApplicationContext: initialization completed in 157 ms
+[WARN]2022-07-17 21:47:35,567 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'workPlanController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.scu.springboot.demo.service.WorkPlanService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+[INFO]2022-07-17 21:47:35,567 - Stopping service [Tomcat]
+[ERROR]2022-07-17 21:47:35,588 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.scu.springboot.demo.service.WorkPlanService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.scu.springboot.demo.service.WorkPlanService' in your configuration.
+
+[INFO]2022-07-17 21:47:45,455 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:47:45,455 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:47:45,601 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:47:45,601 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:47:45,601 - Starting service [Tomcat]
+[INFO]2022-07-17 21:47:45,601 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:47:45,625 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:47:45,625 - Root WebApplicationContext: initialization completed in 168 ms
+[INFO]2022-07-17 21:47:45,780 - Adding welcome page template: index
+[INFO]2022-07-17 21:47:45,822 - LiveReload server is running on port 35729
+[INFO]2022-07-17 21:47:45,829 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:47:45,831 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 21:47:45,848 - Started Demo1Application in 0.408 seconds (JVM running for 824.53)
+[INFO]2022-07-17 21:47:45,849 - Condition evaluation unchanged
+[INFO]2022-07-17 21:47:47,379 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:47:47,380 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:47:47,509 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:47:47,510 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:47:47,510 - Starting service [Tomcat]
+[INFO]2022-07-17 21:47:47,510 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:47:47,531 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:47:47,531 - Root WebApplicationContext: initialization completed in 151 ms
+[WARN]2022-07-17 21:47:47,615 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'workPlanController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.scu.springboot.demo.service.WorkPlanService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+[INFO]2022-07-17 21:47:47,615 - Stopping service [Tomcat]
+[ERROR]2022-07-17 21:47:47,636 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.scu.springboot.demo.service.WorkPlanService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.scu.springboot.demo.service.WorkPlanService' in your configuration.
+
+[INFO]2022-07-17 21:54:32,910 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:54:32,910 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:54:33,086 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:54:33,087 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:54:33,087 - Starting service [Tomcat]
+[INFO]2022-07-17 21:54:33,087 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:54:33,102 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:54:33,102 - Root WebApplicationContext: initialization completed in 191 ms
+[INFO]2022-07-17 21:54:33,230 - Adding welcome page template: index
+[INFO]2022-07-17 21:54:33,261 - LiveReload server is running on port 35729
+[INFO]2022-07-17 21:54:33,266 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:54:33,268 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 21:54:33,291 - Started Demo1Application in 0.396 seconds (JVM running for 1231.974)
+[INFO]2022-07-17 21:54:33,292 - Condition evaluation unchanged
+[INFO]2022-07-17 21:54:34,835 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:54:34,835 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:54:34,990 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:54:34,990 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:54:34,991 - Starting service [Tomcat]
+[INFO]2022-07-17 21:54:34,991 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:54:35,008 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:54:35,008 - Root WebApplicationContext: initialization completed in 172 ms
+[WARN]2022-07-17 21:54:35,096 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'workPlanController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.scu.springboot.demo.service.WorkPlanService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+[INFO]2022-07-17 21:54:35,096 - Stopping service [Tomcat]
+[ERROR]2022-07-17 21:54:35,118 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.scu.springboot.demo.service.WorkPlanService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.scu.springboot.demo.service.WorkPlanService' in your configuration.
+
+[INFO]2022-07-17 21:56:39,763 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:56:39,763 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:56:39,931 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:56:39,931 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:56:39,931 - Starting service [Tomcat]
+[INFO]2022-07-17 21:56:39,931 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:56:39,945 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:56:39,946 - Root WebApplicationContext: initialization completed in 182 ms
+[WARN]2022-07-17 21:56:40,025 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'workPlanController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.scu.springboot.demo.service.WorkPlanService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+[INFO]2022-07-17 21:56:40,025 - Stopping service [Tomcat]
+[ERROR]2022-07-17 21:56:40,045 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.scu.springboot.demo.service.WorkPlanService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.scu.springboot.demo.service.WorkPlanService' in your configuration.
+
+[INFO]2022-07-17 21:56:41,547 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:56:41,547 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:56:41,680 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:56:41,681 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:56:41,681 - Starting service [Tomcat]
+[INFO]2022-07-17 21:56:41,681 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:56:41,694 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:56:41,694 - Root WebApplicationContext: initialization completed in 146 ms
+[WARN]2022-07-17 21:56:41,778 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'workPlanController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.scu.springboot.demo.service.WorkPlanService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+[INFO]2022-07-17 21:56:41,778 - Stopping service [Tomcat]
+[ERROR]2022-07-17 21:56:41,798 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.scu.springboot.demo.service.WorkPlanService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.scu.springboot.demo.service.WorkPlanService' in your configuration.
+
+[INFO]2022-07-17 21:58:19,445 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:58:19,445 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:58:19,601 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:58:19,602 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:58:19,602 - Starting service [Tomcat]
+[INFO]2022-07-17 21:58:19,602 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:58:19,616 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:58:19,616 - Root WebApplicationContext: initialization completed in 170 ms
+[INFO]2022-07-17 21:58:19,761 - Adding welcome page template: index
+[INFO]2022-07-17 21:58:19,811 - LiveReload server is running on port 35729
+[INFO]2022-07-17 21:58:19,817 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:58:19,819 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 21:58:19,840 - Started Demo1Application in 0.413 seconds (JVM running for 1458.522)
+[INFO]2022-07-17 21:58:19,841 - Condition evaluation unchanged
+[INFO]2022-07-17 21:58:21,395 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:58:21,395 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:58:21,526 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:58:21,526 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:58:21,526 - Starting service [Tomcat]
+[INFO]2022-07-17 21:58:21,526 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:58:21,539 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:58:21,539 - Root WebApplicationContext: initialization completed in 143 ms
+[WARN]2022-07-17 21:58:21,635 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'workPlanController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.scu.springboot.demo.service.WorkPlanService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+[INFO]2022-07-17 21:58:21,635 - Stopping service [Tomcat]
+[ERROR]2022-07-17 21:58:21,656 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.scu.springboot.demo.service.WorkPlanService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.scu.springboot.demo.service.WorkPlanService' in your configuration.
+
+[INFO]2022-07-17 21:58:50,159 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:58:50,159 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:58:50,304 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:58:50,305 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:58:50,305 - Starting service [Tomcat]
+[INFO]2022-07-17 21:58:50,305 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:58:50,321 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:58:50,321 - Root WebApplicationContext: initialization completed in 161 ms
+[WARN]2022-07-17 21:58:50,388 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorityDao' defined in file [D:\js\springboot\demo\target\classes\com\scu\springboot\demo\dao\AuthorityDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+[INFO]2022-07-17 21:58:50,388 - Stopping service [Tomcat]
+[ERROR]2022-07-17 21:58:50,409 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorityDao' defined in file [D:\js\springboot\demo\target\classes\com\scu\springboot\demo\dao\AuthorityDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.scu.springboot.demo.Demo1Application.main(Demo1Application.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorityDao' defined in file [D:\js\springboot\demo\target\classes\com\scu\springboot\demo\dao\AuthorityDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorityDao' defined in file [D:\js\springboot\demo\target\classes\com\scu\springboot\demo\dao\AuthorityDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 63 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9fef5182.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9fef5182$$FastClassBySpringCGLIB$$b5d97a72.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9fef5182.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 64 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 77 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
+	... 79 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 83 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 85 common frames omitted
+[INFO]2022-07-17 21:58:51,921 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 21:58:51,921 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 21:58:52,052 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 21:58:52,052 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 21:58:52,052 - Starting service [Tomcat]
+[INFO]2022-07-17 21:58:52,052 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 21:58:52,067 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 21:58:52,067 - Root WebApplicationContext: initialization completed in 145 ms
+[WARN]2022-07-17 21:58:52,137 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'workPlanController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.scu.springboot.demo.service.WorkPlanService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+[INFO]2022-07-17 21:58:52,138 - Stopping service [Tomcat]
+[ERROR]2022-07-17 21:58:52,165 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.scu.springboot.demo.service.WorkPlanService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.scu.springboot.demo.service.WorkPlanService' in your configuration.
+
+[INFO]2022-07-17 22:01:29,777 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 22:01:29,777 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 22:01:29,923 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 22:01:29,923 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:01:29,923 - Starting service [Tomcat]
+[INFO]2022-07-17 22:01:29,923 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 22:01:29,939 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 22:01:29,939 - Root WebApplicationContext: initialization completed in 160 ms
+[WARN]2022-07-17 22:01:29,996 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorityDao' defined in file [D:\js\springboot\demo\target\classes\com\scu\springboot\demo\dao\AuthorityDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+[INFO]2022-07-17 22:01:29,996 - Stopping service [Tomcat]
+[ERROR]2022-07-17 22:01:30,023 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorityDao' defined in file [D:\js\springboot\demo\target\classes\com\scu\springboot\demo\dao\AuthorityDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.scu.springboot.demo.Demo1Application.main(Demo1Application.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authorityService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorityDao' defined in file [D:\js\springboot\demo\target\classes\com\scu\springboot\demo\dao\AuthorityDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorityDao' defined in file [D:\js\springboot\demo\target\classes\com\scu\springboot\demo\dao\AuthorityDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 63 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9fef5182.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9fef5182$$FastClassBySpringCGLIB$$b5d97a72.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9fef5182.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 64 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 77 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
+	... 79 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.scu.springboot.demo.entity.WorkPlan'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 83 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.scu.springboot.demo.entity.WorkPlan
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 85 common frames omitted
+[INFO]2022-07-17 22:01:31,519 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 22:01:31,519 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 22:01:31,658 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 22:01:31,658 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:01:31,658 - Starting service [Tomcat]
+[INFO]2022-07-17 22:01:31,658 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 22:01:31,671 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 22:01:31,671 - Root WebApplicationContext: initialization completed in 151 ms
+[INFO]2022-07-17 22:01:31,798 - Adding welcome page template: index
+[INFO]2022-07-17 22:01:31,828 - LiveReload server is running on port 35729
+[INFO]2022-07-17 22:01:31,834 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:01:31,836 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 22:01:31,852 - Started Demo1Application in 0.345 seconds (JVM running for 1650.535)
+[INFO]2022-07-17 22:01:31,853 - Condition evaluation unchanged
+[INFO]2022-07-17 22:02:14,211 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 22:02:14,211 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 22:02:14,352 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 22:02:14,352 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:02:14,352 - Starting service [Tomcat]
+[INFO]2022-07-17 22:02:14,352 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 22:02:14,368 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 22:02:14,368 - Root WebApplicationContext: initialization completed in 156 ms
+[INFO]2022-07-17 22:02:14,493 - Adding welcome page template: index
+[INFO]2022-07-17 22:02:14,539 - LiveReload server is running on port 35729
+[INFO]2022-07-17 22:02:14,551 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:02:14,552 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 22:02:14,573 - Started Demo1Application in 0.377 seconds (JVM running for 1693.255)
+[INFO]2022-07-17 22:02:14,574 - Condition evaluation unchanged
+[INFO]2022-07-17 22:02:16,100 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 22:02:16,100 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 22:02:16,249 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 22:02:16,250 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:02:16,250 - Starting service [Tomcat]
+[INFO]2022-07-17 22:02:16,250 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 22:02:16,263 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 22:02:16,264 - Root WebApplicationContext: initialization completed in 163 ms
+[INFO]2022-07-17 22:02:16,377 - Adding welcome page template: index
+[INFO]2022-07-17 22:02:16,410 - LiveReload server is running on port 35729
+[INFO]2022-07-17 22:02:16,416 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:02:16,417 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 22:02:16,435 - Started Demo1Application in 0.35 seconds (JVM running for 1695.117)
+[INFO]2022-07-17 22:02:16,436 - Condition evaluation unchanged
+[INFO]2022-07-17 22:02:19,239 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 22:02:19,239 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 22:02:19,240 - Completed initialization in 0 ms
+[INFO]2022-07-17 22:02:24,889 - HikariPool-2 - Starting...
+[INFO]2022-07-17 22:02:24,893 - HikariPool-2 - Start completed.
+[WARN]2022-07-17 22:02:24,911 - Resolved [org.springframework.dao.DataIntegrityViolationException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`final`.`work_plan`, CONSTRAINT `work_plan_ibfk_2` FOREIGN KEY (`tID`) REFERENCES `instructor` (`tID`) ON DELETE RESTRICT ON UPDATE RESTRICT)<EOL><EOL>### The error may exist in file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]<EOL><EOL>### The error may involve defaultParameterMap<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: insert into work_plan (tID, work_plan, work_date) values (?, ?, ?)<EOL><EOL>### Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`final`.`work_plan`, CONSTRAINT `work_plan_ibfk_2` FOREIGN KEY (`tID`) REFERENCES `instructor` (`tID`) ON DELETE RESTRICT ON UPDATE RESTRICT)<EOL>; Cannot add or update a child row: a foreign key constraint fails (`final`.`work_plan`, CONSTRAINT `work_plan_ibfk_2` FOREIGN KEY (`tID`) REFERENCES `instructor` (`tID`) ON DELETE RESTRICT ON UPDATE RESTRICT); nested exception is java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`final`.`work_plan`, CONSTRAINT `work_plan_ibfk_2` FOREIGN KEY (`tID`) REFERENCES `instructor` (`tID`) ON DELETE RESTRICT ON UPDATE RESTRICT)]
+[INFO]2022-07-17 22:04:30,551 - HikariPool-2 - Shutdown initiated...
+[INFO]2022-07-17 22:04:30,552 - HikariPool-2 - Shutdown completed.
+[INFO]2022-07-17 22:04:33,575 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 5024 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 22:04:33,576 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 22:04:33,603 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 22:04:33,603 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 22:04:34,271 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 22:04:34,276 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:04:34,277 - Starting service [Tomcat]
+[INFO]2022-07-17 22:04:34,277 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 22:04:34,327 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 22:04:34,328 - Root WebApplicationContext: initialization completed in 725 ms
+[INFO]2022-07-17 22:04:34,745 - Adding welcome page template: index
+[INFO]2022-07-17 22:04:34,868 - LiveReload server is running on port 35729
+[INFO]2022-07-17 22:04:34,880 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:04:34,897 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 22:04:34,935 - Started Demo1Application in 1.62 seconds (JVM running for 2.205)
+[INFO]2022-07-17 22:04:38,088 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 22:04:38,088 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 22:04:38,089 - Completed initialization in 1 ms
+[INFO]2022-07-17 22:04:43,954 - HikariPool-1 - Starting...
+[INFO]2022-07-17 22:04:44,033 - HikariPool-1 - Start completed.
+[WARN]2022-07-17 22:04:44,095 - Resolved [org.springframework.dao.DataIntegrityViolationException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`final`.`work_plan`, CONSTRAINT `work_plan_ibfk_2` FOREIGN KEY (`tID`) REFERENCES `instructor` (`tID`) ON DELETE RESTRICT ON UPDATE RESTRICT)<EOL><EOL>### The error may exist in file [D:\js\springboot\demo\target\classes\mapper\WorkPlanDao.xml]<EOL><EOL>### The error may involve defaultParameterMap<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: insert into work_plan (tID, work_plan, work_date) values (?, ?, ?)<EOL><EOL>### Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`final`.`work_plan`, CONSTRAINT `work_plan_ibfk_2` FOREIGN KEY (`tID`) REFERENCES `instructor` (`tID`) ON DELETE RESTRICT ON UPDATE RESTRICT)<EOL>; Cannot add or update a child row: a foreign key constraint fails (`final`.`work_plan`, CONSTRAINT `work_plan_ibfk_2` FOREIGN KEY (`tID`) REFERENCES `instructor` (`tID`) ON DELETE RESTRICT ON UPDATE RESTRICT); nested exception is java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`final`.`work_plan`, CONSTRAINT `work_plan_ibfk_2` FOREIGN KEY (`tID`) REFERENCES `instructor` (`tID`) ON DELETE RESTRICT ON UPDATE RESTRICT)]
+[INFO]2022-07-17 22:24:38,557 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 22:24:38,561 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-17 22:24:41,821 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 22348 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 22:24:41,821 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 22:24:41,850 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 22:24:41,851 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 22:24:42,554 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 22:24:42,559 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:24:42,560 - Starting service [Tomcat]
+[INFO]2022-07-17 22:24:42,560 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 22:24:42,610 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 22:24:42,610 - Root WebApplicationContext: initialization completed in 759 ms
+[INFO]2022-07-17 22:24:43,037 - Adding welcome page template: index
+[INFO]2022-07-17 22:24:43,161 - LiveReload server is running on port 35729
+[INFO]2022-07-17 22:24:43,172 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:24:43,195 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 22:24:43,241 - Started Demo1Application in 1.68 seconds (JVM running for 2.211)
+[INFO]2022-07-17 22:31:44,119 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 14996 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 22:31:44,120 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 22:31:44,148 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 22:31:44,148 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 22:31:44,898 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 22:31:44,903 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:31:44,904 - Starting service [Tomcat]
+[INFO]2022-07-17 22:31:44,904 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 22:31:44,955 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 22:31:44,955 - Root WebApplicationContext: initialization completed in 807 ms
+[INFO]2022-07-17 22:31:45,360 - Adding welcome page template: index
+[INFO]2022-07-17 22:31:45,502 - LiveReload server is running on port 35729
+[INFO]2022-07-17 22:31:45,514 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:31:45,532 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 22:31:45,568 - Started Demo1Application in 1.687 seconds (JVM running for 2.227)
+[INFO]2022-07-17 22:31:49,732 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 22:31:49,733 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 22:31:49,733 - Completed initialization in 0 ms
+[INFO]2022-07-17 22:31:50,164 - HikariPool-1 - Starting...
+[INFO]2022-07-17 22:31:50,271 - HikariPool-1 - Start completed.
+[WARN]2022-07-17 22:31:50,347 - Resolved [com.alibaba.fastjson.JSONException: syntax error, expect [, actual {, pos 0, fieldName null]
+[INFO]2022-07-17 22:35:46,485 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 22:35:46,489 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-17 22:35:50,501 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 1736 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 22:35:50,502 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 22:35:50,527 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 22:35:50,527 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 22:35:51,182 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 22:35:51,187 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:35:51,188 - Starting service [Tomcat]
+[INFO]2022-07-17 22:35:51,188 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 22:35:51,235 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 22:35:51,235 - Root WebApplicationContext: initialization completed in 707 ms
+[INFO]2022-07-17 22:35:51,613 - Adding welcome page template: index
+[INFO]2022-07-17 22:35:51,730 - LiveReload server is running on port 35729
+[INFO]2022-07-17 22:35:51,741 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:35:51,758 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 22:35:51,793 - Started Demo1Application in 1.533 seconds (JVM running for 2.041)
+[INFO]2022-07-17 22:35:54,715 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 22:35:54,715 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 22:35:54,715 - Completed initialization in 0 ms
+[INFO]2022-07-17 22:35:55,155 - HikariPool-1 - Starting...
+[INFO]2022-07-17 22:35:55,248 - HikariPool-1 - Start completed.
+[WARN]2022-07-17 22:35:55,330 - Resolved [com.alibaba.fastjson.JSONException: syntax error, expect [, actual {, pos 0, fieldName null]
+[INFO]2022-07-17 22:38:50,630 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 22:38:50,633 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-17 22:38:58,449 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 15904 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 22:38:58,450 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 22:38:58,482 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 22:38:58,482 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 22:38:59,241 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 22:38:59,246 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:38:59,247 - Starting service [Tomcat]
+[INFO]2022-07-17 22:38:59,247 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 22:38:59,300 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 22:38:59,300 - Root WebApplicationContext: initialization completed in 818 ms
+[INFO]2022-07-17 22:38:59,749 - Adding welcome page template: index
+[INFO]2022-07-17 22:38:59,881 - LiveReload server is running on port 35729
+[INFO]2022-07-17 22:38:59,894 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:38:59,919 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 22:38:59,960 - Started Demo1Application in 1.77 seconds (JVM running for 2.283)
+[INFO]2022-07-17 22:39:00,785 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 22:39:00,785 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 22:39:00,786 - Completed initialization in 1 ms
+[INFO]2022-07-17 22:39:01,150 - HikariPool-1 - Starting...
+[INFO]2022-07-17 22:39:01,267 - HikariPool-1 - Start completed.
+[INFO]2022-07-17 22:39:54,096 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 22:39:54,100 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-17 22:39:57,497 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 15348 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 22:39:57,498 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 22:39:57,531 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 22:39:57,531 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 22:39:58,314 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 22:39:58,319 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:39:58,320 - Starting service [Tomcat]
+[INFO]2022-07-17 22:39:58,320 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 22:39:58,369 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 22:39:58,369 - Root WebApplicationContext: initialization completed in 838 ms
+[INFO]2022-07-17 22:39:58,759 - Adding welcome page template: index
+[INFO]2022-07-17 22:39:58,905 - LiveReload server is running on port 35729
+[INFO]2022-07-17 22:39:58,918 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:39:58,937 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 22:39:58,974 - Started Demo1Application in 1.757 seconds (JVM running for 2.391)
+[INFO]2022-07-17 22:40:02,146 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 22:40:02,146 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 22:40:02,147 - Completed initialization in 1 ms
+[INFO]2022-07-17 22:40:02,594 - HikariPool-1 - Starting...
+[INFO]2022-07-17 22:40:02,689 - HikariPool-1 - Start completed.
+[INFO]2022-07-17 22:42:25,750 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 22:42:25,753 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-17 22:42:29,516 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 23596 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 22:42:29,517 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 22:42:29,545 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 22:42:29,545 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 22:42:30,211 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 22:42:30,217 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:42:30,218 - Starting service [Tomcat]
+[INFO]2022-07-17 22:42:30,218 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 22:42:30,264 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 22:42:30,264 - Root WebApplicationContext: initialization completed in 719 ms
+[INFO]2022-07-17 22:42:30,653 - Adding welcome page template: index
+[INFO]2022-07-17 22:42:30,768 - LiveReload server is running on port 35729
+[INFO]2022-07-17 22:42:30,779 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:42:30,800 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 22:42:30,835 - Started Demo1Application in 1.567 seconds (JVM running for 2.107)
+[INFO]2022-07-17 22:42:33,887 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 22:42:33,887 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 22:42:33,888 - Completed initialization in 1 ms
+[INFO]2022-07-17 22:42:34,426 - HikariPool-1 - Starting...
+[INFO]2022-07-17 22:42:34,535 - HikariPool-1 - Start completed.
+[INFO]2022-07-17 22:45:40,662 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 22:45:40,665 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-17 22:45:44,606 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 13412 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 22:45:44,607 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 22:45:44,635 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 22:45:44,635 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 22:45:45,406 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 22:45:45,411 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:45:45,412 - Starting service [Tomcat]
+[INFO]2022-07-17 22:45:45,412 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 22:45:45,458 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 22:45:45,458 - Root WebApplicationContext: initialization completed in 823 ms
+[INFO]2022-07-17 22:45:45,873 - Adding welcome page template: index
+[INFO]2022-07-17 22:45:46,003 - LiveReload server is running on port 35729
+[INFO]2022-07-17 22:45:46,014 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:45:46,032 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 22:45:46,093 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 22:45:46,093 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 22:45:46,094 - Completed initialization in 1 ms
+[INFO]2022-07-17 22:45:46,107 - Started Demo1Application in 1.774 seconds (JVM running for 2.329)
+[INFO]2022-07-17 22:45:46,545 - HikariPool-1 - Starting...
+[INFO]2022-07-17 22:45:46,677 - HikariPool-1 - Start completed.
+[INFO]2022-07-17 22:47:27,160 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 22:47:27,165 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-17 22:47:29,613 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 22144 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 22:47:29,613 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 22:47:29,642 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 22:47:29,642 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 22:47:30,314 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 22:47:30,318 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:47:30,320 - Starting service [Tomcat]
+[INFO]2022-07-17 22:47:30,320 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 22:47:30,369 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 22:47:30,369 - Root WebApplicationContext: initialization completed in 727 ms
+[INFO]2022-07-17 22:47:30,761 - Adding welcome page template: index
+[INFO]2022-07-17 22:47:30,885 - LiveReload server is running on port 35729
+[INFO]2022-07-17 22:47:30,896 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:47:30,915 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 22:47:30,951 - Started Demo1Application in 1.587 seconds (JVM running for 2.142)
+[INFO]2022-07-17 22:47:33,312 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 22:47:33,312 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 22:47:33,312 - Completed initialization in 0 ms
+[INFO]2022-07-17 22:47:33,769 - HikariPool-1 - Starting...
+[INFO]2022-07-17 22:47:33,857 - HikariPool-1 - Start completed.
+[INFO]2022-07-17 22:48:16,564 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 22:48:16,568 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-17 22:48:31,057 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 2924 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 22:48:31,057 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 22:48:31,086 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 22:48:31,086 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 22:48:31,737 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 22:48:31,742 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:48:31,742 - Starting service [Tomcat]
+[INFO]2022-07-17 22:48:31,742 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 22:48:31,791 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 22:48:31,791 - Root WebApplicationContext: initialization completed in 704 ms
+[INFO]2022-07-17 22:48:32,189 - Adding welcome page template: index
+[INFO]2022-07-17 22:48:32,305 - LiveReload server is running on port 35729
+[INFO]2022-07-17 22:48:32,317 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 22:48:32,338 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 22:48:32,377 - Started Demo1Application in 1.568 seconds (JVM running for 2.148)
+[INFO]2022-07-17 22:48:35,764 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 22:48:35,764 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 22:48:35,765 - Completed initialization in 1 ms
+[INFO]2022-07-17 22:48:36,251 - HikariPool-1 - Starting...
+[INFO]2022-07-17 22:48:36,359 - HikariPool-1 - Start completed.
+[INFO]2022-07-17 23:08:04,034 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 23:08:04,038 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-17 23:08:06,357 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 21824 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-17 23:08:06,358 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-17 23:08:06,391 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-17 23:08:06,391 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-17 23:08:07,059 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-17 23:08:07,063 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 23:08:07,064 - Starting service [Tomcat]
+[INFO]2022-07-17 23:08:07,065 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-17 23:08:07,111 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-17 23:08:07,112 - Root WebApplicationContext: initialization completed in 720 ms
+[INFO]2022-07-17 23:08:07,497 - Adding welcome page template: index
+[INFO]2022-07-17 23:08:07,615 - LiveReload server is running on port 35729
+[INFO]2022-07-17 23:08:07,626 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-17 23:08:07,642 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-17 23:08:07,679 - Started Demo1Application in 1.567 seconds (JVM running for 2.092)
+[INFO]2022-07-17 23:08:16,809 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-17 23:08:16,809 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-17 23:08:16,810 - Completed initialization in 1 ms
+[INFO]2022-07-17 23:08:17,299 - HikariPool-1 - Starting...
+[INFO]2022-07-17 23:08:17,411 - HikariPool-1 - Start completed.
+[INFO]2022-07-17 23:58:17,356 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-17 23:58:17,359 - HikariPool-1 - Shutdown completed.

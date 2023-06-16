@@ -1,0 +1,46 @@
+[INFO]2022-07-13 18:21:25,757 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 27616 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-13 18:21:25,758 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-13 18:21:25,802 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-13 18:21:25,802 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-13 18:21:27,054 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-13 18:21:27,063 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-13 18:21:27,064 - Starting service [Tomcat]
+[INFO]2022-07-13 18:21:27,065 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-13 18:21:27,137 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-13 18:21:27,137 - Root WebApplicationContext: initialization completed in 1334 ms
+[INFO]2022-07-13 18:21:27,693 - Adding welcome page template: index
+[INFO]2022-07-13 18:21:27,870 - LiveReload server is running on port 35729
+[INFO]2022-07-13 18:21:27,896 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-13 18:21:27,935 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-13 18:21:28,007 - Started Demo1Application in 2.721 seconds (JVM running for 3.589)
+[INFO]2022-07-13 18:21:57,290 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-13 18:21:57,290 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-13 18:21:57,292 - Completed initialization in 2 ms
+[INFO]2022-07-13 18:21:57,684 - HikariPool-1 - Starting...
+[INFO]2022-07-13 18:21:57,815 - HikariPool-1 - Start completed.
+[WARN]2022-07-13 18:21:57,838 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "selectOne"]
+[INFO]2022-07-13 18:31:58,279 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-13 18:31:58,284 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-13 18:32:06,174 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 3996 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-13 18:32:06,175 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-13 18:32:06,210 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-13 18:32:06,210 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-13 18:32:07,078 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-13 18:32:07,085 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-13 18:32:07,085 - Starting service [Tomcat]
+[INFO]2022-07-13 18:32:07,086 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-13 18:32:07,144 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-13 18:32:07,144 - Root WebApplicationContext: initialization completed in 933 ms
+[INFO]2022-07-13 18:32:07,661 - Adding welcome page template: index
+[INFO]2022-07-13 18:32:07,862 - LiveReload server is running on port 35729
+[INFO]2022-07-13 18:32:07,883 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-13 18:32:07,919 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-13 18:32:07,983 - Started Demo1Application in 2.128 seconds (JVM running for 2.865)
+[INFO]2022-07-13 18:32:21,391 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-13 18:32:21,392 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-13 18:32:21,392 - Completed initialization in 0 ms
+[WARN]2022-07-13 18:32:21,928 - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [187] milliseconds.
+[INFO]2022-07-13 18:32:21,951 - HikariPool-1 - Starting...
+[INFO]2022-07-13 18:32:22,055 - HikariPool-1 - Start completed.
+[INFO]2022-07-13 19:53:29,495 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-13 19:53:29,497 - HikariPool-1 - Shutdown completed.

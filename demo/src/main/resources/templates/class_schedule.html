@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://ace.jeka.by/calendar.html -->
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Full Calendar - Ace Admin</title>
+
+	<meta name="description" content="with draggable and editable events">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+	<!-- bootstrap & fontawesome -->
+	<link rel="stylesheet" href="./课程表_files/bootstrap.min.css">
+	<link rel="stylesheet" href="./课程表_files/font-awesome.min.css">
+
+	<!-- page specific plugin styles -->
+	<link rel="stylesheet" href="./课程表_files/jquery-ui.custom.min.css">
+	<link rel="stylesheet" href="./课程表_files/fullcalendar.min.css">
+
+	<!-- text fonts -->
+	<link rel="stylesheet" href="./课程表_files/fonts.googleapis.com.css">
+
+	<!-- ace styles -->
+	<link rel="stylesheet" href="./课程表_files/ace.min.css" class="ace-main-stylesheet" id="main-ace-style">
+
+	<!--[if lte IE 9]>
+			<link rel="stylesheet" href="assets/css/ace-part2.min.css" class="ace-main-stylesheet" />
+		<![endif]-->
+	<link rel="stylesheet" href="./课程表_files/ace-skins.min.css">
+	<link rel="stylesheet" href="./课程表_files/ace-rtl.min.css">
+
+	<!--[if lte IE 9]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+	<!-- inline styles related to this page -->
+
+	<!-- ace settings handler -->
+	<script async="" src="./课程表_files/analytics.js.下载"></script>
+	<script type="text/javascript" async="" src="./课程表_files/watch.js.下载"></script>
+	<script src="./课程表_files/ace-extra.min.js.下载"></script>
+	<style>
+		@keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-moz-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-webkit-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-ms-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-o-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		.ace-save-state {
+			animation-duration: 10ms;
+			-o-animation-duration: 10ms;
+			-ms-animation-duration: 10ms;
+			-moz-animation-duration: 10ms;
+			-webkit-animation-duration: 10ms;
+			animation-delay: 0s;
+			-o-animation-delay: 0s;
+			-ms-animation-delay: 0s;
+			-moz-animation-delay: 0s;
+			-webkit-animation-delay: 0s;
+			animation-name: nodeInserted;
+			-o-animation-name: nodeInserted;
+			-ms-animation-name: nodeInserted;
+			-moz-animation-name: nodeInserted;
+			-webkit-animation-name: nodeInserted
+		}
+		/*课程表样式*/
+		.class_schedule {
+			width: 1000px;
+
+		}
+
+		.tableCourse {
+			table-layout: fixed;
+			width: 100%;
+
+		}
+
+		.th_course, .td_course, .tableCourse {
+			border-style: solid;
+			border-width: 2px;
+			border-color: rgb(156, 202, 213);
+			padding: 15px 12px;
+		}
+
+		.headCourse {
+			background-color: rgb(193, 235, 248);
+		}
+
+		.th_course {
+			text-align: center;
+		}
+
+		.j1, .j2, .j3, .j4, .j5 {
+			background-color: aquamarine;
+		}
+
+		.j6, .j7, .j8, .j9, .j10 {
+			background-color: rgb(235, 204, 163);
+		}
+
+		.j11, .j12, .j13 {
+			background-color: rgb(104, 115, 197);
+		}
+
+		.course_location {
+			font-weight: bold;
+		}
+
+		/*提示文字样式*/
+		.course_remind {
+			color: red;
+			display: none;
+		}
+
+
+	</style>
+
+	<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+	<!--[if lte IE 8]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+</head>
+
+<body class="no-skin">
+	<div id="navbar" class="navbar navbar-default          ace-save-state">
+		<div class="navbar-container ace-save-state" id="navbar-container">
+			<button type="button" class="navbar-toggle menu-toggler pull-left display" id="menu-toggler"
+				data-target="#sidebar">
+				<span class="sr-only">Toggle sidebar</span>
+
+				<span class="icon-bar"></span>
+
+				<span class="icon-bar"></span>
+
+				<span class="icon-bar"></span>
+			</button>
+
+			<div class="navbar-header pull-left">
+				<a href="http://ace.jeka.by/index.html" class="navbar-brand">
+					<small>
+						<i class="fa fa-leaf"></i>
+						智慧校园管理系统
+					</small>
+				</a>
+			</div>
+			<div class="navbar-buttons navbar-header pull-right" role="navigation">
+				<ul class="nav ace-nav" style="">
+
+
+					<li class="light-blue dropdown-modal">
+						<a data-toggle="dropdown" href="#" class="dropdown-toggle" aria-expanded="false" id="ID">
+							<img class="nav-user-photo" src="../专业团队.webp" alt="Jason's Photo">
+
+
+						</a>
+
+						<ul
+								class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+							<li>
+								<a href="personal_info.html">
+									<i class="ace-icon fa fa-cog"></i>
+									Settings
+								</a>
+							</li>
+
+							<li>
+								<a href="login_stu.html">
+									<i class="ace-icon fa fa-user"></i>
+									Login
+								</a>
+							</li>
+
+							<li class="divider"></li>
+
+							<li>
+								<a href="javascript:loginOut();">
+									<i class="ace-icon fa fa-power-off"></i>
+									Logout
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="navbar-buttons navbar-header pull-right" role="navigation">
+
+			</div>
+		</div><!-- /.navbar-container -->
+	</div>
+
+	<div class="main-container ace-save-state" id="main-container">
+		<script type="text/javascript">
+			try { ace.settings.loadState('main-container') } catch (e) { }
+		</script>
+
+		<div id="sidebar" class="sidebar                  responsive                    ace-save-state display"
+			data-sidebar="true" data-sidebar-scroll="true" data-sidebar-hover="true">
+			<script type="text/javascript">
+				try { ace.settings.loadState('sidebar') } catch (e) { }
+			</script>
+
+			<!-- /.sidebar-shortcuts -->
+
+			<ul class="nav nav-list" style="top: 0px;">
+				<li class="active">
+					<a href="student.html">
+						<i class="menu-icon fa fa-tachometer"></i>
+						<span class="menu-text"> 系统公告 </span>
+					</a>
+
+					<b class="arrow"></b>
+				</li>
+
+				<li class="">
+					<a href="http://ace.jeka.by/index.html#" class="dropdown-toggle">
+						<i class="menu-icon fa fa-desktop"></i>
+						<span class="menu-text">
+							个人信息
+						</span>
+
+						<b class="arrow fa fa-angle-down"></b>
+					</a>
+
+					<b class="arrow"></b>
+
+					<ul class="submenu nav-hide" style="display: none;">
+
+
+
+						<li class="">
+							<a href="./class_schedule.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								课程表
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+						<li class="">
+							<a href="./mygrade.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								我的成绩
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+						<li class="">
+
+
+							<b class="arrow"></b>
+						</li>
+
+					</ul>
+				</li>
+
+				<li class="">
+					<a href="#" class="dropdown-toggle">
+						<i class="menu-icon fa fa-list"></i>
+						<span class="menu-text"> 费用管理 </span>
+
+						<b class="arrow fa fa-angle-down"></b>
+					</a>
+
+					<b class="arrow"></b>
+
+					<ul class="submenu">
+						<li class="">
+							<a href="#">
+								<i class="menu-icon fa fa-caret-right"></i>
+								学费缴费信息
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+						<li class="">
+							<a href="./pay.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								报考、交费信息
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+						<li class="">
+							<a href="#">
+								<i class="menu-icon fa fa-caret-right"></i>
+								勤工俭学信息
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+					</ul>
+				</li>
+
+				<li class="">
+					<a href="http://ace.jeka.by/index.html#" class="dropdown-toggle">
+						<i class="menu-icon fa fa-pencil-square-o"></i>
+						<span class="menu-text"> 考务管理 </span>
+
+						<b class="arrow fa fa-angle-down"></b>
+					</a>
+
+					<b class="arrow"></b>
+
+					<ul class="submenu">
+						<li class="">
+							<a href="./exam_schedule.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								考试安排
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+						<li class="">
+							<a href="#">
+								<i class="menu-icon fa fa-caret-right"></i>
+								等级考试
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+						<li class="">
+							<a href="#">
+								<i class="menu-icon fa fa-caret-right"></i>
+								补考 &amp; 重修
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+					</ul>
+				</li>
+
+				<li class="">
+					<a href="http://ace.jeka.by/index.html#" class="dropdown-toggle">
+						<i class="menu-icon fa fa-tag"></i>
+						<span class="menu-text"> 更多 </span>
+
+						<b class="arrow fa fa-angle-down"></b>
+					</a>
+
+					<b class="arrow"></b>
+
+					<ul class="submenu">
+						<li class="">
+							<a href="#">
+								<i class="menu-icon fa fa-caret-right"></i>
+								毕业设计
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+						<li class="">
+							<a href="#">
+								<i class="menu-icon fa fa-caret-right"></i>
+								实验室时间
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+						<li class="">
+							<a href="./card.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								一卡通信息
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+						<li class="">
+							<a href="./teaching_evaluation.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								网上评教
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+					</ul>
+				</li>
+			</ul><!-- /.nav-list -->
+
+			<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+				<i id="sidebar-toggle-icon" class="ace-icon fa fa-angle-double-left ace-save-state"
+					data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+			</div>
+		</div>
+
+		<div class="main-content">
+			<div class="main-content-inner">
+				<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+					<ul class="breadcrumb">
+						<li>
+							<i class="ace-icon fa fa-home home-icon"></i>
+							<a href="http://ace.jeka.by/calendar.html#">首页</a>
+						</li>
+						<li class="active">个人信息</li>
+
+						<li class="active">课程表</li>
+					</ul><!-- /.breadcrumb -->
+
+					<div class="nav-search" id="nav-search">
+						<form class="form-search">
+							<span class="input-icon">
+								<input type="text" placeholder="Search ..." class="nav-search-input"
+									id="nav-search-input" autocomplete="off">
+								<i class="ace-icon fa fa-search nav-search-icon"></i>
+							</span>
+						</form>
+					</div><!-- /.nav-search -->
+				</div>
+
+				<div class="page-content">
+					<div class="ace-settings-container" id="ace-settings-container">
+						<div class="btn btn-app btn-xs btn-warning ace-settings-btn" id="ace-settings-btn">
+							<i class="ace-icon fa fa-cog bigger-130"></i>
+						</div>
+
+						<div class="ace-settings-box clearfix" id="ace-settings-box">
+							<div class="pull-left width-50">
+								<div class="ace-settings-item">
+									<div class="pull-left">
+										<select id="skin-colorpicker" class="hide">
+											<option data-skin="no-skin" value="#438EB9">#438EB9</option>
+											<option data-skin="skin-1" value="#222A2D">#222A2D</option>
+											<option data-skin="skin-2" value="#C6487E">#C6487E</option>
+											<option data-skin="skin-3" value="#D0D0D0">#D0D0D0</option>
+										</select>
+										<div class="dropdown dropdown-colorpicker"> <a data-toggle="dropdown"
+												class="dropdown-toggle"><span class="btn-colorpicker"
+													style="background-color:#438EB9"></span></a>
+											<ul class="dropdown-menu dropdown-caret">
+												<li><a class="colorpick-btn selected" style="background-color:#438EB9;"
+														data-color="#438EB9"></a></li>
+												<li><a class="colorpick-btn" style="background-color:#222A2D;"
+														data-color="#222A2D"></a></li>
+												<li><a class="colorpick-btn" style="background-color:#C6487E;"
+														data-color="#C6487E"></a></li>
+												<li><a class="colorpick-btn" style="background-color:#D0D0D0;"
+														data-color="#D0D0D0"></a></li>
+											</ul>
+										</div>
+									</div>
+									<span>&nbsp; Choose Skin</span>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+										id="ace-settings-navbar" autocomplete="off">
+									<label class="lbl" for="ace-settings-navbar"> Fixed Navbar</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+										id="ace-settings-sidebar" autocomplete="off">
+									<label class="lbl" for="ace-settings-sidebar"> Fixed Sidebar</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+										id="ace-settings-breadcrumbs" autocomplete="off">
+									<label class="lbl" for="ace-settings-breadcrumbs"> Fixed Breadcrumbs</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl"
+										autocomplete="off">
+									<label class="lbl" for="ace-settings-rtl"> Right To Left (rtl)</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+										id="ace-settings-add-container" autocomplete="off">
+									<label class="lbl" for="ace-settings-add-container">
+										Inside
+										<b>.container</b>
+									</label>
+								</div>
+							</div><!-- /.pull-left -->
+
+							<div class="pull-left width-50">
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-hover"
+										autocomplete="off">
+									<label class="lbl" for="ace-settings-hover"> Submenu on Hover</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-compact"
+										autocomplete="off">
+									<label class="lbl" for="ace-settings-compact"> Compact Sidebar</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-highlight"
+										autocomplete="off">
+									<label class="lbl" for="ace-settings-highlight"> Alt. Active Item</label>
+								</div>
+							</div><!-- /.pull-left -->
+						</div><!-- /.ace-settings-box -->
+					</div><!-- /.ace-settings-container -->
+
+					<div class="page-header">
+						<h1>课程表
+						</h1>
+					</div><!-- /.page-header -->
+					<div class="class_schedule" style="margin: 30px auto;">
+						<h3 class="course_remind">课程表时间发生冲突，一下课表数据将不再准确！</h3>
+						<table class="tableCourse">
+							<tbody>
+							<tr class="headCourse">
+								<th class="th_course"></th>
+								<th class="th_course">周一</th>
+								<th class="th_course">周二</th>
+								<th class="th_course">周三</th>
+								<th class="th_course">周四</th>
+								<th class="th_course">周五</th>
+								<th class="th_course">周六</th>
+								<th class="th_course">周天</th>
+							</tr>
+							<tr class="j1">
+								<th class="th_course">1</th>
+								<td id="w1_j1" class="td_course"></td>
+								<td id="w2_j1" class="td_course"></td>
+								<td id="w3_j1" class="td_course"></td>
+								<td id="w4_j1" class="td_course"></td>
+								<td id="w5_j1" class="td_course"></td>
+								<td id="w6_j1" class="td_course"></td>
+								<td id="w7_j1" class="td_course"></td>
+							</tr><tr class="j2">
+								<th class="th_course">2</th>
+								<td id="w1_j2" class="td_course"></td>
+								<td id="w2_j2" class="td_course"></td>
+								<td id="w3_j2" class="td_course"></td>
+								<td id="w4_j2" class="td_course"></td>
+								<td id="w5_j2" class="td_course"></td>
+								<td id="w6_j2" class="td_course"></td>
+								<td id="w7_j2" class="td_course"></td>
+							</tr>
+							<tr class="j3">
+								<th class="th_course">3</th>
+								<td id="w1_j3" class="td_course"></td>
+								<td id="w2_j3" class="td_course"></td>
+								<td id="w3_j3" class="td_course"></td>
+								<td id="w4_j3" class="td_course"></td>
+								<td id="w5_j3" class="td_course"></td>
+								<td id="w6_j3" class="td_course"></td>
+								<td id="w7_j3" class="td_course"></td>
+							</tr>
+							<tr class="j4">
+								<th class="th_course">4</th>
+								<td id="w1_j4" class="td_course"></td>
+								<td id="w2_j4" class="td_course"></td>
+								<td id="w3_j4" class="td_course"></td>
+								<td id="w4_j4" class="td_course"></td>
+								<td id="w5_j4" class="td_course"></td>
+								<td id="w6_j4" class="td_course"></td>
+								<td id="w7_j4" class="td_course"></td>
+							</tr>
+							<tr class="j5">
+								<th class="th_course">5</th>
+								<td id="w1_j5" class="td_course"></td>
+								<td id="w2_j5" class="td_course"></td>
+								<td id="w3_j5" class="td_course"></td>
+								<td id="w4_j5" class="td_course"></td>
+								<td id="w5_j5" class="td_course"></td>
+								<td id="w6_j5" class="td_course"></td>
+								<td id="w7_j5" class="td_course"></td>
+							</tr>
+							<tr class="j6">
+								<th class="th_course">6</th>
+								<td id="w1_j6" class="td_course"></td>
+								<td id="w2_j6" class="td_course"></td>
+								<td id="w3_j6" class="td_course"></td>
+								<td id="w4_j6" class="td_course"></td>
+								<td id="w5_j6" class="td_course"></td>
+								<td id="w6_j6" class="td_course"></td>
+								<td id="w7_j6" class="td_course"></td>
+							</tr>
+							<tr class="j7">
+								<th class="th_course">7</th>
+								<td id="w1_j7" class="td_course"></td>
+								<td id="w2_j7" class="td_course"></td>
+								<td id="w3_j7" class="td_course"></td>
+								<td id="w4_j7" class="td_course"></td>
+								<td id="w5_j7" class="td_course"></td>
+								<td id="w6_j7" class="td_course"></td>
+								<td id="w7_j7" class="td_course"></td>
+							</tr>
+							<tr class="j8">
+								<th class="th_course">8</th>
+								<td id="w1_j8" class="td_course"></td>
+								<td id="w2_j8" class="td_course"></td>
+								<td id="w3_j8" class="td_course"></td>
+								<td id="w4_j8" class="td_course"></td>
+								<td id="w5_j8" class="td_course"></td>
+								<td id="w6_j8" class="td_course"></td>
+								<td id="w7_j8" class="td_course"></td>
+							</tr>
+							<tr class="j9">
+								<th class="th_course">9</th>
+								<td id="w1_j9" class="td_course"></td>
+								<td id="w2_j9" class="td_course"></td>
+								<td id="w3_j9" class="td_course"></td>
+								<td id="w4_j9" class="td_course"></td>
+								<td id="w5_j9" class="td_course"></td>
+								<td id="w6_j9" class="td_course"></td>
+								<td id="w7_j9" class="td_course"></td>
+							</tr>
+							<tr class="j10">
+								<th class="th_course">10</th>
+								<td id="w1_j10" class="td_course"></td>
+								<td id="w2_j10" class="td_course"></td>
+								<td id="w3_j10" class="td_course"></td>
+								<td id="w4_j10" class="td_course"></td>
+								<td id="w5_j10" class="td_course"></td>
+								<td id="w6_j10" class="td_course"></td>
+								<td id="w7_j10" class="td_course"></td>
+							</tr>
+							<tr class="j11">
+								<th class="th_course">11</th>
+								<td id="w1_j11" class="td_course"></td>
+								<td id="w2_j11" class="td_course"></td>
+								<td id="w3_j11" class="td_course"></td>
+								<td id="w4_j11" class="td_course"></td>
+								<td id="w5_j11" class="td_course"></td>
+								<td id="w6_j11" class="td_course"></td>
+								<td id="w7_j11" class="td_course"></td>
+							</tr>
+							<tr class="j12">
+								<th class="th_course">12</th>
+								<td id="w1_j12" class="td_course"></td>
+								<td id="w2_j12" class="td_course"></td>
+								<td id="w3_j12" class="td_course"></td>
+								<td id="w4_j12" class="td_course"></td>
+								<td id="w5_j12" class="td_course"></td>
+								<td id="w6_j12" class="td_course"></td>
+								<td id="w7_j12" class="td_course"></td>
+							</tr>
+							<tr class="j13">
+								<th class="th_course">13</th>
+								<td id="w1_j13" class="td_course"></td>
+								<td id="w2_j13" class="td_course"></td>
+								<td id="w3_j13" class="td_course"></td>
+								<td id="w4_j13" class="td_course"></td>
+								<td id="w5_j13" class="td_course"></td>
+								<td id="w6_j13" class="td_course"></td>
+								<td id="w7_j13" class="td_course"></td>
+							</tr>
+							</tbody>
+						</table>
+
+
+
+							<!-- PAGE CONTENT ENDS -->
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.page-content -->
+			</div>
+		</div><!-- /.main-content -->
+
+	<div class="footer">
+		<div class="footer-inner">
+			<div class="footer-content">
+					<span class="bigger-120">
+						<span class="blue bolder">专业团队</span>
+						© 2022
+					</span>
+
+				&nbsp; &nbsp;
+
+			</div>
+		</div>
+	</div>
+
+		<a href="http://ace.jeka.by/calendar.html#" id="btn-scroll-up"
+			class="btn-scroll-up btn btn-sm btn-inverse display">
+			<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+		</a>
+	</div><!-- /.main-container -->
+
+	<!-- basic scripts -->
+
+	<!--[if !IE]> -->
+	<script src="./课程表_files/jquery-2.1.4.min.js.下载"></script>
+
+	<!-- <![endif]-->
+
+	<!--[if IE]>
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<![endif]-->
+	<script type="text/javascript">
+		if ('ontouchstart' in document.documentElement) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>" + "<" + "/script>");
+	</script>
+	<script src="./课程表_files/bootstrap.min.js.下载"></script>
+
+	<!-- page specific plugin scripts -->
+	<script src="./课程表_files/jquery-ui.custom.min.js.下载"></script>
+	<script src="./课程表_files/jquery.ui.touch-punch.min.js.下载"></script>
+	<script src="./课程表_files/moment.min.js.下载"></script>
+	<script src="./课程表_files/fullcalendar.min.js.下载"></script>
+	<script src="./课程表_files/bootbox.js.下载"></script>
+
+	<!-- ace scripts -->
+	<script src="./课程表_files/ace-elements.min.js.下载"></script>
+	<script src="./课程表_files/ace.min.js.下载"></script>
+
+	<!-- inline scripts related to this page -->
+	<script type="text/javascript">
+		jQuery(function ($) {
+
+			/* initialize the external events
+				-----------------------------------------------------------------*/
+
+			$('#external-events div.external-event').each(function () {
+
+				// create an Event Object (http://arshaw.com/fullcalendar/docs/event_data/Event_Object/)
+				// it doesn't need to have a start or end
+				var eventObject = {
+					title: $.trim($(this).text()) // use the element's text as the event title
+				};
+
+				// store the Event Object in the DOM element so we can get to it later
+				$(this).data('eventObject', eventObject);
+
+				// make the event draggable using jQuery UI
+				$(this).draggable({
+					zIndex: 999,
+					revert: true,      // will cause the event to go back to its
+					revertDuration: 0  //  original position after the drag
+				});
+
+			});
+
+
+
+
+			/* initialize the calendar
+			-----------------------------------------------------------------*/
+
+			var date = new Date();
+			var d = date.getDate();
+			var m = date.getMonth();
+			var y = date.getFullYear();
+
+
+			var calendar = $('#calendar').fullCalendar({
+				//isRTL: true,
+				//firstDay: 1,// >> change first day of week 
+
+				buttonHtml: {
+					prev: '<i class="ace-icon fa fa-chevron-left"></i>',
+					next: '<i class="ace-icon fa fa-chevron-right"></i>'
+				},
+
+				header: {
+					left: 'prev,next today',
+					center: 'title',
+					right: 'month,agendaWeek,agendaDay'
+				},
+				events: [
+					{
+						title: 'All Day Event',
+						start: new Date(y, m, 1),
+						className: 'label-important'
+					},
+					{
+						title: 'Long Event',
+						start: moment().subtract(5, 'days').format('YYYY-MM-DD'),
+						end: moment().subtract(1, 'days').format('YYYY-MM-DD'),
+						className: 'label-success'
+					},
+					{
+						title: 'Some Event',
+						start: new Date(y, m, d - 3, 16, 0),
+						allDay: false,
+						className: 'label-info'
+					}
+				]
+				,
+
+				/**eventResize: function(event, delta, revertFunc) {
+		
+					alert(event.title + " end is now " + event.end.format());
+		
+					if (!confirm("is this okay?")) {
+						revertFunc();
+					}
+		
+				},*/
+
+				editable: true,
+				droppable: true, // this allows things to be dropped onto the calendar !!!
+				drop: function (date) { // this function is called when something is dropped
+
+					// retrieve the dropped element's stored Event Object
+					var originalEventObject = $(this).data('eventObject');
+					var $extraEventClass = $(this).attr('data-class');
+
+
+					// we need to copy it, so that multiple events don't have a reference to the same object
+					var copiedEventObject = $.extend({}, originalEventObject);
+
+					// assign it the date that was reported
+					copiedEventObject.start = date;
+					copiedEventObject.allDay = false;
+					if ($extraEventClass) copiedEventObject['className'] = [$extraEventClass];
+
+					// render the event on the calendar
+					// the last `true` argument determines if the event "sticks" (http://arshaw.com/fullcalendar/docs/event_rendering/renderEvent/)
+					$('#calendar').fullCalendar('renderEvent', copiedEventObject, true);
+
+					// is the "remove after drop" checkbox checked?
+					if ($('#drop-remove').is(':checked')) {
+						// if so, remove the element from the "Draggable Events" list
+						$(this).remove();
+					}
+
+				}
+				,
+				selectable: true,
+				selectHelper: true,
+				select: function (start, end, allDay) {
+
+					bootbox.prompt("New Event Title:", function (title) {
+						if (title !== null) {
+							calendar.fullCalendar('renderEvent',
+								{
+									title: title,
+									start: start,
+									end: end,
+									allDay: allDay,
+									className: 'label-info'
+								},
+								true // make the event "stick"
+							);
+						}
+					});
+
+
+					calendar.fullCalendar('unselect');
+				}
+				,
+				eventClick: function (calEvent, jsEvent, view) {
+
+					//display a modal
+					var modal =
+						'<div class="modal fade">\
+			  <div class="modal-dialog">\
+			   <div class="modal-content">\
+				 <div class="modal-body">\
+				   <button type="button" class="close" data-dismiss="modal" style="margin-top:-10px;">&times;</button>\
+				   <form class="no-margin">\
+					  <label>Change event name &nbsp;</label>\
+					  <input class="middle" autocomplete="off" type="text" value="' + calEvent.title + '" />\
+					 <button type="submit" class="btn btn-sm btn-success"><i class="ace-icon fa fa-check"></i> Save</button>\
+				   </form>\
+				 </div>\
+				 <div class="modal-footer">\
+					<button type="button" class="btn btn-sm btn-danger" data-action="delete"><i class="ace-icon fa fa-trash-o"></i> Delete Event</button>\
+					<button type="button" class="btn btn-sm" data-dismiss="modal"><i class="ace-icon fa fa-times"></i> Cancel</button>\
+				 </div>\
+			  </div>\
+			 </div>\
+			</div>';
+
+
+					var modal = $(modal).appendTo('body');
+					modal.find('form').on('submit', function (ev) {
+						ev.preventDefault();
+
+						calEvent.title = $(this).find("input[type=text]").val();
+						calendar.fullCalendar('updateEvent', calEvent);
+						modal.modal("hide");
+					});
+					modal.find('button[data-action=delete]').on('click', function () {
+						calendar.fullCalendar('removeEvents', function (ev) {
+							return (ev._id == calEvent._id);
+						})
+						modal.modal("hide");
+					});
+
+					modal.modal('show').on('hidden', function () {
+						modal.remove();
+					});
+
+
+					//console.log(calEvent.id);
+					//console.log(jsEvent);
+					//console.log(view);
+
+					// change the border color just for fun
+					//$(this).css('border-color', 'red');
+
+				}
+
+			});
+
+
+		})
+	</script>
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+			(function (d, w, c) {
+				(w[c] = w[c] || []).push(function () {
+					try {
+						w.yaCounter25836836 = new Ya.Metrika({
+							id: 25836836,
+							webvisor: true,
+							clickmap: true,
+							trackLinks: true,
+							accurateTrackBounce: true
+						});
+					} catch (e) { }
+				});
+
+				var n = d.getElementsByTagName("script")[0],
+					s = d.createElement("script"),
+					f = function () { n.parentNode.insertBefore(s, n); };
+				s.type = "text/javascript";
+				s.async = true;
+				s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+				if (w.opera == "[object Opera]") {
+					d.addEventListener("DOMContentLoaded", f, false);
+				} else { f(); }
+			})(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript>
+		<div><img src="//mc.yandex.ru/watch/25836836" style="position:absolute; left:-9999px;" alt="" /></div>
+	</noscript>
+	<!-- /Yandex.Metrika counter -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-38894584-2', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+	<script type="text/javascript" src="jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="jquery.serializeObject.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			init();
+		});
+		function init() {
+			var temp = window.localStorage.getItem("studentInfo");
+			// var sid = JSON.parse(temp).sid;
+			// var data = JSON.parse('{"sId":"'+ sid + '"}');
+			if(temp == null){
+				$('#ID').append("请您登录!");
+			} else {
+				var sid = JSON.parse(temp).sid;
+				var name = JSON.parse(temp).name;
+				var data = JSON.parse('{"sid":"'+ sid + '"}');
+				$("#ID").append("欢迎您! " + name);
+			}
+			//var data = JSON.parse('{"sid":"001"}');
+			$.post("/classSchedule/getAllClass",data).then(res =>{
+				console.log(res);
+				if(res.code == 200){
+					classSchedule(res.datas);
+
+				} else {
+					alert(res.message);
+				}
+			});
+		}
+		function classSchedule(data) {
+			var temp;
+			var id;
+			var name;
+			var place;
+			var date;
+			for (var i = 0; i < data.length; i++) {
+				temp = data[i];
+				id = temp.courseId;
+				name = temp.courseName;
+				place = temp.place;
+				//解析时间地点信息
+				date = resolveDate(temp.time.toString());
+				//把数据添加到相应的位置
+				addHtml(id, name, place, date);
+			}
+		}
+		function ReDate(week, timeBegin, timeEnd) {
+			this.week = week;
+			this.timeBegin = timeBegin;
+			this.timeEnd = timeEnd;
+		}
+
+		function resolveDate(date) {
+			var week = date.substring(0, 2);
+			week = resolveWeek(week);
+			var time = date.split("-");
+			var timeBegin = time[0].substring(2, time[0].length);
+			var timeEnd = time[1].substring(0, time[1].length - 1);
+			var reDate = new ReDate(week, timeBegin, timeEnd);
+			return reDate;
+		}
+		function resolveWeek(week) {
+			switch (week) {
+				case "周一": week = "1"; break;
+				case "周二": week = "2"; break;
+				case "周三": week = "3"; break;
+				case "周四": week = "4"; break;
+				case "周五": week = "5"; break;
+				case "周六": week = "6"; break;
+				case "周日": week = "7"; break;
+			}
+			return week;
+		}
+		function addHtml(id, name, place, date){
+			var l = $("#w" + date.week + "_j" + date.timeBegin);
+			l.html("<span class='course_id'>" + id + "</span><br> <span class='course_lesson'>" +
+					name + "</span><br>" + "<span class='course_location' >" +
+					place + "</span>");
+			var s = date.timeEnd - date.timeBegin;
+			l.attr('rowspan', s + 1);
+			var object;
+			for(var j = 1; j <= s; j++) {
+				object = $("#w" + date.week + "_j" + (Number.parseInt(date.timeBegin) + j));
+				object.remove();
+			}
+		}
+		window.loginOut = function() {
+			$.get("/studentLoginOut").then(res => {
+				window.localStorage.removeItem("studentInfo");
+				window.location.href = "login_stu.html";
+			});
+		}
+	</script>
+
+</body>
+
+</html>

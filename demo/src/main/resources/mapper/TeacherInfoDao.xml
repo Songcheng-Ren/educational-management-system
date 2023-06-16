@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scu.springboot.demo.dao.TeacherInfoDao">
+
+    <resultMap type="com.scu.springboot.demo.entity.TeacherInfo" id="TeacherInfoMap">
+        <result property="tid" column="tID" jdbcType="VARCHAR"/>
+        <result property="teacherName" column="teacher_name" jdbcType="VARCHAR"/>
+        <result property="teacherDepartment" column="teacher_department" jdbcType="VARCHAR"/>
+        <result property="teacherPhone" column="teacher_phone" jdbcType="VARCHAR"/>
+        <result property="teacherPoliticalOutlook" column="teacher_Political_outlook" jdbcType="VARCHAR"/>
+        <result property="teacherTitle" column="teacher_title" jdbcType="VARCHAR"/>
+        <result property="teacherCategory" column="teacher_category" jdbcType="VARCHAR"/>
+        <result property="teacherOrganization" column="teacher_organization" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="TeacherInfoMap">
+        select
+          tID, teacher_name, teacher_department, teacher_phone, teacher_Political_outlook, teacher_title, teacher_category, teacher_organization
+        from teacher_info
+        where tID = #{tid}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="TeacherInfoMap">
+        select
+          tID, teacher_name, teacher_department, teacher_phone, teacher_Political_outlook, teacher_title, teacher_category, teacher_organization
+        from teacher_info
+        <where>
+            <if test="tid != null and tid != ''">
+                and tID = #{tid}
+            </if>
+            <if test="teacherName != null and teacherName != ''">
+                and teacher_name = #{teacherName}
+            </if>
+            <if test="teacherDepartment != null and teacherDepartment != ''">
+                and teacher_department = #{teacherDepartment}
+            </if>
+            <if test="teacherPhone != null and teacherPhone != ''">
+                and teacher_phone = #{teacherPhone}
+            </if>
+            <if test="teacherPoliticalOutlook != null and teacherPoliticalOutlook != ''">
+                and teacher_Political_outlook = #{teacherPoliticalOutlook}
+            </if>
+            <if test="teacherTitle != null and teacherTitle != ''">
+                and teacher_title = #{teacherTitle}
+            </if>
+            <if test="teacherCategory != null and teacherCategory != ''">
+                and teacher_category = #{teacherCategory}
+            </if>
+            <if test="teacherOrganization != null and teacherOrganization != ''">
+                and teacher_organization = #{teacherOrganization}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from teacher_info
+        <where>
+            <if test="tid != null and tid != ''">
+                and tID = #{tid}
+            </if>
+            <if test="teacherName != null and teacherName != ''">
+                and teacher_name = #{teacherName}
+            </if>
+            <if test="teacherDepartment != null and teacherDepartment != ''">
+                and teacher_department = #{teacherDepartment}
+            </if>
+            <if test="teacherPhone != null and teacherPhone != ''">
+                and teacher_phone = #{teacherPhone}
+            </if>
+            <if test="teacherPoliticalOutlook != null and teacherPoliticalOutlook != ''">
+                and teacher_Political_outlook = #{teacherPoliticalOutlook}
+            </if>
+            <if test="teacherTitle != null and teacherTitle != ''">
+                and teacher_title = #{teacherTitle}
+            </if>
+            <if test="teacherCategory != null and teacherCategory != ''">
+                and teacher_category = #{teacherCategory}
+            </if>
+            <if test="teacherOrganization != null and teacherOrganization != ''">
+                and teacher_organization = #{teacherOrganization}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="tid" useGeneratedKeys="true">
+        insert into teacher_info(teacher_name, teacher_department, teacher_phone, teacher_Political_outlook, teacher_title, teacher_category, teacher_organization)
+        values (#{teacherName}, #{teacherDepartment}, #{teacherPhone}, #{teacherPoliticalOutlook}, #{teacherTitle}, #{teacherCategory}, #{teacherOrganization})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="tid" useGeneratedKeys="true">
+        insert into teacher_info(teacher_name, teacher_department, teacher_phone, teacher_Political_outlook, teacher_title, teacher_category, teacher_organization)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.teacherName}, #{entity.teacherDepartment}, #{entity.teacherPhone}, #{entity.teacherPoliticalOutlook}, #{entity.teacherTitle}, #{entity.teacherCategory}, #{entity.teacherOrganization})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="tid" useGeneratedKeys="true">
+        insert into teacher_info(teacher_name, teacher_department, teacher_phone, teacher_Political_outlook, teacher_title, teacher_category, teacher_organization)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.teacherName}, #{entity.teacherDepartment}, #{entity.teacherPhone}, #{entity.teacherPoliticalOutlook}, #{entity.teacherTitle}, #{entity.teacherCategory}, #{entity.teacherOrganization})
+        </foreach>
+        on duplicate key update
+        teacher_name = values(teacher_name),
+        teacher_department = values(teacher_department),
+        teacher_phone = values(teacher_phone),
+        teacher_Political_outlook = values(teacher_Political_outlook),
+        teacher_title = values(teacher_title),
+        teacher_category = values(teacher_category),
+        teacher_organization = values(teacher_organization)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update teacher_info
+        <set>
+            <if test="teacherName != null and teacherName != ''">
+                teacher_name = #{teacherName},
+            </if>
+            <if test="teacherDepartment != null and teacherDepartment != ''">
+                teacher_department = #{teacherDepartment},
+            </if>
+            <if test="teacherPhone != null and teacherPhone != ''">
+                teacher_phone = #{teacherPhone},
+            </if>
+            <if test="teacherPoliticalOutlook != null and teacherPoliticalOutlook != ''">
+                teacher_Political_outlook = #{teacherPoliticalOutlook},
+            </if>
+            <if test="teacherTitle != null and teacherTitle != ''">
+                teacher_title = #{teacherTitle},
+            </if>
+            <if test="teacherCategory != null and teacherCategory != ''">
+                teacher_category = #{teacherCategory},
+            </if>
+            <if test="teacherOrganization != null and teacherOrganization != ''">
+                teacher_organization = #{teacherOrganization},
+            </if>
+        </set>
+        where tID = #{tid}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from teacher_info where tID = #{tid}
+    </delete>
+
+    <select id="getAllTeachers" resultMap="TeacherInfoMap">
+        select * from teacher_info
+    </select>
+
+    <select id="searchTeacher" resultMap="TeacherInfoMap">
+        select * from teacher_info
+        where teacher_name = #{teacherName}
+    </select>
+</mapper>
+

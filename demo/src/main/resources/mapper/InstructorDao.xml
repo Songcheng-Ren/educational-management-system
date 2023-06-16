@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scu.springboot.demo.dao.InstructorDao">
+
+    <resultMap type="com.scu.springboot.demo.entity.Instructor" id="InstructorMap">
+        <result property="tid" column="tID" jdbcType="VARCHAR"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="deptName" column="dept_name" jdbcType="VARCHAR"/>
+        <result property="salary" column="salary" jdbcType="NUMERIC"/>
+        <result property="password" column="password" jdbcType="VARCHAR"/>
+        <result property="phone" column="phone" jdbcType="VARCHAR"/>
+        <result property="politicalOutlook" column="Political_outlook" jdbcType="VARCHAR"/>
+        <result property="title" column="title" jdbcType="VARCHAR"/>
+        <result property="category" column="category" jdbcType="VARCHAR"/>
+        <result property="organization" column="organization" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="InstructorMap">
+        select
+          tID, name, dept_name, salary, password, phone, Political_outlook, title, category, organization
+        from instructor
+        where tID = #{tid}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="InstructorMap">
+        select
+          tID, name, dept_name, salary, password, phone, Political_outlook, title, category, organization
+        from instructor
+        <where>
+            <if test="tid != null and tid != ''">
+                and tID = #{tid}
+            </if>
+            <if test="name != null and name != ''">
+                and name = #{name}
+            </if>
+            <if test="deptName != null and deptName != ''">
+                and dept_name = #{deptName}
+            </if>
+            <if test="salary != null">
+                and salary = #{salary}
+            </if>
+            <if test="password != null and password != ''">
+                and password = #{password}
+            </if>
+            <if test="phone != null and phone != ''">
+                and phone = #{phone}
+            </if>
+            <if test="politicalOutlook != null and politicalOutlook != ''">
+                and Political_outlook = #{politicalOutlook}
+            </if>
+            <if test="title != null and title != ''">
+                and title = #{title}
+            </if>
+            <if test="category != null and category != ''">
+                and category = #{category}
+            </if>
+            <if test="organization != null and organization != ''">
+                and organization = #{organization}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from instructor
+        <where>
+            <if test="tid != null and tid != ''">
+                and tID = #{tid}
+            </if>
+            <if test="name != null and name != ''">
+                and name = #{name}
+            </if>
+            <if test="deptName != null and deptName != ''">
+                and dept_name = #{deptName}
+            </if>
+            <if test="salary != null">
+                and salary = #{salary}
+            </if>
+            <if test="password != null and password != ''">
+                and password = #{password}
+            </if>
+            <if test="phone != null and phone != ''">
+                and phone = #{phone}
+            </if>
+            <if test="politicalOutlook != null and politicalOutlook != ''">
+                and Political_outlook = #{politicalOutlook}
+            </if>
+            <if test="title != null and title != ''">
+                and title = #{title}
+            </if>
+            <if test="category != null and category != ''">
+                and category = #{category}
+            </if>
+            <if test="organization != null and organization != ''">
+                and organization = #{organization}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="tid" useGeneratedKeys="true">
+        insert into instructor(name, dept_name, salary, password, phone, Political_outlook, title, category, organization)
+        values (#{name}, #{deptName}, #{salary}, #{password}, #{phone}, #{politicalOutlook}, #{title}, #{category}, #{organization})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="tid" useGeneratedKeys="true">
+        insert into instructor(name, dept_name, salary, password, phone, Political_outlook, title, category, organization)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.name}, #{entity.deptName}, #{entity.salary}, #{entity.password}, #{entity.phone}, #{entity.politicalOutlook}, #{entity.title}, #{entity.category}, #{entity.organization})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="tid" useGeneratedKeys="true">
+        insert into instructor(name, dept_name, salary, password, phone, Political_outlook, title, category, organization)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.name}, #{entity.deptName}, #{entity.salary}, #{entity.password}, #{entity.phone}, #{entity.politicalOutlook}, #{entity.title}, #{entity.category}, #{entity.organization})
+        </foreach>
+        on duplicate key update
+        name = values(name),
+        dept_name = values(dept_name),
+        salary = values(salary),
+        password = values(password),
+        phone = values(phone),
+        Political_outlook = values(Political_outlook),
+        title = values(title),
+        category = values(category),
+        organization = values(organization)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update instructor
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="deptName != null and deptName != ''">
+                dept_name = #{deptName},
+            </if>
+            <if test="salary != null">
+                salary = #{salary},
+            </if>
+            <if test="password != null and password != ''">
+                password = #{password},
+            </if>
+            <if test="phone != null and phone != ''">
+                phone = #{phone},
+            </if>
+            <if test="politicalOutlook != null and politicalOutlook != ''">
+                Political_outlook = #{politicalOutlook},
+            </if>
+            <if test="title != null and title != ''">
+                title = #{title},
+            </if>
+            <if test="category != null and category != ''">
+                category = #{category},
+            </if>
+            <if test="organization != null and organization != ''">
+                organization = #{organization},
+            </if>
+        </set>
+        where tID = #{tid}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from instructor where tID = #{tid}
+    </delete>
+
+    <select id="information" resultMap="InstructorMap">
+        select tID,name,dept_name,phone
+        from instructor
+    </select>
+
+    <update id="change_dept">
+        update instructor
+        set dept_name=#{dept}
+        where tID=#{id}
+    </update>
+
+    <select id="teacherLogin" resultMap="InstructorMap" parameterType="com.scu.springboot.demo.entity.Instructor">
+        select * from instructor where tID = #{tid} and password = #{password}
+    </select>
+
+    <select id="getAllTeacherInfomation" resultMap="InstructorMap">
+        select * from instructor where tID = #{tid};
+    </select>
+
+</mapper>
+

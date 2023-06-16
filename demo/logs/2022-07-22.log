@@ -1,0 +1,24 @@
+[INFO]2022-07-22 14:50:23,469 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 26128 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-22 14:50:23,470 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-22 14:50:23,505 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-22 14:50:23,505 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-22 14:50:24,988 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-22 14:50:24,994 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-22 14:50:24,995 - Starting service [Tomcat]
+[INFO]2022-07-22 14:50:24,995 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-22 14:50:25,055 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-22 14:50:25,056 - Root WebApplicationContext: initialization completed in 1551 ms
+[INFO]2022-07-22 14:50:26,057 - Adding welcome page template: index
+[INFO]2022-07-22 14:50:26,262 - LiveReload server is running on port 35729
+[INFO]2022-07-22 14:50:26,280 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-22 14:50:26,307 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-22 14:50:26,351 - Started Demo1Application in 3.233 seconds (JVM running for 5.291)
+[INFO]2022-07-22 14:50:33,422 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-22 14:50:33,423 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-22 14:50:33,424 - Completed initialization in 1 ms
+[WARN]2022-07-22 14:50:49,107 - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [119] milliseconds.
+[INFO]2022-07-22 14:50:49,118 - HikariPool-1 - Starting...
+[INFO]2022-07-22 14:50:49,212 - HikariPool-1 - Start completed.
+[WARN]2022-07-22 15:12:06,237 - Resolved [org.springframework.dao.DataIntegrityViolationException: <EOL><EOL>### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'score' at row 1<EOL><EOL>### The error may exist in file [D:\js\springboot\demo\target\classes\mapper\TakesDao.xml]<EOL><EOL>### The error may involve defaultParameterMap<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: insert into comment_on_teaching(tID, course_id,score)         value (?, ?,?)<EOL><EOL>### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'score' at row 1<EOL>; Data truncation: Data too long for column 'score' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'score' at row 1]
+[INFO]2022-07-22 15:13:13,156 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-22 15:13:13,159 - HikariPool-1 - Shutdown completed.

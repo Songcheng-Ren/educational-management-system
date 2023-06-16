@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://ace.jeka.by/elements.html -->
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>待办公文</title>
+
+	<meta name="description" content="Common UI Features &amp; Elements">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+	<!-- bootstrap & fontawesome -->
+	<link rel="stylesheet" href="./代办公文_files/bootstrap.min.css">
+	<link rel="stylesheet" href="./代办公文_files/font-awesome.min.css">
+
+	<!-- page specific plugin styles -->
+	<link rel="stylesheet" href="./代办公文_files/jquery-ui.custom.min.css">
+	<link rel="stylesheet" href="./代办公文_files/jquery.gritter.min.css">
+
+	<!-- text fonts -->
+	<link rel="stylesheet" href="./代办公文_files/fonts.googleapis.com.css">
+
+	<!-- ace styles -->
+	<link rel="stylesheet" href="./代办公文_files/ace.min.css" class="ace-main-stylesheet" id="main-ace-style">
+
+	<!--[if lte IE 9]>
+			<link rel="stylesheet" href="assets/css/ace-part2.min.css" class="ace-main-stylesheet" />
+		<![endif]-->
+	<link rel="stylesheet" href="./代办公文_files/ace-skins.min.css">
+	<link rel="stylesheet" href="./代办公文_files/ace-rtl.min.css">
+
+	<!--[if lte IE 9]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+	<!-- inline styles related to this page -->
+	<style>
+		/* some elements used in demo only */
+		.spinner-preview {
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			margin-top: 60px;
+		}
+
+		.dropdown-preview {
+			margin: 0 5px;
+			display: inline-block;
+		}
+
+		.dropdown-preview>.dropdown-menu {
+			display: block;
+			position: static;
+			margin-bottom: 5px;
+		}
+	</style>
+
+	<!-- ace settings handler -->
+	<script async="" src="./代办公文_files/analytics.js.下载"></script>
+	<script type="text/javascript" async="" src="./代办公文_files/watch.js.下载"></script>
+	<script src="./代办公文_files/ace-extra.min.js.下载"></script>
+	<style>
+		@keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-moz-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-webkit-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-ms-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-o-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		.ace-save-state {
+			animation-duration: 10ms;
+			-o-animation-duration: 10ms;
+			-ms-animation-duration: 10ms;
+			-moz-animation-duration: 10ms;
+			-webkit-animation-duration: 10ms;
+			animation-delay: 0s;
+			-o-animation-delay: 0s;
+			-ms-animation-delay: 0s;
+			-moz-animation-delay: 0s;
+			-webkit-animation-delay: 0s;
+			animation-name: nodeInserted;
+			-o-animation-name: nodeInserted;
+			-ms-animation-name: nodeInserted;
+			-moz-animation-name: nodeInserted;
+			-webkit-animation-name: nodeInserted
+		}
+	</style>
+
+	<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+	<!--[if lte IE 8]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	<style type="text/css"></style>
+</head>
+
+<body class="no-skin" style="">
+	<div id="navbar" class="navbar navbar-default          ace-save-state">
+		<div class="navbar-container ace-save-state" id="navbar-container">
+			<button type="button" class="navbar-toggle menu-toggler pull-left display" id="menu-toggler"
+				data-target="#sidebar">
+				<span class="sr-only">Toggle sidebar</span>
+
+				<span class="icon-bar"></span>
+
+				<span class="icon-bar"></span>
+
+				<span class="icon-bar"></span>
+			</button>
+
+			<div class="navbar-header pull-left">
+				<a href="./leader.html" class="navbar-brand">
+					<small>
+						<i class="fa fa-leaf"></i>
+						智慧校园管理系统(行政端)
+					</small>
+				</a>
+			</div>
+			<div class="navbar-buttons navbar-header pull-right" role="navigation">
+				<ul class="nav ace-nav" style="">
+
+
+					<li class="light-blue dropdown-modal">
+						<a data-toggle="dropdown" href="#" class="dropdown-toggle" aria-expanded="false" id="ID">
+							<img class="nav-user-photo" src="../专业团队.webp" alt="Jason's Photo">
+
+
+						</a>
+
+						<ul
+							class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+							<li>
+								<a href="#">
+									<i class="ace-icon fa fa-cog"></i>
+									Settings
+								</a>
+							</li>
+
+							<li>
+								<a href="login_leader.html">
+									<i class="ace-icon fa fa-user"></i>
+									Login
+								</a>
+							</li>
+
+							<li class="divider"></li>
+
+							<li>
+								<a href="javascript:loginOut();">
+									<i class="ace-icon fa fa-power-off"></i>
+									Logout
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="navbar-buttons navbar-header pull-right" role="navigation">
+
+			</div>
+		</div><!-- /.navbar-container -->
+	</div>
+
+	<div class="main-container ace-save-state" id="main-container">
+		<script type="text/javascript">
+			try { ace.settings.loadState('main-container') } catch (e) { }
+		</script>
+
+		<div id="sidebar" class="sidebar                  responsive                    ace-save-state display"
+			data-sidebar="true" data-sidebar-scroll="true" data-sidebar-hover="true">
+			<script type="text/javascript">
+				try { ace.settings.loadState('sidebar') } catch (e) { }
+			</script>
+
+			<!-- /.sidebar-shortcuts -->
+
+			<ul class="nav nav-list" style="top: 0px;">
+				<li class="active">
+					<a href="./leader.html">
+						<i class="menu-icon fa fa-tachometer"></i>
+						<span class="menu-text"> 会议通知 </span>
+					</a>
+
+					<b class="arrow"></b>
+				</li>
+
+				<li class="">
+					<a href="#" class="dropdown-toggle">
+						<i class="menu-icon fa fa-desktop"></i>
+						<span class="menu-text">
+							教职工信息
+						</span>
+
+						<b class="arrow fa fa-angle-down"></b>
+					</a>
+
+					<b class="arrow"></b>
+
+					<ul class="submenu nav-hide" style="display: none;">
+
+
+
+						<li class="">
+							<a href="./address_book.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								通讯录
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+						<li class="">
+							<a href="./teacher_evaluation.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								教学质量
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+						<li class="">
+							<a href="./teacher_info.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								教师信息
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+
+					</ul>
+				</li>
+
+				<li class="">
+					<a href="#" class="dropdown-toggle">
+						<i class="menu-icon fa fa-list"></i>
+						<span class="menu-text"> 工作任务 </span>
+
+						<b class="arrow fa fa-angle-down"></b>
+					</a>
+
+					<b class="arrow"></b>
+
+					<ul class="submenu">
+
+
+						<li class="">
+							<a href="./work_plan.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								工作计划安排
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+						<li class="">
+							<a href="./backlog.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								待办公文
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+					</ul>
+				</li>
+
+				<li class="">
+					<a href="http://ace.jeka.by/index.html#" class="dropdown-toggle">
+						<i class="menu-icon fa fa-pencil-square-o"></i>
+						<span class="menu-text"> 学生信息 </span>
+
+						<b class="arrow fa fa-angle-down"></b>
+					</a>
+
+					<b class="arrow"></b>
+
+					<ul class="submenu">
+
+
+						<li class="">
+							<a href="./origin.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								生源地&入学率
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+
+
+					</ul>
+				</li>
+
+				<li class="">
+					<a href="http://ace.jeka.by/index.html#" class="dropdown-toggle">
+						<i class="menu-icon fa fa-tag"></i>
+						<span class="menu-text"> 更多 </span>
+
+						<b class="arrow fa fa-angle-down"></b>
+					</a>
+
+					<b class="arrow"></b>
+
+					<ul class="submenu">
+						<li class="">
+							<a href="./specialty_instruction.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								学院专业信息
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+					</ul>
+				</li>
+			</ul><!-- /.nav-list -->
+
+			<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+				<i id="sidebar-toggle-icon" class="ace-icon fa fa-angle-double-left ace-save-state"
+					data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+			</div>
+		</div>
+
+		<div class="main-content">
+			<div class="main-content-inner">
+				<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+					<ul class="breadcrumb">
+						<li>
+							<i class="ace-icon fa fa-home home-icon"></i>
+							<a href="./leader.html">首页</a>
+						</li>
+
+						<li>
+							工作任务
+						</li>
+						<li class="active">待办公文</li>
+					</ul><!-- /.breadcrumb -->
+
+					<div class="nav-search" id="nav-search">
+						<form class="form-search">
+							<span class="input-icon">
+								<input type="text" placeholder="Search ..." class="nav-search-input"
+									id="nav-search-input" autocomplete="off">
+								<i class="ace-icon fa fa-search nav-search-icon"></i>
+							</span>
+						</form>
+					</div><!-- /.nav-search -->
+				</div>
+
+				<div class="page-content">
+					<div class="ace-settings-container" id="ace-settings-container">
+
+
+						<div class="ace-settings-box clearfix" id="ace-settings-box">
+							<div class="pull-left width-50">
+								<div class="ace-settings-item">
+									<div class="pull-left">
+										<select id="skin-colorpicker" class="hide">
+											<option data-skin="no-skin" value="#438EB9">#438EB9</option>
+											<option data-skin="skin-1" value="#222A2D">#222A2D</option>
+											<option data-skin="skin-2" value="#C6487E">#C6487E</option>
+											<option data-skin="skin-3" value="#D0D0D0">#D0D0D0</option>
+										</select>
+										<div class="dropdown dropdown-colorpicker"> <a data-toggle="dropdown"
+												class="dropdown-toggle"><span class="btn-colorpicker"
+													style="background-color:#438EB9"></span></a>
+											<ul class="dropdown-menu dropdown-caret">
+												<li><a class="colorpick-btn selected" style="background-color:#438EB9;"
+														data-color="#438EB9"></a></li>
+												<li><a class="colorpick-btn" style="background-color:#222A2D;"
+														data-color="#222A2D"></a></li>
+												<li><a class="colorpick-btn" style="background-color:#C6487E;"
+														data-color="#C6487E"></a></li>
+												<li><a class="colorpick-btn" style="background-color:#D0D0D0;"
+														data-color="#D0D0D0"></a></li>
+											</ul>
+										</div>
+									</div>
+									<span>&nbsp; Choose Skin</span>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+										id="ace-settings-navbar" autocomplete="off">
+									<label class="lbl" for="ace-settings-navbar"> Fixed Navbar</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+										id="ace-settings-sidebar" autocomplete="off">
+									<label class="lbl" for="ace-settings-sidebar"> Fixed Sidebar</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+										id="ace-settings-breadcrumbs" autocomplete="off">
+									<label class="lbl" for="ace-settings-breadcrumbs"> Fixed Breadcrumbs</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl"
+										autocomplete="off">
+									<label class="lbl" for="ace-settings-rtl"> Right To Left (rtl)</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+										id="ace-settings-add-container" autocomplete="off">
+									<label class="lbl" for="ace-settings-add-container">
+										Inside
+										<b>.container</b>
+									</label>
+								</div>
+							</div><!-- /.pull-left -->
+
+							<div class="pull-left width-50">
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-hover"
+										autocomplete="off">
+									<label class="lbl" for="ace-settings-hover"> Submenu on Hover</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-compact"
+										autocomplete="off">
+									<label class="lbl" for="ace-settings-compact"> Compact Sidebar</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-highlight"
+										autocomplete="off">
+									<label class="lbl" for="ace-settings-highlight"> Alt. Active Item</label>
+								</div>
+							</div><!-- /.pull-left -->
+						</div><!-- /.ace-settings-box -->
+					</div><!-- /.ace-settings-container -->
+
+					<div class="page-header">
+						<h1>
+							待办事项
+
+						</h1>
+					</div><!-- /.page-header -->
+
+					<div class="row" id="refresh">
+						<div class="col-xs-12">
+							<!-- PAGE CONTENT BEGINS -->
+							<!-- /.row -->
+
+
+
+							<!-- /.row -->
+
+
+
+							<!-- /.row -->
+
+
+							<!-- /.row -->
+
+
+							<div class="row">
+								<div class="col-sm-6" id="showData">
+									<h3 class="header smaller lighter green">
+										<i class="ace-icon fa fa-bullhorn"></i>
+										任务
+									</h3>
+
+
+								</div><!-- /.col -->
+
+								<div class="col-sm-6">
+									<h3 class="row header smaller lighter orange">
+										<span class="col-sm-8">
+											<i class="ace-icon fa fa-bell"></i>
+											Gritter Notifications
+										</span>
+
+										<span class="col-sm-4">
+											<label class="pull-right inline">
+												<small class="muted">Dark:</small>
+
+												<input id="gritter-light" checked="" type="checkbox"
+													class="ace ace-switch ace-switch-5">
+												<span class="lbl middle"></span>
+											</label>
+										</span>
+
+									</h3>
+
+									<p>
+										<i>Click to see</i>
+									</p>
+
+									<p>
+										<button class="btn" id="gritter-regular">任务1</button>
+										<button class="btn btn-info" id="gritter-sticky">任务2</button>
+										<button class="btn btn-success" id="gritter-without-image">任务3
+										</button>
+									</p>
+
+									<p>
+										<button class="btn btn-danger" id="gritter-error">任务4</button>
+										<button class="btn btn-warning" id="gritter-max3">任务5</button>
+										<button class="btn btn-primary" id="gritter-center">任务6</button>
+										<button class="btn btn-inverse" id="gritter-remove">任务7</button>
+									</p>
+								</div><!-- /.col -->
+							</div><!-- /.row -->
+
+							<hr>
+							<!-- /.row -->
+
+
+
+							<!-- PAGE CONTENT ENDS -->
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.page-content -->
+			</div>
+		</div><!-- /.main-content -->
+
+		<div class="footer">
+			<div class="footer-inner">
+				<div class="footer-content">
+					<span class="bigger-120">
+						<span class="blue bolder">专业团队</span>
+						© 2022
+					</span>
+
+					&nbsp; &nbsp;
+
+				</div>
+			</div>
+		</div>
+
+		<a href="http://ace.jeka.by/elements.html#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+			<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+		</a>
+	</div><!-- /.main-container -->
+
+	<!-- basic scripts -->
+
+	<!--[if !IE]> -->
+	<script src="./代办公文_files/jquery-2.1.4.min.js.下载"></script>
+
+	<!-- <![endif]-->
+
+	<!--[if IE]>
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<![endif]-->
+	<script type="text/javascript">
+		if ('ontouchstart' in document.documentElement) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>" + "<" + "/script>");
+	</script>
+	<script src="./代办公文_files/bootstrap.min.js.下载"></script>
+
+	<!-- page specific plugin scripts -->
+
+	<!--[if lte IE 8]>
+		  <script src="assets/js/excanvas.min.js"></script>
+		<![endif]-->
+	<script src="./代办公文_files/jquery-ui.custom.min.js.下载"></script>
+	<script src="./代办公文_files/jquery.ui.touch-punch.min.js.下载"></script>
+	<script src="./代办公文_files/bootbox.js.下载"></script>
+	<script src="./代办公文_files/jquery.easypiechart.min.js.下载"></script>
+	<script src="./代办公文_files/jquery.gritter.min.js.下载"></script>
+	<script src="./代办公文_files/spin.js.下载"></script>
+
+	<!-- ace scripts -->
+	<script src="./代办公文_files/ace-elements.min.js.下载"></script>
+	<script src="./代办公文_files/ace.min.js.下载"></script>
+
+	<!-- inline scripts related to this page -->
+	<script>
+		$(function(){
+			var temp = window.localStorage.getItem("leaderInfo");
+			// var sid = JSON.parse(temp).sid;
+			// var data = JSON.parse('{"sId":"'+ sid + '"}');
+			if(temp == null){
+				$('#ID').append("请您登录!");
+			} else {
+				var adminid = JSON.parse(temp).adminid;
+				//var name = JSON.parse(temp).name;
+				var data = JSON.parse('{"tid":"'+ adminid + '"}');
+				$("#ID").append("欢迎您! " + adminid);
+			}
+			//var data = JSON.parse('{"tid":"001"}');
+			var classes = ["alert alert-danger", "alert alert-warning", "alert alert-block alert-success", "alert alert-info"]
+			$.ajaxSettings.async = false;
+			$.post("/workPlan/searchPlan", data, function (res) {
+				console.log(res);
+				if (res.code == 200) {
+					var str = '';
+					$(res.datas).each((index, item) => {
+						var today = new Date();
+						var targetDate = new Date(item.workDate);
+						if (targetDate >= today) {
+							str += '<div class="' + classes[index%4] + '">\
+								<button type="button" class="close" data-dismiss="alert" onclick=submit('+index+')>\
+									<i class="ace-icon fa fa-times"></i>\
+								</button>\
+									<strong>\
+									<i class="ace-icon fa fa-check"></i>'
+									+ item.workPlan +
+									'</strong>' +
+								item.workDate.substring(0, 15) +
+							'</div>\n';
+						}
+					});
+					$("#showData").append(str);
+					window.localStorage.setItem("tasks", JSON.stringify(res.datas));
+				} else {
+					alert(res.message);
+				}
+			});
+		});
+		function submit(index){
+			var storage = window.localStorage.getItem("tasks");
+			var data = JSON.parse(storage);
+			$.post("/workPlan/removePlan", data[index]).then(res => {
+				if(res.code == 200) {
+					window.location.href = "backlog.html";
+				} else {
+					alert("操作失败！");
+				}
+
+			});
+		}
+	</script>
+	<script type="text/javascript">
+		jQuery(function ($) {
+			/**
+			$('#myTab a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+			  //console.log(e.target.getAttribute("href"));
+			})
+				
+			$('#accordion').on('shown.bs.collapse', function (e) {
+				//console.log($(e.target).is('#collapseTwo'))
+			});
+			*/
+			// var data = JSON.parse('{"tid":"001"}');
+			// var classes = ["alert alert-danger", "alert alert-warning", "alert alert-block alert-success", "alert alert-info"]
+			// $.ajaxSettings.async = false;
+			// $.post("/workPlan/searchPlan", data, function (res) {
+			// 	console.log(res);
+			// 	if (res.code == 200) {
+			// 		var str = '';
+			// 		$(res.datas).each((index, item) => {
+			// 			var today = new Date();
+			// 			var targetDate = new Date(item.workDate);
+			// 			if (targetDate >= today) {
+			// 				str += '<div className="alert alert-block alert-success">\
+			// 					<button type="button" className="close" data-dismiss="alert">\
+			// 						<i className="ace-icon fa fa-times"></i>\
+			// 					</button>\
+			// 						<strong>\
+			// 						<i className="ace-icon fa fa-check"></i>'
+			// 						+ item.workPlan +
+			// 						'</strong>\
+			// 					You successfully read this important alert message.\
+			// 				</div>\n';
+			// 			}
+			// 		});
+			// 		$("#showData").append(str);
+			// 	} else {
+			// 		alert(res.message);
+			// 	}
+			// });
+			$('#myTab a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+				//if($(e.target).attr('href') == "#home") doSomethingNow();
+			})
+
+
+			/**
+				//go to next tab, without user clicking
+				$('#myTab > .active').next().find('> a').trigger('click');
+			*/
+
+
+			// $('#accordion-style').on('click', function (ev) {
+			// 	var target = $('input', ev.target);
+			// 	var which = parseInt(target.val());
+			// 	if (which == 2) $('#accordion').addClass('accordion-style2');
+			// 	else $('#accordion').removeClass('accordion-style2');
+			// });
+
+			//$('[href="#collapseTwo"]').trigger('click');
+
+
+			// $('.easy-pie-chart.percentage').each(function () {
+			// 	$(this).easyPieChart({
+			// 		barColor: $(this).data('color'),
+			// 		trackColor: '#EEEEEE',
+			// 		scaleColor: false,
+			// 		lineCap: 'butt',
+			// 		lineWidth: 8,
+			// 		animate: ace.vars['old_ie'] ? false : 1000,
+			// 		size: 75
+			// 	}).css('color', $(this).data('color'));
+			// });
+
+			// $('[data-rel=tooltip]').tooltip();
+			// $('[data-rel=popover]').popover({ html: true });
+
+
+			$('#gritter-regular').on(ace.click_event, function () {
+				$.gritter.add({
+					title: 'This is a regular notice!',
+					text: 'This will fade out after a certain amount of time. Vivamus eget tincidunt velit. Cum sociis natoque penatibus et <a href="#" class="blue">magnis dis parturient</a> montes, nascetur ridiculus mus.',
+					image: 'assets/images/avatars/avatar1.png', //in Ace demo ./dist will be replaced by correct assets path
+					sticky: false,
+					time: '',
+					class_name: (!$('#gritter-light').get(0).checked ? 'gritter-light' : '')
+				});
+
+				return false;
+			});
+
+			$('#gritter-sticky').on(ace.click_event, function () {
+				var unique_id = $.gritter.add({
+					title: 'This is a sticky notice!',
+					text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget tincidunt velit. Cum sociis natoque penatibus et <a href="#" class="red">magnis dis parturient</a> montes, nascetur ridiculus mus.',
+					image: 'assets/images/avatars/avatar.png',
+					sticky: true,
+					time: '',
+					class_name: 'gritter-info' + (!$('#gritter-light').get(0).checked ? ' gritter-light' : '')
+				});
+
+				return false;
+			});
+
+
+			$('#gritter-without-image').on(ace.click_event, function () {
+				$.gritter.add({
+					// (string | mandatory) the heading of the notification
+					title: 'This is a notice without an image!',
+					// (string | mandatory) the text inside the notification
+					text: 'This will fade out after a certain amount of time. Vivamus eget tincidunt velit. Cum sociis natoque penatibus et <a href="#" class="orange">magnis dis parturient</a> montes, nascetur ridiculus mus.',
+					class_name: 'gritter-success' + (!$('#gritter-light').get(0).checked ? ' gritter-light' : '')
+				});
+
+				return false;
+			});
+
+
+			$('#gritter-max3').on(ace.click_event, function () {
+				$.gritter.add({
+					title: 'This is a notice with a max of 3 on screen at one time!',
+					text: 'This will fade out after a certain amount of time. Vivamus eget tincidunt velit. Cum sociis natoque penatibus et <a href="#" class="green">magnis dis parturient</a> montes, nascetur ridiculus mus.',
+					image: 'assets/images/avatars/avatar3.png', //in Ace demo ./dist will be replaced by correct assets path
+					sticky: false,
+					before_open: function () {
+						if ($('.gritter-item-wrapper').length >= 3) {
+							return false;
+						}
+					},
+					class_name: 'gritter-warning' + (!$('#gritter-light').get(0).checked ? ' gritter-light' : '')
+				});
+
+				return false;
+			});
+
+
+			$('#gritter-center').on(ace.click_event, function () {
+				$.gritter.add({
+					title: 'This is a centered notification',
+					text: 'Just add a "gritter-center" class_name to your $.gritter.add or globally to $.gritter.options.class_name',
+					class_name: 'gritter-info gritter-center' + (!$('#gritter-light').get(0).checked ? ' gritter-light' : '')
+				});
+
+				return false;
+			});
+
+			$('#gritter-error').on(ace.click_event, function () {
+				$.gritter.add({
+					title: 'This is a warning notification',
+					text: 'Just add a "gritter-light" class_name to your $.gritter.add or globally to $.gritter.options.class_name',
+					class_name: 'gritter-error' + (!$('#gritter-light').get(0).checked ? ' gritter-light' : '')
+				});
+
+				return false;
+			});
+
+
+			$("#gritter-remove").on(ace.click_event, function () {
+				$.gritter.removeAll();
+				return false;
+			});
+
+
+			///////
+
+
+			$("#bootbox-regular").on(ace.click_event, function () {
+				bootbox.prompt("What is your name?", function (result) {
+					if (result === null) {
+
+					} else {
+
+					}
+				});
+			});
+
+			$("#bootbox-confirm").on(ace.click_event, function () {
+				bootbox.confirm("Are you sure?", function (result) {
+					if (result) {
+						//
+					}
+				});
+			});
+
+			/**
+				$("#bootbox-confirm").on(ace.click_event, function() {
+					bootbox.confirm({
+						message: "Are you sure?",
+						buttons: {
+						  confirm: {
+							 label: "OK",
+							 className: "btn-primary btn-sm",
+						  },
+						  cancel: {
+							 label: "Cancel",
+							 className: "btn-sm",
+						  }
+						},
+						callback: function(result) {
+							if(result) alert(1)
+						}
+					  }
+					);
+				});
+			**/
+
+
+			$("#bootbox-options").on(ace.click_event, function () {
+				bootbox.dialog({
+					message: "<span class='bigger-110'>I am a custom dialog with smaller buttons</span>",
+					buttons:
+					{
+						"success":
+						{
+							"label": "<i class='ace-icon fa fa-check'></i> Success!",
+							"className": "btn-sm btn-success",
+							"callback": function () {
+								//Example.show("great success");
+							}
+						},
+						"danger":
+						{
+							"label": "Danger!",
+							"className": "btn-sm btn-danger",
+							"callback": function () {
+								//Example.show("uh oh, look out!");
+							}
+						},
+						"click":
+						{
+							"label": "Click ME!",
+							"className": "btn-sm btn-primary",
+							"callback": function () {
+								//Example.show("Primary button");
+							}
+						},
+						"button":
+						{
+							"label": "Just a button...",
+							"className": "btn-sm"
+						}
+					}
+				});
+			});
+
+
+
+			$('#spinner-opts small').css({ display: 'inline-block', width: '60px' })
+
+			var slide_styles = ['', 'green', 'red', 'purple', 'orange', 'dark'];
+			var ii = 0;
+			$("#spinner-opts input[type=text]").each(function () {
+				var $this = $(this);
+				$this.hide().after('<span />');
+				$this.next().addClass('ui-slider-small').
+					addClass("inline ui-slider-" + slide_styles[ii++ % slide_styles.length]).
+					css('width', '125px').slider({
+						value: parseInt($this.val()),
+						range: "min",
+						animate: true,
+						min: parseInt($this.attr('data-min')),
+						max: parseInt($this.attr('data-max')),
+						step: parseFloat($this.attr('data-step')) || 1,
+						slide: function (event, ui) {
+							$this.val(ui.value);
+							spinner_update();
+						}
+					});
+			});
+
+
+
+			//CSS3 spinner
+			$.fn.spin = function (opts) {
+				this.each(function () {
+					var $this = $(this),
+						data = $this.data();
+
+					if (data.spinner) {
+						data.spinner.stop();
+						delete data.spinner;
+					}
+					if (opts !== false) {
+						data.spinner = new Spinner($.extend({ color: $this.css('color') }, opts)).spin(this);
+					}
+				});
+				return this;
+			};
+
+			function spinner_update() {
+				var opts = {};
+				$('#spinner-opts input[type=text]').each(function () {
+					opts[this.name] = parseFloat(this.value);
+				});
+				opts['left'] = 'auto';
+				$('#spinner-preview').spin(opts);
+			}
+
+
+
+			$('#id-pills-stacked').removeAttr('checked').on('click', function () {
+				$('.nav-pills').toggleClass('nav-stacked');
+			});
+
+
+
+
+
+
+			///////////
+			$(document).one('ajaxloadstart.page', function (e) {
+				$.gritter.removeAll();
+				$('.modal').modal('hide');
+			});
+			// var data = JSON.parse('{"tid":"001"}');
+			// var classes = ["alert alert-danger", "alert alert-warning", "alert alert-block alert-success", "alert alert-info"]
+			// $.post("/workPlan/searchPlan", data, function (res) {
+			// 	console.log(res);
+			// 	if (res.code == 200) {
+			// 		var str = '';
+			// 		$(res.datas).each((index, item) => {
+			// 			var today = new Date();
+			// 			var targetDate = new Date(item.workDate);
+			// 			if (targetDate >= today) {
+			// 				str += '<div className="alert alert-warning">\
+			// 					<button type="button" className="close" data-dismiss="alert">\
+			// 						<i className="ace-icon fa fa-times"></i>\
+			// 					</button>\
+			// 					<strong>放假通知！</strong>\
+			// 					Best check yo self, not looking too good.\
+			// 					<br>\
+			// 				</div>';
+			//
+			// 			}
+			// 		});
+			// 		$("#showData").append(str);
+			// 		$.parser.parse("#showData");
+			// 	} else {
+			// 		alert(res.message);
+			// 	}
+			// });
+
+		});
+		window.loginOut = function() {
+			$.get("/leaderLoginOut").then(res => {
+				window.localStorage.removeItem("leaderInfo");
+				window.location.href = "login_leader.html";
+			});
+		}
+	</script>
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+		(function (d, w, c) {
+			(w[c] = w[c] || []).push(function () {
+				try {
+					w.yaCounter25836836 = new Ya.Metrika({
+						id: 25836836,
+						webvisor: true,
+						clickmap: true,
+						trackLinks: true,
+						accurateTrackBounce: true
+					});
+				} catch (e) { }
+			});
+
+			var n = d.getElementsByTagName("script")[0],
+				s = d.createElement("script"),
+				f = function () { n.parentNode.insertBefore(s, n); };
+			s.type = "text/javascript";
+			s.async = true;
+			s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+			if (w.opera == "[object Opera]") {
+				d.addEventListener("DOMContentLoaded", f, false);
+			} else { f(); }
+		})(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript>
+		<div><img src="//mc.yandex.ru/watch/25836836" style="position:absolute; left:-9999px;" alt="" /></div>
+	</noscript>
+	<!-- /Yandex.Metrika counter -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-38894584-2', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+
+
+</body>
+
+</html>

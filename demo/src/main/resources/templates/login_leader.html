@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="./login_leader.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>欢迎登陆校园服务平台</h2>
+        </div>
+
+
+        <div class="pic">
+            <img src="../image/专业团队.webp" alt="" width="200px">
+        </div>
+        <div class="user">
+            <ul>
+                <a href="./login_stu.html" class="student">学生端</a>
+                <a href="./login_tea.html">教师端</a>
+                <a href="#" class="leader">行政端</a>
+            </ul>
+        </div>
+        <div class="login">
+            <form id="leaderAccount">
+                <input class="first" type="text" name="adminid" placeholder="账号"><br>
+                <input type="password" name="password" id="" placeholder="密码"><br>
+                <button type="button" id="loginButton">登陆</button>
+            </form>
+        </div>
+        <div class="footer">
+            专业团队制作
+        </div>
+    </div>
+    <script type="text/javascript" src="jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="jquery.serializeObject.js"></script>
+    <script type="text/javascript">
+        var storage = window.localStorage;
+        $("#loginButton").click(() => {
+            leaderLogin();
+        });
+
+        //用户登录
+        function leaderLogin() {
+            var data = $("#leaderAccount").serializeObject();
+
+            if(!data.adminid){
+                alert("请输入账号");
+                return;
+            }
+            if(!data.password){
+                alert("请输入密码");
+                return;
+            }
+            $.post("/leaderLogin", data).then(res => {
+                console.log(res);
+                if(res.code == 200){
+                    storage.setItem("leaderInfo", JSON.stringify(res.datas));
+                    window.location.href = "leader.html";
+
+                } else {
+                    alert(res.message);
+
+                }
+            })
+
+        }
+
+    </script>
+</body>
+
+</html>

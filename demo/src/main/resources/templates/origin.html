@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)http://127.0.0.1:5500/%E5%AE%9E%E8%AE%AD/leader/%E7%BB%9F%E8%AE%A1.html -->
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Dashboard - Ace Admin</title>
+
+	<meta name="description" content="overview &amp; stats">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+	<!-- bootstrap & fontawesome -->
+	<link rel="stylesheet" href="./统计1_files/bootstrap.min.css">
+	<link rel="stylesheet" href="./统计1_files/font-awesome.min.css">
+
+	<!-- page specific plugin styles -->
+
+	<!-- text fonts -->
+	<link rel="stylesheet" href="./统计1_files/fonts.googleapis.com.css">
+
+	<!-- ace styles -->
+	<link rel="stylesheet" href="./统计1_files/ace.min.css" class="ace-main-stylesheet" id="main-ace-style">
+
+	<!--[if lte IE 9]>
+			<link rel="stylesheet" href="assets/css/ace-part2.min.css" class="ace-main-stylesheet" />
+		<![endif]-->
+	<link rel="stylesheet" href="./统计1_files/ace-skins.min.css">
+	<link rel="stylesheet" href="./统计1_files/ace-rtl.min.css">
+
+	<!--[if lte IE 9]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+	<!-- inline styles related to this page -->
+
+	<!-- ace settings handler -->
+	<script async="" src="./统计1_files/analytics.js.下载"></script>
+	<script type="text/javascript" async="" src="./统计1_files/watch.js.下载"></script>
+	<script async="" src="./统计1_files/analytics.js(1).下载"></script>
+	<script type="text/javascript" async="" src="./统计1_files/watch.js(1).下载"></script>
+	<script src="./统计1_files/ace-extra.min.js.下载"></script>
+	<style>
+		@keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-moz-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-webkit-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-ms-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-o-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		.ace-save-state {
+			animation-duration: 10ms;
+			-o-animation-duration: 10ms;
+			-ms-animation-duration: 10ms;
+			-moz-animation-duration: 10ms;
+			-webkit-animation-duration: 10ms;
+			animation-delay: 0s;
+			-o-animation-delay: 0s;
+			-ms-animation-delay: 0s;
+			-moz-animation-delay: 0s;
+			-webkit-animation-delay: 0s;
+			animation-name: nodeInserted;
+			-o-animation-name: nodeInserted;
+			-ms-animation-name: nodeInserted;
+			-moz-animation-name: nodeInserted;
+			-webkit-animation-name: nodeInserted
+		}
+	</style>
+	<style>
+		@keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-moz-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-webkit-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-ms-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		@-o-keyframes nodeInserted {
+			from {
+				outline-color: #fff
+			}
+
+			to {
+				outline-color: #000
+			}
+		}
+
+		.ace-save-state {
+			animation-duration: 10ms;
+			-o-animation-duration: 10ms;
+			-ms-animation-duration: 10ms;
+			-moz-animation-duration: 10ms;
+			-webkit-animation-duration: 10ms;
+			animation-delay: 0s;
+			-o-animation-delay: 0s;
+			-ms-animation-delay: 0s;
+			-moz-animation-delay: 0s;
+			-webkit-animation-delay: 0s;
+			animation-name: nodeInserted;
+			-o-animation-name: nodeInserted;
+			-ms-animation-name: nodeInserted;
+			-moz-animation-name: nodeInserted;
+			-webkit-animation-name: nodeInserted
+		}
+	</style>
+
+	<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+	<!--[if lte IE 8]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	<style type="text/css">
+		.jqstooltip {
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			visibility: hidden;
+			background: rgb(0, 0, 0) transparent;
+			background-color: rgba(0, 0, 0, 0.6);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+			color: white;
+			font: 10px arial, san serif;
+			text-align: left;
+			white-space: nowrap;
+			padding: 5px;
+			border: 1px solid white;
+			z-index: 10000;
+		}
+
+		.jqsfield {
+			color: white;
+			font: 10px arial, san serif;
+			text-align: left;
+		}
+	</style>
+	<style type="text/css">
+		.jqstooltip {
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			visibility: hidden;
+			background: rgb(0, 0, 0) transparent;
+			background-color: rgba(0, 0, 0, 0.6);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+			color: white;
+			font: 10px arial, san serif;
+			text-align: left;
+			white-space: nowrap;
+			padding: 5px;
+			border: 1px solid white;
+			z-index: 10000;
+		}
+
+		.jqsfield {
+			color: white;
+			font: 10px arial, san serif;
+			text-align: left;
+		}
+	</style>
+</head>
+
+<body class="no-skin">
+	<div id="navbar" class="navbar navbar-default          ace-save-state">
+		<div class="navbar-container ace-save-state" id="navbar-container">
+			<button type="button" class="navbar-toggle menu-toggler pull-left display" id="menu-toggler"
+				data-target="#sidebar">
+				<span class="sr-only">Toggle sidebar</span>
+
+				<span class="icon-bar"></span>
+
+				<span class="icon-bar"></span>
+
+				<span class="icon-bar"></span>
+			</button>
+
+			<div class="navbar-header pull-left">
+				<a href="./leader.html" class="navbar-brand">
+					<small>
+						<i class="fa fa-leaf"></i>
+						智慧校园管理系统(行政端)
+					</small>
+				</a>
+			</div>
+			<div class="navbar-buttons navbar-header pull-right" role="navigation">
+				<ul class="nav ace-nav" style="">
+
+
+					<li class="light-blue dropdown-modal">
+						<a data-toggle="dropdown" href="#" class="dropdown-toggle" aria-expanded="false" id="ID">
+							<img class="nav-user-photo" src="../专业团队.webp" alt="Jason's Photo">
+
+
+
+						</a>
+
+						<ul
+							class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+							<li>
+								<a href="#">
+									<i class="ace-icon fa fa-cog"></i>
+									Settings
+								</a>
+							</li>
+
+							<li>
+								<a href="login_leader.html">
+									<i class="ace-icon fa fa-user"></i>
+									Login
+								</a>
+							</li>
+
+							<li class="divider"></li>
+
+							<li>
+								<a href="javascript:loginOut();">
+									<i class="ace-icon fa fa-power-off"></i>
+									Logout
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="navbar-buttons navbar-header pull-right" role="navigation">
+
+			</div>
+		</div><!-- /.navbar-container -->
+	</div>
+
+	<div class="main-container ace-save-state" id="main-container">
+		<script type="text/javascript">
+			try { ace.settings.loadState('main-container') } catch (e) { }
+		</script>
+
+		<div id="sidebar" class="sidebar                  responsive                    ace-save-state display"
+			data-sidebar="true" data-sidebar-scroll="true" data-sidebar-hover="true">
+			<script type="text/javascript">
+				try { ace.settings.loadState('sidebar') } catch (e) { }
+			</script>
+
+			<!-- /.sidebar-shortcuts -->
+
+			<ul class="nav nav-list" style="top: 0px;">
+				<li class="active">
+					<a href="./leader.html">
+						<i class="menu-icon fa fa-tachometer"></i>
+						<span class="menu-text"> 会议通知 </span>
+					</a>
+
+					<b class="arrow"></b>
+				</li>
+
+				<li class="">
+					<a href="#" class="dropdown-toggle">
+						<i class="menu-icon fa fa-desktop"></i>
+						<span class="menu-text">
+							教职工信息
+						</span>
+
+						<b class="arrow fa fa-angle-down"></b>
+					</a>
+
+					<b class="arrow"></b>
+
+					<ul class="submenu nav-hide" style="display: none;">
+
+
+
+						<li class="">
+							<a href="./address_book.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								通讯录
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+						<li class="">
+							<a href="./teacher_evaluation.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								教学质量
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+						<li class="">
+							<a href="./teacher_info.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								教师信息
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+
+					</ul>
+				</li>
+
+				<li class="">
+					<a href="#" class="dropdown-toggle">
+						<i class="menu-icon fa fa-list"></i>
+						<span class="menu-text"> 工作任务 </span>
+
+						<b class="arrow fa fa-angle-down"></b>
+					</a>
+
+					<b class="arrow"></b>
+
+					<ul class="submenu">
+
+
+						<li class="">
+							<a href="./work_plan.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								工作计划安排
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+						<li class="">
+							<a href="./backlog.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								待办公文
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+					</ul>
+				</li>
+
+				<li class="">
+					<a href="http://ace.jeka.by/index.html#" class="dropdown-toggle">
+						<i class="menu-icon fa fa-pencil-square-o"></i>
+						<span class="menu-text"> 学生信息 </span>
+
+						<b class="arrow fa fa-angle-down"></b>
+					</a>
+
+					<b class="arrow"></b>
+
+					<ul class="submenu">
+
+
+						<li class="">
+							<a href="./origin.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								生源地&入学率
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+
+
+					</ul>
+				</li>
+
+				<li class="">
+					<a href="http://ace.jeka.by/index.html#" class="dropdown-toggle">
+						<i class="menu-icon fa fa-tag"></i>
+						<span class="menu-text"> 更多 </span>
+
+						<b class="arrow fa fa-angle-down"></b>
+					</a>
+
+					<b class="arrow"></b>
+
+					<ul class="submenu">
+						<li class="">
+							<a href="./specialty_instruction.html">
+								<i class="menu-icon fa fa-caret-right"></i>
+								学院专业信息
+							</a>
+
+							<b class="arrow"></b>
+						</li>
+
+					</ul>
+				</li>
+			</ul><!-- /.nav-list -->
+
+			<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+				<i id="sidebar-toggle-icon" class="ace-icon fa fa-angle-double-left ace-save-state"
+					data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+			</div>
+		</div>
+
+		<div class="main-content">
+			<div class="main-content-inner">
+				<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+					<ul class="breadcrumb">
+						<li>
+							<i class="ace-icon fa fa-home home-icon"></i>
+							<a href="./leader.html">首页</a>
+						</li>
+						<li class="active">学生信息</li>
+						<li class="active">生源地&入学率</li>
+
+					</ul><!-- /.breadcrumb -->
+
+					<div class="nav-search" id="nav-search">
+						<form class="form-search">
+							<span class="input-icon">
+								<input type="text" placeholder="Search ..." class="nav-search-input"
+									id="nav-search-input" autocomplete="off">
+								<i class="ace-icon fa fa-search nav-search-icon"></i>
+							</span>
+						</form>
+					</div><!-- /.nav-search -->
+				</div>
+
+				<div class="page-content">
+					<div class="ace-settings-container" id="ace-settings-container">
+						<div class="btn btn-app btn-xs btn-warning ace-settings-btn" id="ace-settings-btn">
+							<i class="ace-icon fa fa-cog bigger-130"></i>
+						</div>
+
+						<div class="ace-settings-box clearfix" id="ace-settings-box">
+							<div class="pull-left width-50">
+								<div class="ace-settings-item">
+									<div class="pull-left">
+										<select id="skin-colorpicker" class="hide">
+											<option data-skin="no-skin" value="#438EB9">#438EB9</option>
+											<option data-skin="skin-1" value="#222A2D">#222A2D</option>
+											<option data-skin="skin-2" value="#C6487E">#C6487E</option>
+											<option data-skin="skin-3" value="#D0D0D0">#D0D0D0</option>
+										</select>
+										<div class="dropdown dropdown-colorpicker"> <a data-toggle="dropdown"
+												class="dropdown-toggle"><span class="btn-colorpicker"
+													style="background-color:#438EB9"></span></a>
+											<ul class="dropdown-menu dropdown-caret">
+												<li><a class="colorpick-btn selected" style="background-color:#438EB9;"
+														data-color="#438EB9"></a></li>
+												<li><a class="colorpick-btn" style="background-color:#222A2D;"
+														data-color="#222A2D"></a></li>
+												<li><a class="colorpick-btn" style="background-color:#C6487E;"
+														data-color="#C6487E"></a></li>
+												<li><a class="colorpick-btn" style="background-color:#D0D0D0;"
+														data-color="#D0D0D0"></a></li>
+											</ul>
+										</div>
+										<div class="dropdown dropdown-colorpicker"> <a data-toggle="dropdown"
+												class="dropdown-toggle"><span class="btn-colorpicker"
+													style="background-color:#438EB9"></span></a>
+											<ul class="dropdown-menu dropdown-caret">
+												<li><a class="colorpick-btn selected" style="background-color:#438EB9;"
+														data-color="#438EB9"></a></li>
+												<li><a class="colorpick-btn" style="background-color:#222A2D;"
+														data-color="#222A2D"></a></li>
+												<li><a class="colorpick-btn" style="background-color:#C6487E;"
+														data-color="#C6487E"></a></li>
+												<li><a class="colorpick-btn" style="background-color:#D0D0D0;"
+														data-color="#D0D0D0"></a></li>
+											</ul>
+										</div>
+									</div>
+									<span>&nbsp; Choose Skin</span>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+										id="ace-settings-navbar" autocomplete="off">
+									<label class="lbl" for="ace-settings-navbar"> Fixed Navbar</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+										id="ace-settings-sidebar" autocomplete="off">
+									<label class="lbl" for="ace-settings-sidebar"> Fixed Sidebar</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+										id="ace-settings-breadcrumbs" autocomplete="off">
+									<label class="lbl" for="ace-settings-breadcrumbs"> Fixed Breadcrumbs</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl"
+										autocomplete="off">
+									<label class="lbl" for="ace-settings-rtl"> Right To Left (rtl)</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+										id="ace-settings-add-container" autocomplete="off">
+									<label class="lbl" for="ace-settings-add-container">
+										Inside
+										<b>.container</b>
+									</label>
+								</div>
+							</div><!-- /.pull-left -->
+
+							<div class="pull-left width-50">
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-hover"
+										autocomplete="off">
+									<label class="lbl" for="ace-settings-hover"> Submenu on Hover</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-compact"
+										autocomplete="off">
+									<label class="lbl" for="ace-settings-compact"> Compact Sidebar</label>
+								</div>
+
+								<div class="ace-settings-item">
+									<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-highlight"
+										autocomplete="off">
+									<label class="lbl" for="ace-settings-highlight"> Alt. Active Item</label>
+								</div>
+							</div><!-- /.pull-left -->
+						</div><!-- /.ace-settings-box -->
+					</div><!-- /.ace-settings-container -->
+
+					<div class="page-header">
+						<h1>
+							生源统计
+
+						</h1>
+					</div><!-- /.page-header -->
+
+					<div class="row">
+						<div class="col-xs-12">
+							<!-- PAGE CONTENT BEGINS -->
+
+
+							<div class="row">
+								<div class="space-6"></div>
+
+
+
+								<div class="vspace-12-sm"></div>
+
+								<div class="col-sm-5">
+									<div class="widget-box">
+										<div class="widget-header widget-header-flat widget-header-small">
+											<h5 class="widget-title">
+												<i class="ace-icon fa fa-signal"></i>
+												生源地统计
+											</h5>
+
+											<div class="widget-toolbar no-border">
+												<div class="inline dropdown-hover">
+													<button class="btn btn-minier btn-primary">
+														统计结果
+													</button>
+
+
+												</div>
+											</div>
+										</div>
+
+										<div class="widget-body">
+											<div class="widget-main">
+												<div id="piechart-placeholder"
+													style="width: 90%; min-height: 150px; padding: 0px; position: relative;">
+													<canvas class="flot-base" width="1117" height="375"
+														style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 447px; height: 150px;"></canvas><canvas
+														class="flot-overlay" width="1117" height="375"
+														style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 447px; height: 150px;"></canvas>
+
+													<div class="legend">
+														<div
+															style="position: absolute; width: 66px; height: 154px; top: 15px; right: -30px; background-color: rgb(255, 255, 255); opacity: 0.85;">
+														</div>
+														<table
+															style="position:absolute;top:15px;right:-30px;;font-size:smaller;color:#545454">
+															<tbody>
+																<tr>
+																	<td class="legendColorBox">
+																		<div style="border:1px solid null;padding:1px">
+																			<div
+																				style="width:4px;height:0;border:5px solid #68BC31;overflow:hidden">
+																			</div>
+																		</div>
+																	</td>
+																	<td class="legendLabel">川渝地区</td>
+																</tr>
+																<tr>
+																	<td class="legendColorBox">
+																		<div style="border:1px solid null;padding:1px">
+																			<div
+																				style="width:4px;height:0;border:5px solid #2091CF;overflow:hidden">
+																			</div>
+																		</div>
+																	</td>
+																	<td class="legendLabel">云南</td>
+																</tr>
+																<tr>
+																	<td class="legendColorBox">
+																		<div style="border:1px solid null;padding:1px">
+																			<div
+																				style="width:4px;height:0;border:5px solid #AF4E96;overflow:hidden">
+																			</div>
+																		</div>
+																	</td>
+																	<td class="legendLabel">贵州</td>
+																</tr>
+																<tr>
+																	<td class="legendColorBox">
+																		<div style="border:1px solid null;padding:1px">
+																			<div
+																				style="width:4px;height:0;border:5px solid #DA5430;overflow:hidden">
+																			</div>
+																		</div>
+																	</td>
+																	<td class="legendLabel">东北地区</td>
+																</tr>
+																<tr>
+																	<td class="legendColorBox">
+																		<div style="border:1px solid null;padding:1px">
+																			<div
+																				style="width:4px;height:0;border:5px solid #FEE074;overflow:hidden">
+																			</div>
+																		</div>
+																	</td>
+																	<td class="legendLabel">东南地区</td>
+																</tr>
+																<tr>
+																	<td class="legendColorBox">
+																		<div style="border:1px solid null;padding:1px">
+																			<div
+																				style="width:4px;height:0;border:5px solid #f3f3f3;overflow:hidden">
+																			</div>
+																		</div>
+																	</td>
+																	<td class="legendLabel">新疆</td>
+																</tr>
+																<tr>
+																	<td class="legendColorBox">
+																		<div style="border:1px solid null;padding:1px">
+																			<div
+																				style="width:4px;height:0;border:5px solid #FEA060;overflow:hidden">
+																			</div>
+																		</div>
+																	</td>
+																	<td class="legendLabel">其他</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+
+												<div class="hr hr8 hr-double"></div>
+
+												<div class="clearfix">
+													<div class="grid3">
+														<span class="grey">
+															&nbsp; 少数民族
+														</span>
+														<h4 class="bigger pull-right">4%</h4>
+													</div>
+
+													<div class="grid3">
+														<span class="grey">
+															&nbsp; 留学生
+														</span>
+														<h4 class="bigger pull-right">0.8%</h4>
+													</div>
+
+
+												</div>
+											</div><!-- /.widget-main -->
+										</div><!-- /.widget-body -->
+									</div><!-- /.widget-box -->
+								</div><!-- /.col -->
+								<div class="col-sm-6" style="margin-left: 100px;">
+									<h3 class="header smaller lighter green">入学率统计</h3>
+
+									<div class="row">
+										<div class="col-xs-8" id="showData">
+<!--											<div class="progress pos-rel" data-percent="100%">-->
+<!--												<div class="progress-bar progress-bar-success" style="width:100%">-->
+<!--													<div class="text" style="float: left;">计算机(400)</div>-->
+<!--												</div>-->
+<!--											</div>-->
+<!--											<div class="progress pos-rel" data-percent="98%">-->
+<!--												<div class="progress-bar progress-bar-success" style="width:98%">-->
+<!--													<div class="text" style="float: left;">历史(100)</div>-->
+<!--												</div>-->
+<!--											</div>-->
+<!--											<div class="progress pos-rel" data-percent="93%">-->
+<!--												<div class="progress-bar progress-bar-warning" style="width:93%">-->
+<!--													<div class="text" style="float: left;">公共管理学院(206)</div>-->
+<!--												</div>-->
+<!--											</div>-->
+<!--											<div class="progress pos-rel" data-percent="100%">-->
+<!--												<div class="progress-bar progress-bar-success" style="width:100%">-->
+<!--													<div class="text" style="float: left;">软件学院(203)</div>-->
+<!--												</div>-->
+<!--											</div>-->
+<!--											<div class="progress pos-rel" data-percent="100%">-->
+<!--												<div class="progress-bar progress-bar-success" style="width:100%">-->
+<!--													<div class="text" style="float: left;">华西公告卫生院(300)</div>-->
+<!--												</div>-->
+<!--											</div>-->
+<!--											<div class="progress pos-rel" data-percent="99%">-->
+<!--												<div class="progress-bar progress-bar-success" style="width:99%">-->
+<!--													<div class="text" style="float: left;">法学院(189)</div>-->
+<!--												</div>-->
+<!--											</div>-->
+<!--											<div class="progress pos-rel" data-percent="98%">-->
+<!--												<div class="progress-bar progress-bar-success" style="width:98%">-->
+<!--													<div class="text" style="float: left;">文学与新闻学学院(300)</div>-->
+<!--												</div>-->
+<!--											</div>-->
+										</div><!-- /.col -->
+
+										<div class="col-xs-4 center">
+
+
+
+<!--											<div class="easy-pie-chart percentage" data-percent="0.3"-->
+<!--												data-color="#D15B47"-->
+<!--												style="height: 50px; width: 50px; line-height: 49px; color: rgb(209, 91, 71);">-->
+<!--												未报到-->
+<!--												<span class="percent">0.3</span>%-->
+<!--												<canvas height="187" width="187"-->
+<!--													style="height: 75px; width: 75px;"></canvas>-->
+<!--												<canvas height="125" width="125"-->
+<!--													style="height: 50px; width: 50px;"></canvas>-->
+<!--											</div>-->
+<!--											<br>-->
+<!--											<br>-->
+<!--											<br>-->
+<!--											<div class="easy-pie-chart percentage" data-percent="96"-->
+<!--												data-color="#87B87F"-->
+<!--												style="height: 75px; width: 75px; line-height: 74px; color: rgb(135, 184, 127); margin-top: 30px;">-->
+<!--												入住-->
+<!--												<span class="percent">96</span>%-->
+<!--												<canvas height="187" width="187"-->
+<!--													style="height: 75px; width: 75px;"></canvas>-->
+<!--											</div>-->
+
+
+										</div><!-- /.col -->
+									</div><!-- /.row -->
+								</div>
+							</div>
+
+
+
+
+
+
+
+
+
+							<!-- PAGE CONTENT ENDS -->
+						</div><!-- /.col -->
+
+					</div><!-- /.row -->
+				</div><!-- /.page-content -->
+			</div>
+
+		</div><!-- /.main-content -->
+
+		<div class="footer">
+			<div class="footer-inner">
+				<div class="footer-content">
+					<span class="bigger-120">
+						<span class="blue bolder">专业团队</span>
+						© 2022
+					</span>
+
+					&nbsp; &nbsp;
+
+				</div>
+			</div>
+		</div>
+
+		<a href="http://ace.jeka.by/index.html#" id="btn-scroll-up"
+			class="btn-scroll-up btn btn-sm btn-inverse display">
+			<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+		</a>
+	</div><!-- /.main-container -->
+
+	<!-- basic scripts -->
+
+	<!--[if !IE]> -->
+	<script src="./统计1_files/jquery-2.1.4.min.js.下载"></script>
+
+	<!-- <![endif]-->
+
+	<!--[if IE]>
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<![endif]-->
+	<script type="text/javascript">
+		if ('ontouchstart' in document.documentElement) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>" + "<" + "/script>");
+	</script>
+	<script src="./统计1_files/bootstrap.min.js.下载"></script>
+
+	<!-- page specific plugin scripts -->
+
+	<!--[if lte IE 8]>
+		  <script src="assets/js/excanvas.min.js"></script>
+		<![endif]-->
+	<script src="./统计1_files/jquery-ui.custom.min.js.下载"></script>
+	<script src="./统计1_files/jquery.ui.touch-punch.min.js.下载"></script>
+	<script src="./统计1_files/jquery.easypiechart.min.js.下载"></script>
+	<script src="./统计1_files/jquery.sparkline.index.min.js.下载"></script>
+	<script src="./统计1_files/jquery.flot.min.js.下载"></script>
+	<script src="./统计1_files/jquery.flot.pie.min.js.下载"></script>
+	<script src="./统计1_files/jquery.flot.resize.min.js.下载"></script>
+
+	<!-- ace scripts -->
+	<script src="./统计1_files/ace-elements.min.js.下载"></script>
+	<script src="./统计1_files/ace.min.js.下载"></script>
+
+	<!-- inline scripts related to this page -->
+	<script type="text/javascript">
+		jQuery(function ($) {
+			var temp = window.localStorage.getItem("leaderInfo");
+			// var sid = JSON.parse(temp).sid;
+			// var data = JSON.parse('{"sId":"'+ sid + '"}');
+			if(temp == null){
+				$('#ID').append("请您登录!");
+			} else {
+				var adminid = JSON.parse(temp).adminid;
+				//var name = JSON.parse(temp).name;
+				var data = JSON.parse('{"tid":"'+ adminid + '"}');
+				$("#ID").append("欢迎您! " + adminid);
+			}
+			$('.easy-pie-chart.percentage').each(function () {
+				var $box = $(this).closest('.infobox');
+				var barColor = $(this).data('color') || (!$box.hasClass('infobox-dark') ? $box.css('color') : 'rgba(255,255,255,0.95)');
+				var trackColor = barColor == 'rgba(255,255,255,0.95)' ? 'rgba(255,255,255,0.25)' : '#E2E2E2';
+				var size = parseInt($(this).data('size')) || 50;
+				$(this).easyPieChart({
+					barColor: barColor,
+					trackColor: trackColor,
+					scaleColor: false,
+					lineCap: 'butt',
+					lineWidth: parseInt(size / 10),
+					animate: ace.vars['old_ie'] ? false : 1000,
+					size: size
+				});
+			})
+
+			$('.sparkline').each(function () {
+				var $box = $(this).closest('.infobox');
+				var barColor = !$box.hasClass('infobox-dark') ? $box.css('color') : '#FFF';
+				$(this).sparkline('html',
+					{
+						tagValuesAttribute: 'data-values',
+						type: 'bar',
+						barColor: barColor,
+						chartRangeMin: $(this).data('min') || 0
+					});
+			});
+
+
+			//flot chart resize plugin, somehow manipulates default browser resize event to optimize it!
+			//but sometimes it brings up errors with normal resize event handlers
+			$.resize.throttleWindow = false;
+
+			var placeholder = $('#piechart-placeholder').css({ 'width': '90%', 'min-height': '150px' });
+			$.post("/student/enter_rate").then(res=>{
+				console.log(res);
+				if(res.code==200){
+					var str='';
+					$(res.datas).each((index, item)=>{
+						var str1=item.count_rate*100;
+						if(str1>=90){
+							str +=  '<div class="progress pos-rel" data-percent="'+str1+'%">\n'+
+									'<div class="progress-bar progress-bar-success" style="width:'+str1+'%">\n'+
+									'<div class="text" style="float: left;">'+item.deptName+'('+item.count_all+')'+"</div>\n"+
+									'</div>\n'+'</div>\n'
+						}
+						else if(str1<90 && str1>=60){
+							str +=  '<div class="progress pos-rel" data-percent="'+str1+'%">\n'+
+									'<div class="progress-bar progress-bar-warning" style="width:'+str1+'%">\n'+
+									'<div class="text" style="float: left;">'+item.deptName+'('+item.count_all+')'+"</div>\n"+
+									'</div>\n'+'</div>\n'
+						}
+						else {
+							str +=  '<div class="progress pos-rel" data-percent="'+str1+'%">\n'+
+									'<div class="progress-bar progress-bar-danger" style="width:'+str1+'%">\n'+
+									'<div class="text" style="float: left;">'+item.deptName+'('+item.count_all+')'+"</div>\n"+
+									'</div>\n'+'</div>\n'
+						}
+
+					});
+					$("#showData").prepend(str);
+
+				}else {
+					alert("初始化失败!");
+				}
+			});
+
+
+
+			$.post("/student/statistic").then(res=>{
+				if(res.code==200) {
+					var data = [
+						{label: "川渝地区", data: res.datas[4].count_home, color: "#68BC31"},
+						{label: "云南", data: res.datas[2].count_home, color: "#2091CF"},
+						{label: "贵州", data: res.datas[6].count_home, color: "#AF4E96"},
+						{label: "东北地区", data: res.datas[0].count_home, color: "#DA5430"},
+						{label: "东南地区", data: res.datas[1].count_home, color: "#FEE074"},
+						{label: "新疆", data: res.datas[5].count_home, color: "#f3f3f3"},
+						{label: "其他", data: res.datas[3].count_home, color: "#FEA060"},
+					]
+
+					function drawPieChart(placeholder, data, position) {
+						$.plot(placeholder, data, {
+							series: {
+								pie: {
+									show: true,
+									tilt: 0.8,
+									highlight: {
+										opacity: 0.25
+									},
+									stroke: {
+										color: '#fff',
+										width: 2
+									},
+									startAngle: 2
+								}
+							},
+							legend: {
+								show: true,
+								position: position || "ne",
+								labelBoxBorderColor: null,
+								margin: [-30, 15]
+							}
+							,
+							grid: {
+								hoverable: true,
+								clickable: true
+							}
+						})
+					}
+
+					drawPieChart(placeholder, data);
+
+					/**
+					 we saved the drawing function and the data to redraw with different position later when switching to RTL mode dynamically
+					 so that's not needed actually.
+					 */
+					placeholder.data('chart', data);
+					placeholder.data('draw', drawPieChart);
+				}
+				else {
+					alert("初始化失败!");
+				}
+			});
+
+			//pie chart tooltip example
+			var $tooltip = $("<div class='tooltip top in'><div class='tooltip-inner'></div></div>").hide().appendTo('body');
+			var previousPoint = null;
+
+			placeholder.on('plothover', function (event, pos, item) {
+				if (item) {
+					if (previousPoint != item.seriesIndex) {
+						previousPoint = item.seriesIndex;
+						var tip = item.series['label'] + " : " + item.series['percent'] + '%';
+						$tooltip.show().children(0).text(tip);
+					}
+					$tooltip.css({ top: pos.pageY + 10, left: pos.pageX + 10 });
+				} else {
+					$tooltip.hide();
+					previousPoint = null;
+				}
+
+			});
+
+			/////////////////////////////////////
+			$(document).one('ajaxloadstart.page', function (e) {
+				$tooltip.remove();
+			});
+
+
+
+
+			var d1 = [];
+			for (var i = 0; i < Math.PI * 2; i += 0.5) {
+				d1.push([i, Math.sin(i)]);
+			}
+
+			var d2 = [];
+			for (var i = 0; i < Math.PI * 2; i += 0.5) {
+				d2.push([i, Math.cos(i)]);
+			}
+
+			var d3 = [];
+			for (var i = 0; i < Math.PI * 2; i += 0.2) {
+				d3.push([i, Math.tan(i)]);
+			}
+
+
+			var sales_charts = $('#sales-charts').css({ 'width': '100%', 'height': '220px' });
+			$.plot("#sales-charts", [
+				{ label: "Domains", data: d1 },
+				{ label: "Hosting", data: d2 },
+				{ label: "Services", data: d3 }
+			], {
+				hoverable: true,
+				shadowSize: 0,
+				series: {
+					lines: { show: true },
+					points: { show: true }
+				},
+				xaxis: {
+					tickLength: 0
+				},
+				yaxis: {
+					ticks: 10,
+					min: -2,
+					max: 2,
+					tickDecimals: 3
+				},
+				grid: {
+					backgroundColor: { colors: ["#fff", "#fff"] },
+					borderWidth: 1,
+					borderColor: '#555'
+				}
+			});
+
+
+			$('#recent-box [data-rel="tooltip"]').tooltip({ placement: tooltip_placement });
+			function tooltip_placement(context, source) {
+				var $source = $(source);
+				var $parent = $source.closest('.tab-content')
+				var off1 = $parent.offset();
+				var w1 = $parent.width();
+
+				var off2 = $source.offset();
+				//var w2 = $source.width();
+
+				if (parseInt(off2.left) < parseInt(off1.left) + parseInt(w1 / 2)) return 'right';
+				return 'left';
+			}
+
+
+			$('.dialogs,.comments').ace_scroll({
+				size: 300
+			});
+
+
+			//Android's default browser somehow is confused when tapping on label which will lead to dragging the task
+			//so disable dragging when clicking on label
+			var agent = navigator.userAgent.toLowerCase();
+			if (ace.vars['touch'] && ace.vars['android']) {
+				$('#tasks').on('touchstart', function (e) {
+					var li = $(e.target).closest('#tasks li');
+					if (li.length == 0) return;
+					var label = li.find('label.inline').get(0);
+					if (label == e.target || $.contains(label, e.target)) e.stopImmediatePropagation();
+				});
+			}
+
+			$('#tasks').sortable({
+				opacity: 0.8,
+				revert: true,
+				forceHelperSize: true,
+				placeholder: 'draggable-placeholder',
+				forcePlaceholderSize: true,
+				tolerance: 'pointer',
+				stop: function (event, ui) {
+					//just for Chrome!!!! so that dropdowns on items don't appear below other items after being moved
+					$(ui.item).css('z-index', 'auto');
+				}
+			}
+			);
+			$('#tasks').disableSelection();
+			$('#tasks input:checkbox').removeAttr('checked').on('click', function () {
+				if (this.checked) $(this).closest('li').addClass('selected');
+				else $(this).closest('li').removeClass('selected');
+			});
+
+
+			//show the dropdowns on top or bottom depending on window height and menu position
+			$('#task-tab .dropdown-hover').on('mouseenter', function (e) {
+				var offset = $(this).offset();
+
+				var $w = $(window)
+				if (offset.top > $w.scrollTop() + $w.innerHeight() - 100)
+					$(this).addClass('dropup');
+				else $(this).removeClass('dropup');
+			});
+
+		})
+		window.loginOut = function() {
+			$.get("/leaderLoginOut").then(res => {
+				window.localStorage.removeItem("leaderInfo");
+				window.location.href = "login_leader.html";
+			});
+		}
+	</script>
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+			(function (d, w, c) {
+				(w[c] = w[c] || []).push(function () {
+					try {
+						w.yaCounter25836836 = new Ya.Metrika({
+							id: 25836836,
+							webvisor: true,
+							clickmap: true,
+							trackLinks: true,
+							accurateTrackBounce: true
+						});
+					} catch (e) { }
+				});
+
+				var n = d.getElementsByTagName("script")[0],
+					s = d.createElement("script"),
+					f = function () { n.parentNode.insertBefore(s, n); };
+				s.type = "text/javascript";
+				s.async = true;
+				s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+				if (w.opera == "[object Opera]") {
+					d.addEventListener("DOMContentLoaded", f, false);
+				} else { f(); }
+			})(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript>
+		<div><img src="//mc.yandex.ru/watch/25836836" style="position:absolute; left:-9999px;" alt="" /></div>
+	</noscript>
+	<!-- /Yandex.Metrika counter -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-38894584-2', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+
+
+	<div class="tooltip top in" style="top: 377px; left: 1000px; display: none;">
+		<div class="tooltip-inner">search engines : 24.5%</div>
+	</div>
+	<!-- Code injected by live-server -->
+	<script type="text/javascript">
+		// <![CDATA[  <-- For SVG support
+		if ('WebSocket' in window) {
+			(function () {
+				function refreshCSS() {
+					var sheets = [].slice.call(document.getElementsByTagName("link"));
+					var head = document.getElementsByTagName("head")[0];
+					for (var i = 0; i < sheets.length; ++i) {
+						var elem = sheets[i];
+						var parent = elem.parentElement || head;
+						parent.removeChild(elem);
+						var rel = elem.rel;
+						if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+							var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+							elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+						}
+						parent.appendChild(elem);
+					}
+				}
+				var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+				var address = protocol + window.location.host + window.location.pathname + '/ws';
+				var socket = new WebSocket(address);
+				socket.onmessage = function (msg) {
+					if (msg.data == 'reload') window.location.reload();
+					else if (msg.data == 'refreshcss') refreshCSS();
+				};
+				if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+					console.log('Live reload enabled.');
+					sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+				}
+			})();
+		}
+		else {
+			console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+		}
+
+	// ]]>
+	</script>
+
+	<div class="tooltip top in" style="display: none;">
+		<div class="tooltip-inner"></div>
+	</div>
+</body>
+
+</html>

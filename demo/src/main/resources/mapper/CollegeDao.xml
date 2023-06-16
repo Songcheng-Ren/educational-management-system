@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scu.springboot.demo.dao.CollegeDao">
+
+    <resultMap type="com.scu.springboot.demo.entity.College" id="CollegeMap">
+        <result property="college" column="college" jdbcType="VARCHAR"/>
+        <result property="major" column="major" jdbcType="VARCHAR"/>
+        <result property="introduction" column="introduction" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="CollegeMap">
+        select
+          college, major, introduction
+        from college
+        where major = #{major}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="CollegeMap">
+        select
+          college, major, introduction
+        from college
+        <where>
+            <if test="college != null and college != ''">
+                and college = #{college}
+            </if>
+            <if test="major != null and major != ''">
+                and major = #{major}
+            </if>
+            <if test="introduction != null and introduction != ''">
+                and introduction = #{introduction}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from college
+        <where>
+            <if test="college != null and college != ''">
+                and college = #{college}
+            </if>
+            <if test="major != null and major != ''">
+                and major = #{major}
+            </if>
+            <if test="introduction != null and introduction != ''">
+                and introduction = #{introduction}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="major" useGeneratedKeys="true">
+        insert into college(college, introduction)
+        values (#{college}, #{introduction})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="major" useGeneratedKeys="true">
+        insert into college(college, introduction)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.college}, #{entity.introduction})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="major" useGeneratedKeys="true">
+        insert into college(college, introduction)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.college}, #{entity.introduction})
+        </foreach>
+        on duplicate key update
+        college = values(college),
+        introduction = values(introduction)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update college
+        <set>
+            <if test="college != null and college != ''">
+                college = #{college},
+            </if>
+            <if test="introduction != null and introduction != ''">
+                introduction = #{introduction},
+            </if>
+        </set>
+        where major = #{major}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from college where major = #{major}
+    </delete>
+
+    <select id="getAllMajor">
+        select * from college
+    </select>
+</mapper>
+

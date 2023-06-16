@@ -1,0 +1,1 @@
+本项目是一个教务管理系统，基于Springboot+jquery+mysql。

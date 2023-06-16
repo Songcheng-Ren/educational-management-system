@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scu.springboot.demo.dao.ExamDao">
+
+    <resultMap type="com.scu.springboot.demo.entity.Exam" id="ExamMap">
+        <result property="courseId" column="course_id" jdbcType="VARCHAR"/>
+        <result property="secId" column="sec_id" jdbcType="VARCHAR"/>
+        <result property="semester" column="semester" jdbcType="VARCHAR"/>
+        <result property="year" column="year" jdbcType="VARCHAR"/>
+        <result property="examId" column="exam_id" jdbcType="INTEGER"/>
+        <result property="building" column="building" jdbcType="VARCHAR"/>
+        <result property="roomNo" column="room_no" jdbcType="INTEGER"/>
+        <result property="time" column="time" jdbcType="TIMESTAMP"/>
+        <result property="duration" column="duration" jdbcType="VARCHAR"/>
+    </resultMap>
+    <resultMap type="com.scu.springboot.demo.vo.ExamVo" id="ExamVoMap">
+        <result property="courseId" column="course_id" jdbcType="VARCHAR"/>
+        <result property="secId" column="sec_id" jdbcType="VARCHAR"/>
+        <result property="semester" column="semester" jdbcType="VARCHAR"/>
+        <result property="year" column="year" jdbcType="VARCHAR"/>
+        <result property="examId" column="exam_id" jdbcType="INTEGER"/>
+        <result property="building" column="building" jdbcType="VARCHAR"/>
+        <result property="roomNo" column="room_no" jdbcType="INTEGER"/>
+        <result property="time" column="time" jdbcType="TIMESTAMP"/>
+        <result property="duration" column="duration" jdbcType="VARCHAR"/>
+        <result property="course_name" column="course_name" jdbcType="VARCHAR"/>
+        <result property="sid" column="sID" jdbcType="VARCHAR"/>
+    </resultMap>
+    <resultMap type="com.scu.springboot.demo.vo.Teacher_scheduleVo" id="Teacher_scheduleVoMap">
+        <result property="courseId" column="course_id" jdbcType="VARCHAR"/>
+        <result property="secId" column="sec_id" jdbcType="VARCHAR"/>
+        <result property="semester" column="semester" jdbcType="VARCHAR"/>
+        <result property="year" column="year" jdbcType="VARCHAR"/>
+        <result property="examId" column="exam_id" jdbcType="INTEGER"/>
+        <result property="building" column="building" jdbcType="VARCHAR"/>
+        <result property="roomNo" column="room_no" jdbcType="INTEGER"/>
+        <result property="time" column="time" jdbcType="TIMESTAMP"/>
+        <result property="duration" column="duration" jdbcType="VARCHAR"/>
+        <result property="course_name" column="course_name" jdbcType="VARCHAR"/>
+        <result property="tid" column="tID" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="ExamMap">
+        select
+          course_id, sec_id, semester, year, exam_id, building, room_no, time, duration
+        from exam
+        where exam_id = #{examId}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="ExamMap">
+        select
+          course_id, sec_id, semester, year, exam_id, building, room_no, time, duration
+        from exam
+        <where>
+            <if test="courseId != null and courseId != ''">
+                and course_id = #{courseId}
+            </if>
+            <if test="secId != null and secId != ''">
+                and sec_id = #{secId}
+            </if>
+            <if test="semester != null and semester != ''">
+                and semester = #{semester}
+            </if>
+            <if test="year != null and year != ''">
+                and year = #{year}
+            </if>
+            <if test="examId != null">
+                and exam_id = #{examId}
+            </if>
+            <if test="building != null and building != ''">
+                and building = #{building}
+            </if>
+            <if test="roomNo != null">
+                and room_no = #{roomNo}
+            </if>
+            <if test="time != null">
+                and time = #{time}
+            </if>
+            <if test="duration != null and duration != ''">
+                and duration = #{duration}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from exam
+        <where>
+            <if test="courseId != null and courseId != ''">
+                and course_id = #{courseId}
+            </if>
+            <if test="secId != null and secId != ''">
+                and sec_id = #{secId}
+            </if>
+            <if test="semester != null and semester != ''">
+                and semester = #{semester}
+            </if>
+            <if test="year != null and year != ''">
+                and year = #{year}
+            </if>
+            <if test="examId != null">
+                and exam_id = #{examId}
+            </if>
+            <if test="building != null and building != ''">
+                and building = #{building}
+            </if>
+            <if test="roomNo != null">
+                and room_no = #{roomNo}
+            </if>
+            <if test="time != null">
+                and time = #{time}
+            </if>
+            <if test="duration != null and duration != ''">
+                and duration = #{duration}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="examId" useGeneratedKeys="true">
+        insert into exam(course_id, sec_id, semester, year, building, room_no, time, duration)
+        values (#{courseId}, #{secId}, #{semester}, #{year}, #{building}, #{roomNo}, #{time}, #{duration})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="examId" useGeneratedKeys="true">
+        insert into exam(course_id, sec_id, semester, year, building, room_no, time, duration)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.courseId}, #{entity.secId}, #{entity.semester}, #{entity.year}, #{entity.building}, #{entity.roomNo}, #{entity.time}, #{entity.duration})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="examId" useGeneratedKeys="true">
+        insert into exam(course_id, sec_id, semester, year, building, room_no, time, duration)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.courseId}, #{entity.secId}, #{entity.semester}, #{entity.year}, #{entity.building}, #{entity.roomNo}, #{entity.time}, #{entity.duration})
+        </foreach>
+        on duplicate key update
+        course_id = values(course_id),
+        sec_id = values(sec_id),
+        semester = values(semester),
+        year = values(year),
+        building = values(building),
+        room_no = values(room_no),
+        time = values(time),
+        duration = values(duration)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update exam
+        <set>
+            <if test="courseId != null and courseId != ''">
+                course_id = #{courseId},
+            </if>
+            <if test="secId != null and secId != ''">
+                sec_id = #{secId},
+            </if>
+            <if test="semester != null and semester != ''">
+                semester = #{semester},
+            </if>
+            <if test="year != null and year != ''">
+                year = #{year},
+            </if>
+            <if test="building != null and building != ''">
+                building = #{building},
+            </if>
+            <if test="roomNo != null">
+                room_no = #{roomNo},
+            </if>
+            <if test="time != null">
+                time = #{time},
+            </if>
+            <if test="duration != null and duration != ''">
+                duration = #{duration},
+            </if>
+        </set>
+        where exam_id = #{examId}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from exam where exam_id = #{examId}
+    </delete>
+    <select id="schedule" resultMap="ExamVoMap">
+        select course.title as course_name,building,room_no,exam.time as time ,duration
+        from course,exam,takes
+        where course.course_id=exam.course_id and takes.sID=#{sid} and takes.grade=0 and takes.course_id=exam.course_id
+        and takes.sec_id=exam.sec_id and takes.semester=exam.semester and takes.year=exam.year
+				order by time desc
+    </select>
+    <select id="teacher_schedule" resultMap="Teacher_scheduleVoMap">
+        select course.title as course_name,building,room_no,time,duration
+        from course,exam,teaches
+        where course.course_id=exam.course_id and tID=#{tid} and teaches.course_id=exam.course_id
+          and teaches.sec_id=exam.sec_id and teaches.semester=exam.semester and teaches.year=exam.year
+        order by time desc
+    </select>
+</mapper>
+

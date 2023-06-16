@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>欢迎登陆教务系统学生端</h2>
+        </div>
+
+
+        <div class="pic">
+            <img src="../image/专业团队.webp" alt="" width="200px">
+        </div>
+        <div class="user">
+
+        </div>
+        <div class="login">
+            <form id="studentAccount">
+                <input class="first" type="text" name="sid" placeholder="账号"><br>
+                <input type="password" name="password" id="" placeholder="密码"><br>
+                <button type="button" id="loginButton">登陆</button>
+            </form>
+        </div>
+        <div class="footer">
+            专业团队制作
+        </div>
+    </div>
+    <script type="text/javascript" src="jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="jquery.serializeObject.js"></script>
+    <script type="text/javascript">
+        var storage = window.localStorage;
+        $("#loginButton").click(() => {
+            studentLogin();
+        });
+
+        //用户登录
+        function studentLogin() {
+            var data = $("#studentAccount").serializeObject();
+
+            if(!data.sid){
+                alert("请输入账号");
+                return;
+            }
+            if(!data.password){
+                alert("请输入密码");
+                return;
+            }
+            $.post("/studentLogin", data).then(res => {
+                console.log(res);
+                if(res.code == 200){
+                    storage.setItem("studentInfo", JSON.stringify(res.datas));
+                    window.location.href = "student.html";
+
+                } else {
+                    alert(res.message);
+
+                }
+            })
+
+        }
+
+    </script>
+</body>
+
+</html>

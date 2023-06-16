@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://ace.jeka.by/typography.html -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>首页</title>
+
+    <meta name="description" content="This is page-header (.page-header &gt; h1)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- bootstrap & fontawesome -->
+    <link rel="stylesheet" href="./teacher_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./teacher_files/font-awesome.min.css">
+
+    <!-- page specific plugin styles -->
+    <link rel="stylesheet" href="./teacher_files/prettify.min.css">
+
+    <!-- text fonts -->
+    <link rel="stylesheet" href="./teacher_files/fonts.googleapis.com.css">
+
+    <!-- ace styles -->
+    <link rel="stylesheet" href="./teacher_files/ace.min.css" class="ace-main-stylesheet" id="main-ace-style">
+
+    <!--[if lte IE 9]>
+			<link rel="stylesheet" href="assets/css/ace-part2.min.css" class="ace-main-stylesheet" />
+		<![endif]-->
+    <link rel="stylesheet" href="./teacher_files/ace-skins.min.css">
+    <link rel="stylesheet" href="./teacher_files/ace-rtl.min.css">
+
+    <!--[if lte IE 9]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+    <!-- inline styles related to this page -->
+
+    <!-- ace settings handler -->
+    <script async="" src="./teacher_files/analytics.js.下载"></script>
+    <script type="text/javascript" async="" src="./teacher_files/watch.js.下载"></script>
+    <script src="./teacher_files/ace-extra.min.js.下载"></script>
+    <style>
+        @keyframes nodeInserted {
+            from {
+                outline-color: #fff
+            }
+
+            to {
+                outline-color: #000
+            }
+        }
+
+        @-moz-keyframes nodeInserted {
+            from {
+                outline-color: #fff
+            }
+
+            to {
+                outline-color: #000
+            }
+        }
+
+        @-webkit-keyframes nodeInserted {
+            from {
+                outline-color: #fff
+            }
+
+            to {
+                outline-color: #000
+            }
+        }
+
+        @-ms-keyframes nodeInserted {
+            from {
+                outline-color: #fff
+            }
+
+            to {
+                outline-color: #000
+            }
+        }
+
+        @-o-keyframes nodeInserted {
+            from {
+                outline-color: #fff
+            }
+
+            to {
+                outline-color: #000
+            }
+        }
+
+        .ace-save-state {
+            animation-duration: 10ms;
+            -o-animation-duration: 10ms;
+            -ms-animation-duration: 10ms;
+            -moz-animation-duration: 10ms;
+            -webkit-animation-duration: 10ms;
+            animation-delay: 0s;
+            -o-animation-delay: 0s;
+            -ms-animation-delay: 0s;
+            -moz-animation-delay: 0s;
+            -webkit-animation-delay: 0s;
+            animation-name: nodeInserted;
+            -o-animation-name: nodeInserted;
+            -ms-animation-name: nodeInserted;
+            -moz-animation-name: nodeInserted;
+            -webkit-animation-name: nodeInserted
+        }
+    </style>
+
+    <!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+    <!--[if lte IE 8]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+</head>
+
+<body class="no-skin">
+    <div id="navbar" class="navbar navbar-default          ace-save-state">
+        <div class="navbar-container ace-save-state" id="navbar-container">
+            <button type="button" class="navbar-toggle menu-toggler pull-left display" id="menu-toggler"
+                data-target="#sidebar">
+                <span class="sr-only">Toggle sidebar</span>
+
+                <span class="icon-bar"></span>
+
+                <span class="icon-bar"></span>
+
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="navbar-header pull-left">
+                <a href="./leader.html" class="navbar-brand">
+                    <small>
+                        <i class="fa fa-leaf"></i>
+                        智慧校园管理系统(行政端)
+                    </small>
+                </a>
+            </div>
+            <div class="navbar-buttons navbar-header pull-right" role="navigation">
+
+                <ul class="nav ace-nav" style="">
+
+
+                    <li class="light-blue dropdown-modal">
+                        <a data-toggle="dropdown" href="#" class="dropdown-toggle" aria-expanded="false" id="ID">
+                            <img class="nav-user-photo" src="../专业团队.webp" alt="Jason's Photo">
+
+
+                        </a>
+
+                        <ul
+                            class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+                            <li>
+                                <a href="#">
+                                    <i class="ace-icon fa fa-cog"></i>
+                                    Settings
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="login_leader.html">
+                                    <i class="ace-icon fa fa-user"></i>
+                                    Profile
+                                </a>
+                            </li>
+
+                            <li class="divider"></li>
+
+                            <li>
+                                <a href="javascript:loginOut();">
+                                    <i class="ace-icon fa fa-power-off"></i>
+                                    Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-buttons navbar-header pull-right" role="navigation">
+
+            </div>
+        </div><!-- /.navbar-container -->
+    </div>
+
+    <div class="main-container ace-save-state" id="main-container">
+        <script type="text/javascript">
+            try { ace.settings.loadState('main-container') } catch (e) { }
+        </script>
+
+        <div id="sidebar" class="sidebar                  responsive                    ace-save-state display"
+            data-sidebar="true" data-sidebar-scroll="true" data-sidebar-hover="true">
+            <script type="text/javascript">
+                try { ace.settings.loadState('sidebar') } catch (e) { }
+            </script>
+
+            <!-- /.sidebar-shortcuts -->
+
+            <ul class="nav nav-list" style="top: 0px;">
+                <li class="active">
+                    <a href="./leader.html">
+                        <i class="menu-icon fa fa-tachometer"></i>
+                        <span class="menu-text"> 会议通知 </span>
+                    </a>
+
+                    <b class="arrow"></b>
+                </li>
+
+                <li class="">
+                    <a href="#" class="dropdown-toggle">
+                        <i class="menu-icon fa fa-desktop"></i>
+                        <span class="menu-text">
+                            教职工信息
+                        </span>
+
+                        <b class="arrow fa fa-angle-down"></b>
+                    </a>
+
+                    <b class="arrow"></b>
+
+                    <ul class="submenu nav-hide" style="display: none;">
+
+
+
+                        <li class="">
+                            <a href="./address_book.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                通讯录
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+                        <li class="">
+                            <a href="./teacher_evaluation.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                教学质量
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="">
+                            <a href="./teacher_info.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                教师信息
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+
+                    </ul>
+                </li>
+
+                <li class="">
+                    <a href="#" class="dropdown-toggle">
+                        <i class="menu-icon fa fa-list"></i>
+                        <span class="menu-text"> 工作任务 </span>
+
+                        <b class="arrow fa fa-angle-down"></b>
+                    </a>
+
+                    <b class="arrow"></b>
+
+                    <ul class="submenu">
+
+
+                        <li class="">
+                            <a href="./work_plan.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                工作计划安排
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+                        <li class="">
+                            <a href="./backlog.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                待办公文
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="">
+                    <a href="http://ace.jeka.by/index.html#" class="dropdown-toggle">
+                        <i class="menu-icon fa fa-pencil-square-o"></i>
+                        <span class="menu-text"> 学生信息 </span>
+
+                        <b class="arrow fa fa-angle-down"></b>
+                    </a>
+
+                    <b class="arrow"></b>
+
+                    <ul class="submenu">
+
+
+                        <li class="">
+                            <a href="./origin.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                生源地&入学率
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+
+
+                    </ul>
+                </li>
+
+                <li class="">
+                    <a href="http://ace.jeka.by/index.html#" class="dropdown-toggle">
+                        <i class="menu-icon fa fa-tag"></i>
+                        <span class="menu-text"> 更多 </span>
+
+                        <b class="arrow fa fa-angle-down"></b>
+                    </a>
+
+                    <b class="arrow"></b>
+
+                    <ul class="submenu">
+                        <li class="">
+                            <a href="./specialty_instruction.html">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                学院专业信息
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul><!-- /.nav-list -->
+
+            <div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+                <i id="sidebar-toggle-icon" class="ace-icon fa fa-angle-double-left ace-save-state"
+                    data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="main-content-inner">
+                <div class="breadcrumbs ace-save-state" id="breadcrumbs">
+                    <ul class="breadcrumb">
+                        <li>
+                            <i class="ace-icon fa fa-home home-icon"></i>
+                            <a href="./teacher.html">首页</a>
+                        </li>
+
+
+                    </ul><!-- /.breadcrumb -->
+
+                    <div class="nav-search" id="nav-search">
+                        <form class="form-search">
+                            <span class="input-icon">
+                                <input type="text" placeholder="Search ..." class="nav-search-input"
+                                    id="nav-search-input" autocomplete="off">
+                                <i class="ace-icon fa fa-search nav-search-icon"></i>
+                            </span>
+                        </form>
+                    </div><!-- /.nav-search -->
+                </div>
+
+                <div class="page-content">
+                    <div class="ace-settings-container" id="ace-settings-container">
+
+
+                        <div class="ace-settings-box clearfix" id="ace-settings-box">
+                            <div class="pull-left width-50">
+                                <div class="ace-settings-item">
+                                    <div class="pull-left">
+                                        <select id="skin-colorpicker" class="hide">
+                                            <option data-skin="no-skin" value="#438EB9">#438EB9</option>
+                                            <option data-skin="skin-1" value="#222A2D">#222A2D</option>
+                                            <option data-skin="skin-2" value="#C6487E">#C6487E</option>
+                                            <option data-skin="skin-3" value="#D0D0D0">#D0D0D0</option>
+                                        </select>
+                                        <div class="dropdown dropdown-colorpicker"> <a data-toggle="dropdown"
+                                                class="dropdown-toggle"><span class="btn-colorpicker"
+                                                    style="background-color:#438EB9"></span></a>
+                                            <ul class="dropdown-menu dropdown-caret">
+                                                <li><a class="colorpick-btn selected" style="background-color:#438EB9;"
+                                                        data-color="#438EB9"></a></li>
+                                                <li><a class="colorpick-btn" style="background-color:#222A2D;"
+                                                        data-color="#222A2D"></a></li>
+                                                <li><a class="colorpick-btn" style="background-color:#C6487E;"
+                                                        data-color="#C6487E"></a></li>
+                                                <li><a class="colorpick-btn" style="background-color:#D0D0D0;"
+                                                        data-color="#D0D0D0"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <span>&nbsp; Choose Skin</span>
+                                </div>
+
+                                <div class="ace-settings-item">
+                                    <input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+                                        id="ace-settings-navbar" autocomplete="off">
+                                    <label class="lbl" for="ace-settings-navbar"> Fixed Navbar</label>
+                                </div>
+
+                                <div class="ace-settings-item">
+                                    <input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+                                        id="ace-settings-sidebar" autocomplete="off">
+                                    <label class="lbl" for="ace-settings-sidebar"> Fixed Sidebar</label>
+                                </div>
+
+                                <div class="ace-settings-item">
+                                    <input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+                                        id="ace-settings-breadcrumbs" autocomplete="off">
+                                    <label class="lbl" for="ace-settings-breadcrumbs"> Fixed Breadcrumbs</label>
+                                </div>
+
+                                <div class="ace-settings-item">
+                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl"
+                                        autocomplete="off">
+                                    <label class="lbl" for="ace-settings-rtl"> Right To Left (rtl)</label>
+                                </div>
+
+                                <div class="ace-settings-item">
+                                    <input type="checkbox" class="ace ace-checkbox-2 ace-save-state"
+                                        id="ace-settings-add-container" autocomplete="off">
+                                    <label class="lbl" for="ace-settings-add-container">
+                                        Inside
+                                        <b>.container</b>
+                                    </label>
+                                </div>
+                            </div><!-- /.pull-left -->
+
+                            <div class="pull-left width-50">
+                                <div class="ace-settings-item">
+                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-hover"
+                                        autocomplete="off">
+                                    <label class="lbl" for="ace-settings-hover"> Submenu on Hover</label>
+                                </div>
+
+                                <div class="ace-settings-item">
+                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-compact"
+                                        autocomplete="off">
+                                    <label class="lbl" for="ace-settings-compact"> Compact Sidebar</label>
+                                </div>
+
+                                <div class="ace-settings-item">
+                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-highlight"
+                                        autocomplete="off">
+                                    <label class="lbl" for="ace-settings-highlight"> Alt. Active Item</label>
+                                </div>
+                            </div><!-- /.pull-left -->
+                        </div><!-- /.ace-settings-box -->
+                    </div><!-- /.ace-settings-container -->
+
+                    <div class="page-header">
+                        <h1>
+                            会议通知
+
+                        </h1>
+                    </div><!-- /.page-header -->
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <!-- PAGE CONTENT BEGINS -->
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h4>教务安排 &amp; 活动安排</h4>
+
+                                    <hr>
+                                    <h1>期中考试安排</h1>
+                                    <p class="lead">
+                                        基础必修课期中考试将于10.22开始，教务处统一安排考试</p>
+                                    <p class="lead">
+                                        专业课期中考试各教师可自行安排时间地点
+                                    </p>
+                                    <h1>监考安排</h1>
+                                    <p>
+                                        除本人教学科目考试将负责巡考，剩余科目考试各教师都将被分配监考工作
+                                        请格外教师阅读监考须知，注意监考时间地点，务必准时到场
+                                    </p>
+                                    <h3>h3. Heading 3</h3>
+                                    <p>
+                                        Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque
+                                        penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id
+                                        dolor id nibh ultricies vehicula.
+                                    </p>
+                                    <h4>h4. Heading 4</h4>
+                                    <h5>h5. Heading 5</h5>
+                                    <h6>h6. Heading 6</h6>
+                                </div><!-- /.col -->
+
+                                <div class="col-sm-6">
+                                    <div class="widget-box">
+                                        <div class="widget-header widget-header-flat">
+                                            <h4 class="widget-title">注意事项</h4>
+                                        </div>
+
+                                        <div class="widget-body">
+                                            <div class="widget-main">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <ul>
+                                                            <li>Unordered List Item</li>
+
+                                                            <li>
+                                                                <small>List Item in small tag</small>
+                                                            </li>
+
+                                                            <li>
+                                                                <b>List Item in bold tag</b>
+                                                            </li>
+
+                                                            <li>
+                                                                <i>List Item in italics tag</i>
+                                                            </li>
+
+                                                            <li>
+                                                                <ul class="list-unstyled">
+                                                                    <li>
+                                                                        <i class="ace-icon fa fa-caret-right blue"></i>
+                                                                        Nested List Item
+                                                                    </li>
+
+                                                                    <li>
+                                                                        <i class="ace-icon fa fa-caret-right blue"></i>
+                                                                        Nested List Item
+                                                                    </li>
+
+                                                                    <li>
+                                                                        <i class="ace-icon fa fa-caret-right blue"></i>
+                                                                        Nested List Item
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>Unordered List Item which is a longer item and may break
+                                                                into more lines.</li>
+
+                                                            <li>
+                                                                <strong>List Item in strong tag</strong>
+                                                            </li>
+
+                                                            <li>
+                                                                <em>List Item in emphasis tag</em>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="col-sm-6">
+                                                        <ol>
+                                                            <li>Ordered List Item</li>
+                                                            <li class="text-primary">.text-primary Ordered List Item
+                                                            </li>
+                                                            <li class="text-danger">.text-danger Ordered List Item</li>
+
+                                                            <li class="text-success">
+                                                                <b>.text-success</b>
+                                                                Ordered List Item
+                                                            </li>
+                                                            <li class="text-warning">.text-warning Ordered List Item
+                                                            </li>
+                                                            <li class="text-muted">.text-muted Ordered List Item</li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-xs-12">
+                                                        <ul class="list-unstyled spaced">
+                                                            <li>
+                                                                <i class="ace-icon fa fa-bell-o bigger-110 purple"></i>
+                                                                List with custom icons and more space
+                                                            </li>
+
+                                                            <li>
+                                                                <i class="ace-icon fa fa-check bigger-110 green"></i>
+                                                                Unordered List Item # 2
+                                                            </li>
+
+                                                            <li>
+                                                                <i class="ace-icon fa fa-times bigger-110 red"></i>
+                                                                Unordered List Item # 3
+                                                            </li>
+                                                        </ul>
+
+                                                        <ul class="list-unstyled spaced2">
+                                                            <li>
+                                                                <i class="ace-icon fa fa-circle green"></i>
+                                                                Even more space
+                                                            </li>
+
+                                                            <li class="text-warning bigger-110 orange">
+                                                                <i class="ace-icon fa fa-exclamation-triangle"></i>
+                                                                Unordered List Item # 5
+                                                            </li>
+
+                                                            <li class="muted">
+                                                                <i class="ace-icon fa fa-angle-right bigger-110"></i>
+                                                                Unordered List Item # 6
+                                                            </li>
+
+                                                            <li>
+                                                                <ul class="list-inline">
+                                                                    <li>
+                                                                        <i
+                                                                            class="ace-icon fa fa-share green bigger-110"></i>
+                                                                        Inline List Item # 1
+                                                                    </li>
+                                                                    <li>List Item # 2</li>
+                                                                    <li>List Item # 3</li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- /.col -->
+                            </div>
+
+                            <hr>
+                            <!-- PAGE CONTENT ENDS -->
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.page-content -->
+            </div>
+        </div><!-- /.main-content -->
+
+
+
+        <a href="http://ace.jeka.by/typography.html#" id="btn-scroll-up"
+            class="btn-scroll-up btn btn-sm btn-inverse display">
+            <i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+        </a>
+    </div><!-- /.main-container -->
+
+    <!-- basic scripts -->
+
+    <!--[if !IE]> -->
+    <script src="./teacher_files/jquery-2.1.4.min.js.下载"></script>
+
+    <!-- <![endif]-->
+
+    <!--[if IE]>
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<![endif]-->
+    <script type="text/javascript">
+        if ('ontouchstart' in document.documentElement) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>" + "<" + "/script>");
+    </script>
+    <script src="./teacher_files/bootstrap.min.js.下载"></script>
+
+    <!-- page specific plugin scripts -->
+    <script src="./teacher_files/prettify.min.js.下载"></script>
+
+    <!-- ace scripts -->
+    <script src="./teacher_files/ace-elements.min.js.下载"></script>
+    <script src="./teacher_files/ace.min.js.下载"></script>
+
+    <!-- inline scripts related to this page -->
+    <script type="text/javascript">
+        jQuery(function ($) {
+
+            window.prettyPrint && prettyPrint();
+            $('#id-check-horizontal').removeAttr('checked').on('click', function () {
+                $('#dt-list-1').toggleClass('dl-horizontal').prev().html(this.checked ? '&lt;dl class="dl-horizontal"&gt;' : '&lt;dl&gt;');
+            });
+
+        })
+        var temp = window.localStorage.getItem("leaderInfo");
+        // var sid = JSON.parse(temp).sid;
+        // var data = JSON.parse('{"sId":"'+ sid + '"}');
+        if(temp == null){
+            $('#ID').append("请您登录!");
+        } else {
+            var adminid = JSON.parse(temp).adminid;
+            //var name = JSON.parse(temp).name;
+            var data = JSON.parse('{"tid":"'+ adminid + '"}');
+            $("#ID").append("欢迎您! " + adminid);
+        }
+    </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+            (function (d, w, c) {
+                (w[c] = w[c] || []).push(function () {
+                    try {
+                        w.yaCounter25836836 = new Ya.Metrika({
+                            id: 25836836,
+                            webvisor: true,
+                            clickmap: true,
+                            trackLinks: true,
+                            accurateTrackBounce: true
+                        });
+                    } catch (e) { }
+                });
+
+                var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else { f(); }
+            })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript>
+        <div><img src="//mc.yandex.ru/watch/25836836" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-38894584-2', 'auto');
+        ga('send', 'pageview');
+        window.loginOut = function() {
+            $.get("/leaderLoginOut").then(res => {
+                window.localStorage.removeItem("leaderInfo");
+                window.location.href = "login_leader.html";
+            });
+        }
+    </script>
+
+
+</body>
+
+</html>

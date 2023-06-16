@@ -1,0 +1,845 @@
+[INFO]2022-07-14 11:02:31,481 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 21020 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 11:02:31,482 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 11:02:31,519 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 11:02:31,519 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 11:02:32,530 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 11:02:32,537 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 11:02:32,537 - Starting service [Tomcat]
+[INFO]2022-07-14 11:02:32,537 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 11:02:32,599 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 11:02:32,599 - Root WebApplicationContext: initialization completed in 1080 ms
+[INFO]2022-07-14 11:02:33,004 - Adding welcome page template: index
+[INFO]2022-07-14 11:02:33,120 - LiveReload server is running on port 35729
+[INFO]2022-07-14 11:02:33,133 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 11:02:33,153 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 11:02:33,191 - Started Demo1Application in 2.036 seconds (JVM running for 3.513)
+[INFO]2022-07-14 11:02:42,591 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 11:02:42,591 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 11:02:42,592 - Completed initialization in 1 ms
+[INFO]2022-07-14 15:39:33,324 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 26736 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 15:39:33,325 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 15:39:33,355 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 15:39:33,355 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 15:39:34,211 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 15:39:34,216 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:39:34,216 - Starting service [Tomcat]
+[INFO]2022-07-14 15:39:34,216 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 15:39:34,265 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 15:39:34,266 - Root WebApplicationContext: initialization completed in 911 ms
+[INFO]2022-07-14 15:39:34,656 - Adding welcome page template: index
+[INFO]2022-07-14 15:39:34,762 - LiveReload server is running on port 35729
+[INFO]2022-07-14 15:39:34,774 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:39:34,794 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 15:39:34,834 - Started Demo1Application in 1.776 seconds (JVM running for 3.278)
+[INFO]2022-07-14 15:39:45,364 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 15:39:45,364 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 15:39:45,365 - Completed initialization in 1 ms
+[INFO]2022-07-14 15:41:36,973 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 26736 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 15:41:36,973 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 15:41:37,146 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 15:41:37,146 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:41:37,146 - Starting service [Tomcat]
+[INFO]2022-07-14 15:41:37,146 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 15:41:37,162 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 15:41:37,162 - Root WebApplicationContext: initialization completed in 188 ms
+[INFO]2022-07-14 15:41:37,270 - Adding welcome page template: index
+[INFO]2022-07-14 15:41:37,307 - LiveReload server is running on port 35729
+[INFO]2022-07-14 15:41:37,313 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:41:37,315 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 15:41:37,335 - Started Demo1Application in 0.385 seconds (JVM running for 125.779)
+[INFO]2022-07-14 15:41:37,337 - Condition evaluation unchanged
+[INFO]2022-07-14 15:43:30,209 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 26736 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 15:43:30,210 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 15:43:30,370 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 15:43:30,370 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:43:30,370 - Starting service [Tomcat]
+[INFO]2022-07-14 15:43:30,370 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 15:43:30,388 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 15:43:30,388 - Root WebApplicationContext: initialization completed in 177 ms
+[INFO]2022-07-14 15:43:30,495 - Adding welcome page template: index
+[INFO]2022-07-14 15:43:30,526 - LiveReload server is running on port 35729
+[INFO]2022-07-14 15:43:30,531 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:43:30,533 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 15:43:30,553 - Started Demo1Application in 0.362 seconds (JVM running for 238.997)
+[INFO]2022-07-14 15:43:30,554 - Condition evaluation unchanged
+[INFO]2022-07-14 15:43:32,045 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 26736 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 15:43:32,045 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 15:43:32,174 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 15:43:32,174 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:43:32,175 - Starting service [Tomcat]
+[INFO]2022-07-14 15:43:32,175 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 15:43:32,191 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 15:43:32,191 - Root WebApplicationContext: initialization completed in 144 ms
+[INFO]2022-07-14 15:43:32,291 - Adding welcome page template: index
+[INFO]2022-07-14 15:43:32,328 - LiveReload server is running on port 35729
+[INFO]2022-07-14 15:43:32,333 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:43:32,335 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 15:43:32,353 - Started Demo1Application in 0.324 seconds (JVM running for 240.796)
+[INFO]2022-07-14 15:43:32,353 - Condition evaluation unchanged
+[INFO]2022-07-14 15:44:15,775 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 26736 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 15:44:15,775 - No active profile set, falling back to 1 default profile: "default"
+[WARN]2022-07-14 15:44:15,915 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.AuthorityController [Xlint:invalidAbsoluteTypeName]
+[ERROR]2022-07-14 15:44:15,953 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.AuthorityController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.scu.springboot.demo.Demo1Application.main(Demo1Application.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.AuthorityController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:255)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.AuthorityController [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:341)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:455)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 41 common frames omitted
+[INFO]2022-07-14 15:44:53,228 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 26736 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 15:44:53,228 - No active profile set, falling back to 1 default profile: "default"
+[WARN]2022-07-14 15:44:53,329 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.DocController [Xlint:invalidAbsoluteTypeName]
+[ERROR]2022-07-14 15:44:53,348 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.DocController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.scu.springboot.demo.Demo1Application.main(Demo1Application.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.DocController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:255)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.DocController [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:341)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:455)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 41 common frames omitted
+[INFO]2022-07-14 15:45:44,893 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 26736 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 15:45:44,894 - No active profile set, falling back to 1 default profile: "default"
+[WARN]2022-07-14 15:45:44,981 - No MyBatis mapper was found in '[com.scu.springboot.demo.dao]' package. Please check your configuration.
+[WARN]2022-07-14 15:45:44,991 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.AuthorityController [Xlint:invalidAbsoluteTypeName]
+[ERROR]2022-07-14 15:45:45,012 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.AuthorityController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.scu.springboot.demo.Demo1Application.main(Demo1Application.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.AuthorityController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:255)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: com.scu.springboot.demo.controller.AuthorityController [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:341)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:455)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 41 common frames omitted
+[INFO]2022-07-14 15:45:46,459 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 26736 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 15:45:46,459 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 15:45:46,633 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 15:45:46,633 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:45:46,633 - Starting service [Tomcat]
+[INFO]2022-07-14 15:45:46,633 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 15:45:46,648 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 15:45:46,648 - Root WebApplicationContext: initialization completed in 188 ms
+[INFO]2022-07-14 15:45:46,791 - Adding welcome page template: index
+[INFO]2022-07-14 15:45:46,831 - LiveReload server is running on port 35729
+[INFO]2022-07-14 15:45:46,836 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:45:46,838 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 15:45:46,859 - Started Demo1Application in 0.416 seconds (JVM running for 375.303)
+[INFO]2022-07-14 15:45:46,860 - Condition evaluation unchanged
+[INFO]2022-07-14 15:45:48,363 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 26736 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 15:45:48,363 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 15:45:48,477 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 15:45:48,478 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:45:48,478 - Starting service [Tomcat]
+[INFO]2022-07-14 15:45:48,478 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 15:45:48,491 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 15:45:48,491 - Root WebApplicationContext: initialization completed in 128 ms
+[INFO]2022-07-14 15:45:48,585 - Adding welcome page template: index
+[INFO]2022-07-14 15:45:48,617 - LiveReload server is running on port 35729
+[INFO]2022-07-14 15:45:48,623 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:45:48,624 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 15:45:48,642 - Started Demo1Application in 0.293 seconds (JVM running for 377.085)
+[INFO]2022-07-14 15:45:48,643 - Condition evaluation unchanged
+[INFO]2022-07-14 15:45:51,965 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 15:45:51,965 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 15:45:51,966 - Completed initialization in 1 ms
+[INFO]2022-07-14 15:46:03,008 - HikariPool-1 - Starting...
+[INFO]2022-07-14 15:46:03,087 - HikariPool-1 - Start completed.
+[WARN]2022-07-14 15:46:03,103 - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.scu.springboot.demo.dao.UserDao.userLogin]
+[WARN]2022-07-14 15:46:12,343 - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.scu.springboot.demo.dao.UserDao.userLogin]
+[INFO]2022-07-14 15:47:25,434 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-14 15:47:25,439 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-14 15:47:28,462 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 21308 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 15:47:28,462 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 15:47:28,486 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 15:47:28,487 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 15:47:29,137 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 15:47:29,143 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:47:29,143 - Starting service [Tomcat]
+[INFO]2022-07-14 15:47:29,143 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 15:47:29,192 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 15:47:29,192 - Root WebApplicationContext: initialization completed in 705 ms
+[INFO]2022-07-14 15:47:29,545 - Adding welcome page template: index
+[INFO]2022-07-14 15:47:29,647 - LiveReload server is running on port 35729
+[INFO]2022-07-14 15:47:29,659 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:47:29,676 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 15:47:29,710 - Started Demo1Application in 1.498 seconds (JVM running for 2.044)
+[INFO]2022-07-14 15:47:44,193 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 15:47:44,193 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 15:47:44,194 - Completed initialization in 1 ms
+[INFO]2022-07-14 15:47:44,215 - HikariPool-1 - Starting...
+[INFO]2022-07-14 15:47:44,280 - HikariPool-1 - Start completed.
+[WARN]2022-07-14 15:47:44,320 - Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.scu.springboot.demo.dao.UserDao.userLogin]
+[INFO]2022-07-14 15:48:48,913 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-14 15:48:48,916 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-14 15:48:48,972 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 21308 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 15:48:48,973 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 15:48:49,115 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 15:48:49,115 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:48:49,116 - Starting service [Tomcat]
+[INFO]2022-07-14 15:48:49,116 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 15:48:49,131 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 15:48:49,132 - Root WebApplicationContext: initialization completed in 158 ms
+[INFO]2022-07-14 15:48:49,248 - Adding welcome page template: index
+[INFO]2022-07-14 15:48:49,282 - LiveReload server is running on port 35729
+[INFO]2022-07-14 15:48:49,288 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:48:49,290 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 15:48:49,309 - Started Demo1Application in 0.357 seconds (JVM running for 81.643)
+[INFO]2022-07-14 15:48:49,310 - Condition evaluation unchanged
+[INFO]2022-07-14 15:49:01,527 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 12664 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 15:49:01,528 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 15:49:01,558 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 15:49:01,558 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 15:49:02,260 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 15:49:02,264 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:49:02,265 - Starting service [Tomcat]
+[INFO]2022-07-14 15:49:02,265 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 15:49:02,311 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 15:49:02,312 - Root WebApplicationContext: initialization completed in 754 ms
+[INFO]2022-07-14 15:49:02,675 - Adding welcome page template: index
+[INFO]2022-07-14 15:49:02,773 - LiveReload server is running on port 35729
+[INFO]2022-07-14 15:49:02,785 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 15:49:02,804 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 15:49:02,839 - Started Demo1Application in 1.578 seconds (JVM running for 2.108)
+[INFO]2022-07-14 15:49:12,927 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 15:49:12,927 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 15:49:12,928 - Completed initialization in 1 ms
+[INFO]2022-07-14 15:49:22,039 - HikariPool-1 - Starting...
+[INFO]2022-07-14 15:49:22,105 - HikariPool-1 - Start completed.
+[INFO]2022-07-14 16:04:49,042 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-14 16:04:49,045 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-14 16:05:25,404 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 7700 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 16:05:25,405 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 16:05:25,431 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 16:05:25,431 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 16:05:26,086 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 16:05:26,091 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 16:05:26,091 - Starting service [Tomcat]
+[INFO]2022-07-14 16:05:26,091 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 16:05:26,138 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 16:05:26,138 - Root WebApplicationContext: initialization completed in 707 ms
+[INFO]2022-07-14 16:05:26,473 - Adding welcome page template: index
+[INFO]2022-07-14 16:05:26,581 - LiveReload server is running on port 35729
+[INFO]2022-07-14 16:05:26,592 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 16:05:26,620 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 16:05:26,659 - Started Demo1Application in 1.5 seconds (JVM running for 2.034)
+[INFO]2022-07-14 16:05:29,656 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 16:05:29,656 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 16:05:29,657 - Completed initialization in 1 ms
+[INFO]2022-07-14 16:05:33,722 - HikariPool-1 - Starting...
+[INFO]2022-07-14 16:05:33,801 - HikariPool-1 - Start completed.
+[INFO]2022-07-14 16:17:41,100 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-14 16:17:41,108 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-14 17:08:38,193 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 27536 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 17:08:38,193 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 17:08:38,224 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 17:08:38,225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 17:08:39,054 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 17:08:39,061 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 17:08:39,062 - Starting service [Tomcat]
+[INFO]2022-07-14 17:08:39,062 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 17:08:39,133 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 17:08:39,134 - Root WebApplicationContext: initialization completed in 909 ms
+[INFO]2022-07-14 17:08:39,610 - Adding welcome page template: index
+[INFO]2022-07-14 17:08:39,738 - LiveReload server is running on port 35729
+[INFO]2022-07-14 17:08:39,749 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 17:08:39,771 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 17:08:39,807 - Started Demo1Application in 1.939 seconds (JVM running for 2.651)
+[INFO]2022-07-14 17:08:44,272 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 17:08:44,272 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 17:08:44,273 - Completed initialization in 1 ms
+[WARN]2022-07-14 17:08:49,440 - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [103] milliseconds.
+[INFO]2022-07-14 17:09:38,413 - HikariPool-1 - Starting...
+[INFO]2022-07-14 17:09:38,507 - HikariPool-1 - Start completed.
+[INFO]2022-07-14 17:59:15,088 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-14 17:59:15,091 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-14 21:08:46,166 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 20516 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 21:08:46,167 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 21:08:46,192 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 21:08:46,192 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 21:08:46,880 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 21:08:46,887 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:08:46,888 - Starting service [Tomcat]
+[INFO]2022-07-14 21:08:46,888 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 21:08:46,939 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 21:08:46,940 - Root WebApplicationContext: initialization completed in 748 ms
+[INFO]2022-07-14 21:08:47,296 - Adding welcome page template: index
+[INFO]2022-07-14 21:08:47,401 - LiveReload server is running on port 35729
+[INFO]2022-07-14 21:08:47,413 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:08:47,431 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 21:08:47,463 - Started Demo1Application in 1.545 seconds (JVM running for 2.093)
+[INFO]2022-07-14 21:09:51,971 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 27200 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 21:09:51,971 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 21:09:51,997 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 21:09:51,997 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 21:09:52,819 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 21:09:52,826 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:09:52,827 - Starting service [Tomcat]
+[INFO]2022-07-14 21:09:52,827 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 21:09:52,912 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 21:09:52,914 - Root WebApplicationContext: initialization completed in 917 ms
+[INFO]2022-07-14 21:09:53,405 - Adding welcome page template: index
+[INFO]2022-07-14 21:09:53,537 - LiveReload server is running on port 35729
+[INFO]2022-07-14 21:09:53,550 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:09:53,568 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 21:09:53,601 - Started Demo1Application in 1.886 seconds (JVM running for 2.429)
+[INFO]2022-07-14 21:10:04,174 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 21:10:04,174 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 21:10:04,175 - Completed initialization in 1 ms
+[INFO]2022-07-14 21:11:50,239 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 27200 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 21:11:50,240 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 21:11:50,422 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 21:11:50,423 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:11:50,423 - Starting service [Tomcat]
+[INFO]2022-07-14 21:11:50,423 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 21:11:50,443 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 21:11:50,443 - Root WebApplicationContext: initialization completed in 202 ms
+[INFO]2022-07-14 21:11:50,574 - Adding welcome page template: index
+[INFO]2022-07-14 21:11:50,618 - LiveReload server is running on port 35729
+[INFO]2022-07-14 21:11:50,624 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:11:50,626 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 21:11:50,644 - Started Demo1Application in 0.426 seconds (JVM running for 119.473)
+[INFO]2022-07-14 21:11:50,646 - Condition evaluation unchanged
+[INFO]2022-07-14 21:12:52,028 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 9524 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 21:12:52,029 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 21:12:52,058 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 21:12:52,058 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 21:12:52,766 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 21:12:52,771 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:12:52,771 - Starting service [Tomcat]
+[INFO]2022-07-14 21:12:52,772 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 21:12:52,831 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 21:12:52,832 - Root WebApplicationContext: initialization completed in 773 ms
+[INFO]2022-07-14 21:12:53,232 - Adding welcome page template: index
+[INFO]2022-07-14 21:12:53,355 - LiveReload server is running on port 35729
+[INFO]2022-07-14 21:12:53,372 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:12:53,394 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 21:12:53,429 - Started Demo1Application in 1.653 seconds (JVM running for 2.176)
+[INFO]2022-07-14 21:12:57,400 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 21:12:57,400 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 21:12:57,401 - Completed initialization in 1 ms
+[INFO]2022-07-14 21:17:03,676 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 25856 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 21:17:03,677 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 21:17:03,724 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 21:17:03,724 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 21:17:04,614 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 21:17:04,620 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:17:04,620 - Starting service [Tomcat]
+[INFO]2022-07-14 21:17:04,621 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 21:17:04,684 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 21:17:04,684 - Root WebApplicationContext: initialization completed in 959 ms
+[INFO]2022-07-14 21:17:05,085 - Adding welcome page template: index
+[INFO]2022-07-14 21:17:05,258 - LiveReload server is running on port 35729
+[INFO]2022-07-14 21:17:05,291 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:17:05,339 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 21:17:05,399 - Started Demo1Application in 2.492 seconds (JVM running for 3.42)
+[INFO]2022-07-14 21:17:08,958 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 21:17:08,959 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 21:17:08,959 - Completed initialization in 0 ms
+[INFO]2022-07-14 21:22:07,412 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 8256 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 21:22:07,413 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 21:22:07,453 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 21:22:07,453 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 21:22:08,382 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 21:22:08,387 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:22:08,387 - Starting service [Tomcat]
+[INFO]2022-07-14 21:22:08,388 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 21:22:08,444 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 21:22:08,444 - Root WebApplicationContext: initialization completed in 990 ms
+[INFO]2022-07-14 21:22:08,899 - Adding welcome page template: index
+[INFO]2022-07-14 21:22:09,011 - LiveReload server is running on port 35729
+[INFO]2022-07-14 21:22:09,022 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:22:09,040 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 21:22:09,073 - Started Demo1Application in 1.949 seconds (JVM running for 2.559)
+[INFO]2022-07-14 21:22:12,756 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 21:22:12,756 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 21:22:12,757 - Completed initialization in 1 ms
+[INFO]2022-07-14 21:35:47,265 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 17552 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 21:35:47,266 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 21:35:47,294 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 21:35:47,294 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 21:35:47,973 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 21:35:47,978 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:35:47,978 - Starting service [Tomcat]
+[INFO]2022-07-14 21:35:47,978 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 21:35:48,027 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 21:35:48,028 - Root WebApplicationContext: initialization completed in 734 ms
+[INFO]2022-07-14 21:35:48,410 - Adding welcome page template: index
+[INFO]2022-07-14 21:35:48,529 - LiveReload server is running on port 35729
+[INFO]2022-07-14 21:35:48,549 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:35:48,568 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 21:35:48,601 - Started Demo1Application in 1.613 seconds (JVM running for 2.215)
+[INFO]2022-07-14 21:35:51,227 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 21:35:51,227 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 21:35:51,228 - Completed initialization in 1 ms
+[INFO]2022-07-14 21:45:47,567 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 25216 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 21:45:47,568 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 21:45:47,595 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 21:45:47,595 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 21:45:48,325 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 21:45:48,331 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:45:48,331 - Starting service [Tomcat]
+[INFO]2022-07-14 21:45:48,331 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 21:45:48,380 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 21:45:48,381 - Root WebApplicationContext: initialization completed in 785 ms
+[INFO]2022-07-14 21:45:48,778 - Adding welcome page template: index
+[INFO]2022-07-14 21:45:49,032 - LiveReload server is running on port 35729
+[INFO]2022-07-14 21:45:49,048 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:45:49,072 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 21:45:49,110 - Started Demo1Application in 1.841 seconds (JVM running for 2.439)
+[INFO]2022-07-14 21:45:54,475 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 21:45:54,475 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 21:45:54,475 - Completed initialization in 0 ms
+[INFO]2022-07-14 21:50:36,777 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 23716 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 21:50:36,778 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 21:50:36,804 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 21:50:36,804 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 21:50:37,474 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 21:50:37,479 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:50:37,480 - Starting service [Tomcat]
+[INFO]2022-07-14 21:50:37,480 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 21:50:37,534 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 21:50:37,534 - Root WebApplicationContext: initialization completed in 730 ms
+[INFO]2022-07-14 21:50:37,901 - Adding welcome page template: index
+[INFO]2022-07-14 21:50:38,006 - LiveReload server is running on port 35729
+[INFO]2022-07-14 21:50:38,018 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:50:38,038 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 21:50:38,072 - Started Demo1Application in 1.547 seconds (JVM running for 2.081)
+[INFO]2022-07-14 21:50:41,014 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 21:50:41,014 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 21:50:41,015 - Completed initialization in 1 ms
+[INFO]2022-07-14 21:53:54,668 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 19940 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 21:53:54,669 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 21:53:54,695 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 21:53:54,695 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 21:53:55,336 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 21:53:55,340 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:53:55,341 - Starting service [Tomcat]
+[INFO]2022-07-14 21:53:55,341 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 21:53:55,396 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 21:53:55,397 - Root WebApplicationContext: initialization completed in 702 ms
+[INFO]2022-07-14 21:53:55,738 - Adding welcome page template: index
+[INFO]2022-07-14 21:53:55,852 - LiveReload server is running on port 35729
+[INFO]2022-07-14 21:53:55,864 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:53:55,885 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 21:53:55,916 - Started Demo1Application in 1.497 seconds (JVM running for 2.047)
+[INFO]2022-07-14 21:54:04,114 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 21:54:04,114 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 21:54:04,115 - Completed initialization in 1 ms
+[INFO]2022-07-14 21:54:57,643 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 21016 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 21:54:57,645 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 21:54:57,676 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 21:54:57,676 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 21:54:58,366 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 21:54:58,371 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:54:58,372 - Starting service [Tomcat]
+[INFO]2022-07-14 21:54:58,372 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 21:54:58,423 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 21:54:58,424 - Root WebApplicationContext: initialization completed in 748 ms
+[INFO]2022-07-14 21:54:58,796 - Adding welcome page template: index
+[INFO]2022-07-14 21:54:58,915 - LiveReload server is running on port 35729
+[INFO]2022-07-14 21:54:58,928 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 21:54:58,951 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 21:54:58,984 - Started Demo1Application in 1.62 seconds (JVM running for 2.18)
+[INFO]2022-07-14 21:55:04,246 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 21:55:04,246 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 21:55:04,247 - Completed initialization in 1 ms
+[INFO]2022-07-14 21:55:04,757 - HikariPool-1 - Starting...
+[INFO]2022-07-14 21:55:04,856 - HikariPool-1 - Start completed.
+[WARN]2022-07-14 21:55:04,963 - Resolved [com.alibaba.fastjson.JSONException: can not cast to JSONObject.]
+[INFO]2022-07-14 22:07:27,979 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-14 22:07:27,983 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-14 22:11:03,299 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 14576 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 22:11:03,300 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 22:11:03,327 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 22:11:03,327 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 22:11:04,012 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 22:11:04,017 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:11:04,017 - Starting service [Tomcat]
+[INFO]2022-07-14 22:11:04,017 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 22:11:04,066 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 22:11:04,067 - Root WebApplicationContext: initialization completed in 740 ms
+[INFO]2022-07-14 22:11:04,428 - Adding welcome page template: index
+[INFO]2022-07-14 22:11:04,534 - LiveReload server is running on port 35729
+[INFO]2022-07-14 22:11:04,545 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:11:04,564 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 22:11:04,594 - Started Demo1Application in 1.541 seconds (JVM running for 2.108)
+[INFO]2022-07-14 22:11:10,335 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 22:11:10,335 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 22:11:10,336 - Completed initialization in 0 ms
+[INFO]2022-07-14 22:11:10,852 - HikariPool-1 - Starting...
+[INFO]2022-07-14 22:11:10,959 - HikariPool-1 - Start completed.
+[WARN]2022-07-14 22:11:11,052 - Resolved [com.alibaba.fastjson.JSONException: can not cast to JSONObject.]
+[INFO]2022-07-14 22:11:27,536 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-14 22:11:27,539 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-14 22:11:31,047 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 8952 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 22:11:31,048 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 22:11:31,078 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 22:11:31,078 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 22:11:31,789 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 22:11:31,794 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:11:31,794 - Starting service [Tomcat]
+[INFO]2022-07-14 22:11:31,794 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 22:11:31,846 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 22:11:31,847 - Root WebApplicationContext: initialization completed in 769 ms
+[INFO]2022-07-14 22:11:32,319 - Adding welcome page template: index
+[INFO]2022-07-14 22:11:32,441 - LiveReload server is running on port 35729
+[INFO]2022-07-14 22:11:32,454 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:11:32,473 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 22:11:32,507 - Started Demo1Application in 1.733 seconds (JVM running for 2.328)
+[INFO]2022-07-14 22:11:32,736 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 22:11:32,736 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 22:11:32,737 - Completed initialization in 1 ms
+[INFO]2022-07-14 22:11:33,215 - HikariPool-1 - Starting...
+[INFO]2022-07-14 22:11:33,346 - HikariPool-1 - Start completed.
+[WARN]2022-07-14 22:11:33,464 - Resolved [com.alibaba.fastjson.JSONException: can not cast to JSONObject.]
+[INFO]2022-07-14 22:15:02,510 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-14 22:15:02,513 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-14 22:15:02,565 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 8952 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 22:15:02,565 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 22:15:02,701 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 22:15:02,702 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:15:02,702 - Starting service [Tomcat]
+[INFO]2022-07-14 22:15:02,702 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 22:15:02,724 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 22:15:02,724 - Root WebApplicationContext: initialization completed in 157 ms
+[INFO]2022-07-14 22:15:02,834 - Adding welcome page template: index
+[INFO]2022-07-14 22:15:02,868 - LiveReload server is running on port 35729
+[INFO]2022-07-14 22:15:02,874 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:15:02,876 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 22:15:02,893 - Started Demo1Application in 0.346 seconds (JVM running for 212.714)
+[INFO]2022-07-14 22:15:02,894 - Condition evaluation unchanged
+[INFO]2022-07-14 22:15:15,707 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 8952 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 22:15:15,708 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 22:15:15,859 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 22:15:15,860 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:15:15,860 - Starting service [Tomcat]
+[INFO]2022-07-14 22:15:15,860 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 22:15:15,881 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 22:15:15,881 - Root WebApplicationContext: initialization completed in 171 ms
+[INFO]2022-07-14 22:15:15,993 - Adding welcome page template: index
+[INFO]2022-07-14 22:15:16,024 - LiveReload server is running on port 35729
+[INFO]2022-07-14 22:15:16,029 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:15:16,031 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 22:15:16,048 - Started Demo1Application in 0.361 seconds (JVM running for 225.869)
+[INFO]2022-07-14 22:15:16,049 - Condition evaluation unchanged
+[INFO]2022-07-14 22:15:38,171 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 8952 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 22:15:38,171 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 22:15:38,309 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 22:15:38,310 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:15:38,310 - Starting service [Tomcat]
+[INFO]2022-07-14 22:15:38,310 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 22:15:38,325 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 22:15:38,325 - Root WebApplicationContext: initialization completed in 152 ms
+[INFO]2022-07-14 22:15:38,437 - Adding welcome page template: index
+[INFO]2022-07-14 22:15:38,468 - LiveReload server is running on port 35729
+[INFO]2022-07-14 22:15:38,474 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:15:38,475 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 22:15:38,492 - Started Demo1Application in 0.338 seconds (JVM running for 248.313)
+[INFO]2022-07-14 22:15:38,493 - Condition evaluation unchanged
+[INFO]2022-07-14 22:16:03,183 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 22:16:03,184 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 22:16:03,184 - Completed initialization in 0 ms
+[INFO]2022-07-14 22:16:03,566 - HikariPool-2 - Starting...
+[INFO]2022-07-14 22:16:03,570 - HikariPool-2 - Start completed.
+[WARN]2022-07-14 22:16:03,583 - Resolved [com.alibaba.fastjson.JSONException: can not cast to JSONObject.]
+[INFO]2022-07-14 22:17:22,213 - HikariPool-2 - Shutdown initiated...
+[INFO]2022-07-14 22:17:22,215 - HikariPool-2 - Shutdown completed.
+[INFO]2022-07-14 22:22:13,067 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 26608 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 22:22:13,067 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 22:22:13,094 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 22:22:13,094 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 22:22:13,813 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 22:22:13,819 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:22:13,819 - Starting service [Tomcat]
+[INFO]2022-07-14 22:22:13,819 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 22:22:13,875 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 22:22:13,875 - Root WebApplicationContext: initialization completed in 781 ms
+[INFO]2022-07-14 22:22:14,275 - Adding welcome page template: index
+[INFO]2022-07-14 22:22:14,386 - LiveReload server is running on port 35729
+[INFO]2022-07-14 22:22:14,398 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:22:14,420 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 22:22:14,459 - Started Demo1Application in 1.629 seconds (JVM running for 2.193)
+[INFO]2022-07-14 22:22:21,326 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 22:22:21,326 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 22:22:21,327 - Completed initialization in 1 ms
+[INFO]2022-07-14 22:22:21,728 - HikariPool-1 - Starting...
+[INFO]2022-07-14 22:22:21,838 - HikariPool-1 - Start completed.
+[WARN]2022-07-14 22:22:21,937 - Resolved [com.alibaba.fastjson.JSONException: can not cast to JSONObject.]
+[INFO]2022-07-14 22:37:17,830 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-14 22:37:17,834 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-14 22:37:22,850 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 12124 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 22:37:22,851 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 22:37:22,880 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 22:37:22,880 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 22:37:23,624 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 22:37:23,630 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:37:23,631 - Starting service [Tomcat]
+[INFO]2022-07-14 22:37:23,631 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 22:37:23,695 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 22:37:23,696 - Root WebApplicationContext: initialization completed in 816 ms
+[INFO]2022-07-14 22:37:24,101 - Adding welcome page template: index
+[INFO]2022-07-14 22:37:24,219 - LiveReload server is running on port 35729
+[INFO]2022-07-14 22:37:24,231 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:37:24,250 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 22:37:24,283 - Started Demo1Application in 1.681 seconds (JVM running for 2.225)
+[INFO]2022-07-14 22:37:27,520 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 22:37:27,520 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 22:37:27,521 - Completed initialization in 1 ms
+[INFO]2022-07-14 22:37:27,876 - HikariPool-1 - Starting...
+[INFO]2022-07-14 22:37:27,974 - HikariPool-1 - Start completed.
+[WARN]2022-07-14 22:37:28,074 - Resolved [com.alibaba.fastjson.JSONException: can not cast to JSONObject.]
+[INFO]2022-07-14 22:40:31,765 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-14 22:40:31,769 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-14 22:40:36,817 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 5180 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 22:40:36,821 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 22:40:36,869 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 22:40:36,869 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 22:40:37,694 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 22:40:37,699 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:40:37,699 - Starting service [Tomcat]
+[INFO]2022-07-14 22:40:37,700 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 22:40:37,750 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 22:40:37,751 - Root WebApplicationContext: initialization completed in 881 ms
+[INFO]2022-07-14 22:40:38,134 - Adding welcome page template: index
+[INFO]2022-07-14 22:40:38,253 - LiveReload server is running on port 35729
+[INFO]2022-07-14 22:40:38,266 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:40:38,288 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 22:40:38,320 - Started Demo1Application in 1.816 seconds (JVM running for 2.399)
+[INFO]2022-07-14 22:40:44,432 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 22:40:44,432 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 22:40:44,433 - Completed initialization in 1 ms
+[INFO]2022-07-14 22:40:44,887 - HikariPool-1 - Starting...
+[INFO]2022-07-14 22:40:44,995 - HikariPool-1 - Start completed.
+[INFO]2022-07-14 22:41:18,378 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-14 22:41:18,381 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-14 22:41:21,580 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 1720 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 22:41:21,580 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 22:41:21,607 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 22:41:21,607 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 22:41:22,282 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 22:41:22,286 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:41:22,286 - Starting service [Tomcat]
+[INFO]2022-07-14 22:41:22,286 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 22:41:22,343 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 22:41:22,344 - Root WebApplicationContext: initialization completed in 736 ms
+[INFO]2022-07-14 22:41:22,701 - Adding welcome page template: index
+[INFO]2022-07-14 22:41:22,813 - LiveReload server is running on port 35729
+[INFO]2022-07-14 22:41:22,825 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:41:22,843 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 22:41:22,875 - Started Demo1Application in 1.542 seconds (JVM running for 2.077)
+[INFO]2022-07-14 22:41:26,400 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 22:41:26,400 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 22:41:26,401 - Completed initialization in 1 ms
+[INFO]2022-07-14 22:41:26,729 - HikariPool-1 - Starting...
+[INFO]2022-07-14 22:41:26,822 - HikariPool-1 - Start completed.
+[INFO]2022-07-14 22:48:49,200 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-14 22:48:49,203 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-14 22:48:52,791 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 11180 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 22:48:52,791 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 22:48:52,821 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 22:48:52,821 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 22:48:53,510 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 22:48:53,515 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:48:53,515 - Starting service [Tomcat]
+[INFO]2022-07-14 22:48:53,515 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 22:48:53,560 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 22:48:53,561 - Root WebApplicationContext: initialization completed in 740 ms
+[INFO]2022-07-14 22:48:53,951 - Adding welcome page template: index
+[INFO]2022-07-14 22:48:54,075 - LiveReload server is running on port 35729
+[INFO]2022-07-14 22:48:54,093 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 22:48:54,119 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 22:48:54,160 - Started Demo1Application in 1.666 seconds (JVM running for 2.444)
+[INFO]2022-07-14 22:48:56,202 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 22:48:56,202 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 22:48:56,203 - Completed initialization in 1 ms
+[INFO]2022-07-14 22:48:56,714 - HikariPool-1 - Starting...
+[INFO]2022-07-14 22:48:56,815 - HikariPool-1 - Start completed.
+[INFO]2022-07-14 23:09:57,694 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-14 23:09:57,697 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-14 23:10:01,819 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 15304 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-14 23:10:01,820 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-14 23:10:01,848 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-14 23:10:01,848 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-14 23:10:02,535 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-14 23:10:02,540 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 23:10:02,540 - Starting service [Tomcat]
+[INFO]2022-07-14 23:10:02,540 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-14 23:10:02,589 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-14 23:10:02,590 - Root WebApplicationContext: initialization completed in 742 ms
+[INFO]2022-07-14 23:10:02,974 - Adding welcome page template: index
+[INFO]2022-07-14 23:10:03,092 - LiveReload server is running on port 35729
+[INFO]2022-07-14 23:10:03,113 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-14 23:10:03,143 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-14 23:10:03,202 - Started Demo1Application in 1.65 seconds (JVM running for 2.221)
+[INFO]2022-07-14 23:10:05,537 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-14 23:10:05,537 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-14 23:10:05,539 - Completed initialization in 2 ms
+[INFO]2022-07-14 23:10:06,074 - HikariPool-1 - Starting...
+[INFO]2022-07-14 23:10:06,172 - HikariPool-1 - Start completed.

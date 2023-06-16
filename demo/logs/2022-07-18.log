@@ -1,0 +1,519 @@
+[INFO]2022-07-18 09:10:24,279 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 20860 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 09:10:24,280 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 09:10:24,309 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-18 09:10:24,309 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-18 09:10:25,269 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 09:10:25,274 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 09:10:25,275 - Starting service [Tomcat]
+[INFO]2022-07-18 09:10:25,275 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 09:10:25,326 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 09:10:25,326 - Root WebApplicationContext: initialization completed in 1016 ms
+[INFO]2022-07-18 09:10:25,788 - Adding welcome page template: index
+[INFO]2022-07-18 09:10:25,927 - LiveReload server is running on port 35729
+[INFO]2022-07-18 09:10:25,938 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 09:10:25,955 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 09:10:25,997 - Started Demo1Application in 2.009 seconds (JVM running for 2.622)
+[INFO]2022-07-18 09:10:50,714 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 09:10:50,714 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 09:10:50,714 - Completed initialization in 0 ms
+[INFO]2022-07-18 09:10:51,202 - HikariPool-1 - Starting...
+[INFO]2022-07-18 09:10:51,291 - HikariPool-1 - Start completed.
+[WARN]2022-07-18 09:11:46,697 - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'className' in 'class com.scu.springboot.demo.entity.WorkPlan']
+[WARN]2022-07-18 09:14:54,991 - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'className' in 'class com.scu.springboot.demo.entity.WorkPlan']
+[WARN]2022-07-18 09:15:49,026 - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'className' in 'class com.scu.springboot.demo.entity.WorkPlan']
+[INFO]2022-07-18 09:16:06,393 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-18 09:16:06,398 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-18 09:16:09,809 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 21036 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 09:16:09,810 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 09:16:09,839 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-18 09:16:09,839 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-18 09:16:10,508 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 09:16:10,513 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 09:16:10,514 - Starting service [Tomcat]
+[INFO]2022-07-18 09:16:10,514 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 09:16:10,564 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 09:16:10,564 - Root WebApplicationContext: initialization completed in 724 ms
+[INFO]2022-07-18 09:16:10,975 - Adding welcome page template: index
+[INFO]2022-07-18 09:16:11,100 - LiveReload server is running on port 35729
+[INFO]2022-07-18 09:16:11,112 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 09:16:11,129 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 09:16:11,165 - Started Demo1Application in 1.591 seconds (JVM running for 2.136)
+[INFO]2022-07-18 09:16:21,963 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 09:16:21,963 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 09:16:21,964 - Completed initialization in 1 ms
+[INFO]2022-07-18 09:16:22,412 - HikariPool-1 - Starting...
+[INFO]2022-07-18 09:16:22,516 - HikariPool-1 - Start completed.
+[WARN]2022-07-18 09:16:32,141 - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'className' in 'class com.scu.springboot.demo.entity.WorkPlan']
+[INFO]2022-07-18 09:18:35,649 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-18 09:18:35,653 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-18 09:18:35,709 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 21036 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 09:18:35,709 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 09:18:35,854 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 09:18:35,854 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 09:18:35,854 - Starting service [Tomcat]
+[INFO]2022-07-18 09:18:35,855 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 09:18:35,870 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 09:18:35,870 - Root WebApplicationContext: initialization completed in 160 ms
+[INFO]2022-07-18 09:18:36,034 - Adding welcome page template: index
+[INFO]2022-07-18 09:18:36,074 - LiveReload server is running on port 35729
+[INFO]2022-07-18 09:18:36,080 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 09:18:36,083 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 09:18:36,100 - Started Demo1Application in 0.411 seconds (JVM running for 147.072)
+[INFO]2022-07-18 09:18:36,102 - Condition evaluation unchanged
+[INFO]2022-07-18 09:18:40,039 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 09:18:40,039 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 09:18:40,040 - Completed initialization in 1 ms
+[INFO]2022-07-18 09:18:40,044 - HikariPool-2 - Starting...
+[INFO]2022-07-18 09:18:40,049 - HikariPool-2 - Start completed.
+[INFO]2022-07-18 09:36:17,723 - HikariPool-2 - Shutdown initiated...
+[INFO]2022-07-18 09:36:17,724 - HikariPool-2 - Shutdown completed.
+[INFO]2022-07-18 09:36:17,787 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 21036 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 09:36:17,787 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 09:36:17,974 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 09:36:17,975 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 09:36:17,975 - Starting service [Tomcat]
+[INFO]2022-07-18 09:36:17,975 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 09:36:17,993 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 09:36:17,993 - Root WebApplicationContext: initialization completed in 204 ms
+[INFO]2022-07-18 09:36:18,188 - Adding welcome page template: index
+[INFO]2022-07-18 09:36:18,230 - LiveReload server is running on port 35729
+[INFO]2022-07-18 09:36:18,237 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 09:36:18,239 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 09:36:18,261 - Started Demo1Application in 0.5 seconds (JVM running for 1209.232)
+[INFO]2022-07-18 09:36:18,262 - Condition evaluation unchanged
+[INFO]2022-07-18 09:36:19,563 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 09:36:19,563 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 09:36:19,564 - Completed initialization in 1 ms
+[INFO]2022-07-18 09:36:20,241 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 21036 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 09:36:20,242 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 09:36:20,387 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 09:36:20,387 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 09:36:20,387 - Starting service [Tomcat]
+[INFO]2022-07-18 09:36:20,387 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 09:36:20,402 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 09:36:20,402 - Root WebApplicationContext: initialization completed in 159 ms
+[INFO]2022-07-18 09:36:20,520 - Adding welcome page template: index
+[INFO]2022-07-18 09:36:20,551 - LiveReload server is running on port 35729
+[INFO]2022-07-18 09:36:20,562 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 09:36:20,563 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 09:36:20,580 - Started Demo1Application in 0.353 seconds (JVM running for 1211.551)
+[INFO]2022-07-18 09:36:20,581 - Condition evaluation unchanged
+[INFO]2022-07-18 09:39:32,450 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 09:39:32,450 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 09:39:32,451 - Completed initialization in 1 ms
+[INFO]2022-07-18 09:39:32,787 - HikariPool-3 - Starting...
+[INFO]2022-07-18 09:39:32,792 - HikariPool-3 - Start completed.
+[INFO]2022-07-18 09:40:39,462 - HikariPool-3 - Shutdown initiated...
+[INFO]2022-07-18 09:40:39,464 - HikariPool-3 - Shutdown completed.
+[INFO]2022-07-18 09:40:39,531 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 21036 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 09:40:39,531 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 09:40:39,730 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 09:40:39,731 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 09:40:39,731 - Starting service [Tomcat]
+[INFO]2022-07-18 09:40:39,731 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 09:40:39,752 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 09:40:39,752 - Root WebApplicationContext: initialization completed in 218 ms
+[INFO]2022-07-18 09:40:39,871 - Adding welcome page template: index
+[INFO]2022-07-18 09:40:39,901 - LiveReload server is running on port 35729
+[INFO]2022-07-18 09:40:39,906 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 09:40:39,908 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 09:40:39,925 - Started Demo1Application in 0.422 seconds (JVM running for 1470.897)
+[INFO]2022-07-18 09:40:39,926 - Condition evaluation unchanged
+[INFO]2022-07-18 09:41:06,044 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 09:41:06,044 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 09:41:06,045 - Completed initialization in 1 ms
+[INFO]2022-07-18 09:41:09,805 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 21036 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 09:41:09,805 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 09:41:09,939 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 09:41:09,939 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 09:41:09,939 - Starting service [Tomcat]
+[INFO]2022-07-18 09:41:09,940 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 09:41:09,954 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 09:41:09,954 - Root WebApplicationContext: initialization completed in 148 ms
+[INFO]2022-07-18 09:41:10,068 - Adding welcome page template: index
+[INFO]2022-07-18 09:41:10,101 - LiveReload server is running on port 35729
+[INFO]2022-07-18 09:41:10,107 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 09:41:10,109 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 09:41:10,126 - Started Demo1Application in 0.337 seconds (JVM running for 1501.097)
+[INFO]2022-07-18 09:41:10,127 - Condition evaluation unchanged
+[INFO]2022-07-18 09:41:10,180 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 09:41:10,180 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 09:41:10,181 - Completed initialization in 1 ms
+[INFO]2022-07-18 11:13:05,476 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 24740 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 11:13:05,477 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 11:13:05,514 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-18 11:13:05,514 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-18 11:13:06,234 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 11:13:06,239 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 11:13:06,240 - Starting service [Tomcat]
+[INFO]2022-07-18 11:13:06,240 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 11:13:06,284 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 11:13:06,284 - Root WebApplicationContext: initialization completed in 769 ms
+[INFO]2022-07-18 11:13:06,737 - Adding welcome page template: index
+[INFO]2022-07-18 11:13:06,890 - LiveReload server is running on port 35729
+[INFO]2022-07-18 11:13:06,903 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 11:13:06,926 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 11:13:06,982 - Started Demo1Application in 1.987 seconds (JVM running for 2.644)
+[INFO]2022-07-18 11:13:09,644 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 11:13:09,644 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 11:13:09,644 - Completed initialization in 0 ms
+[WARN]2022-07-18 11:15:27,387 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[WARN]2022-07-18 11:16:11,602 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[WARN]2022-07-18 11:18:28,312 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[INFO]2022-07-18 11:18:33,052 - HikariPool-1 - Starting...
+[INFO]2022-07-18 11:18:33,149 - HikariPool-1 - Start completed.
+[INFO]2022-07-18 11:32:33,280 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-18 11:32:33,284 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-18 14:06:43,377 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 7032 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 14:06:43,378 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 14:06:43,421 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-18 14:06:43,421 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-18 14:06:44,588 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 14:06:44,593 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 14:06:44,593 - Starting service [Tomcat]
+[INFO]2022-07-18 14:06:44,593 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 14:06:44,646 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 14:06:44,646 - Root WebApplicationContext: initialization completed in 1225 ms
+[INFO]2022-07-18 14:06:45,116 - Adding welcome page template: index
+[INFO]2022-07-18 14:06:45,256 - LiveReload server is running on port 35729
+[INFO]2022-07-18 14:06:45,267 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 14:06:45,285 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 14:06:45,326 - Started Demo1Application in 2.25 seconds (JVM running for 3.68)
+[INFO]2022-07-18 14:07:00,761 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 14:07:00,761 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 14:07:00,762 - Completed initialization in 1 ms
+[INFO]2022-07-18 14:07:01,252 - HikariPool-1 - Starting...
+[INFO]2022-07-18 14:07:01,354 - HikariPool-1 - Start completed.
+[INFO]2022-07-18 14:18:38,562 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-18 14:18:38,566 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-18 14:18:42,627 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 16056 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 14:18:42,628 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 14:18:42,655 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-18 14:18:42,655 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-18 14:18:43,415 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 14:18:43,420 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 14:18:43,421 - Starting service [Tomcat]
+[INFO]2022-07-18 14:18:43,421 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 14:18:43,468 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 14:18:43,468 - Root WebApplicationContext: initialization completed in 813 ms
+[INFO]2022-07-18 14:18:43,878 - Adding welcome page template: index
+[INFO]2022-07-18 14:18:44,004 - LiveReload server is running on port 35729
+[INFO]2022-07-18 14:18:44,018 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 14:18:44,044 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 14:18:44,086 - Started Demo1Application in 1.803 seconds (JVM running for 2.347)
+[INFO]2022-07-18 14:18:47,925 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 14:18:47,925 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 14:18:47,926 - Completed initialization in 1 ms
+[INFO]2022-07-18 14:18:48,219 - HikariPool-1 - Starting...
+[INFO]2022-07-18 14:18:48,302 - HikariPool-1 - Start completed.
+[INFO]2022-07-18 14:26:48,204 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-18 14:26:48,208 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-18 14:26:52,964 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 23324 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 14:26:52,964 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 14:26:52,991 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-18 14:26:52,991 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-18 14:26:53,649 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 14:26:53,655 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 14:26:53,656 - Starting service [Tomcat]
+[INFO]2022-07-18 14:26:53,656 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 14:26:53,711 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 14:26:53,711 - Root WebApplicationContext: initialization completed in 720 ms
+[INFO]2022-07-18 14:26:54,123 - Adding welcome page template: index
+[INFO]2022-07-18 14:26:54,237 - LiveReload server is running on port 35729
+[INFO]2022-07-18 14:26:54,247 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 14:26:54,266 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 14:26:54,305 - Started Demo1Application in 1.595 seconds (JVM running for 2.135)
+[INFO]2022-07-18 14:26:56,750 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 14:26:56,750 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 14:26:56,751 - Completed initialization in 1 ms
+[INFO]2022-07-18 14:26:57,021 - HikariPool-1 - Starting...
+[INFO]2022-07-18 14:26:57,105 - HikariPool-1 - Start completed.
+[INFO]2022-07-18 14:32:35,960 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-18 14:32:35,964 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-18 14:32:39,585 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 23260 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 14:32:39,587 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 14:32:39,622 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-18 14:32:39,622 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-18 14:32:40,313 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 14:32:40,318 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 14:32:40,319 - Starting service [Tomcat]
+[INFO]2022-07-18 14:32:40,319 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 14:32:40,365 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 14:32:40,366 - Root WebApplicationContext: initialization completed in 744 ms
+[INFO]2022-07-18 14:32:40,801 - Adding welcome page template: index
+[INFO]2022-07-18 14:32:40,936 - LiveReload server is running on port 35729
+[INFO]2022-07-18 14:32:40,949 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 14:32:40,968 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 14:32:41,010 - Started Demo1Application in 1.7 seconds (JVM running for 2.319)
+[INFO]2022-07-18 14:32:43,572 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 14:32:43,572 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 14:32:43,573 - Completed initialization in 1 ms
+[INFO]2022-07-18 14:32:43,914 - HikariPool-1 - Starting...
+[INFO]2022-07-18 14:32:43,992 - HikariPool-1 - Start completed.
+[INFO]2022-07-18 14:36:12,178 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-18 14:36:12,183 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-18 14:36:15,521 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 10068 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 14:36:15,521 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 14:36:15,551 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-18 14:36:15,551 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-18 14:36:16,241 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 14:36:16,246 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 14:36:16,247 - Starting service [Tomcat]
+[INFO]2022-07-18 14:36:16,247 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 14:36:16,300 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 14:36:16,301 - Root WebApplicationContext: initialization completed in 749 ms
+[INFO]2022-07-18 14:36:16,693 - Adding welcome page template: index
+[INFO]2022-07-18 14:36:16,811 - LiveReload server is running on port 35729
+[INFO]2022-07-18 14:36:16,821 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 14:36:16,840 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 14:36:16,877 - Started Demo1Application in 1.626 seconds (JVM running for 2.156)
+[INFO]2022-07-18 14:36:19,187 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 14:36:19,188 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 14:36:19,188 - Completed initialization in 0 ms
+[INFO]2022-07-18 14:36:19,493 - HikariPool-1 - Starting...
+[INFO]2022-07-18 14:36:19,579 - HikariPool-1 - Start completed.
+[INFO]2022-07-18 14:52:23,922 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-18 14:52:23,926 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-18 14:52:27,304 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 18264 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 14:52:27,304 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 14:52:27,343 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-18 14:52:27,343 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-18 14:52:28,020 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 14:52:28,024 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 14:52:28,025 - Starting service [Tomcat]
+[INFO]2022-07-18 14:52:28,026 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 14:52:28,072 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 14:52:28,072 - Root WebApplicationContext: initialization completed in 729 ms
+[INFO]2022-07-18 14:52:28,477 - Adding welcome page template: index
+[INFO]2022-07-18 14:52:28,591 - LiveReload server is running on port 35729
+[INFO]2022-07-18 14:52:28,602 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 14:52:28,620 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 14:52:28,655 - Started Demo1Application in 1.66 seconds (JVM running for 2.319)
+[INFO]2022-07-18 14:52:32,528 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 14:52:32,528 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 14:52:32,529 - Completed initialization in 1 ms
+[INFO]2022-07-18 14:52:32,864 - HikariPool-1 - Starting...
+[INFO]2022-07-18 14:52:32,932 - HikariPool-1 - Start completed.
+[INFO]2022-07-18 14:52:55,151 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-18 14:52:55,155 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-18 14:53:00,796 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 18400 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 14:53:00,797 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 14:53:00,825 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-18 14:53:00,825 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-18 14:53:01,530 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 14:53:01,534 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 14:53:01,535 - Starting service [Tomcat]
+[INFO]2022-07-18 14:53:01,536 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 14:53:01,585 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 14:53:01,585 - Root WebApplicationContext: initialization completed in 760 ms
+[INFO]2022-07-18 14:53:01,971 - Adding welcome page template: index
+[INFO]2022-07-18 14:53:02,103 - LiveReload server is running on port 35729
+[INFO]2022-07-18 14:53:02,116 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 14:53:02,136 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 14:53:02,174 - Started Demo1Application in 1.623 seconds (JVM running for 2.162)
+[INFO]2022-07-18 14:53:03,883 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 14:53:03,883 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 14:53:03,884 - Completed initialization in 1 ms
+[INFO]2022-07-18 14:53:04,148 - HikariPool-1 - Starting...
+[INFO]2022-07-18 14:53:04,221 - HikariPool-1 - Start completed.
+[INFO]2022-07-18 15:14:00,111 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-18 15:14:00,115 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-18 15:14:05,159 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 12068 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 15:14:05,160 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 15:14:05,186 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-18 15:14:05,186 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-18 15:14:05,865 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 15:14:05,870 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 15:14:05,871 - Starting service [Tomcat]
+[INFO]2022-07-18 15:14:05,871 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 15:14:05,928 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 15:14:05,928 - Root WebApplicationContext: initialization completed in 742 ms
+[INFO]2022-07-18 15:14:06,326 - Adding welcome page template: index
+[INFO]2022-07-18 15:14:06,445 - LiveReload server is running on port 35729
+[INFO]2022-07-18 15:14:06,456 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 15:14:06,474 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 15:14:06,506 - Started Demo1Application in 1.59 seconds (JVM running for 2.135)
+[INFO]2022-07-18 15:14:09,887 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 15:14:09,887 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 15:14:09,888 - Completed initialization in 1 ms
+[INFO]2022-07-18 15:14:10,157 - HikariPool-1 - Starting...
+[INFO]2022-07-18 15:14:10,232 - HikariPool-1 - Start completed.
+[INFO]2022-07-18 15:39:32,348 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-18 15:39:32,352 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-18 15:41:27,011 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 14916 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 15:41:27,012 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 15:41:27,038 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-18 15:41:27,038 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-18 15:41:27,711 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 15:41:27,716 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 15:41:27,717 - Starting service [Tomcat]
+[INFO]2022-07-18 15:41:27,717 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 15:41:27,764 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 15:41:27,764 - Root WebApplicationContext: initialization completed in 726 ms
+[INFO]2022-07-18 15:41:28,154 - Adding welcome page template: index
+[INFO]2022-07-18 15:41:28,270 - LiveReload server is running on port 35729
+[INFO]2022-07-18 15:41:28,282 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 15:41:28,299 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 15:41:28,333 - Started Demo1Application in 1.563 seconds (JVM running for 2.122)
+[INFO]2022-07-18 15:41:32,348 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 15:41:32,348 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 15:41:32,349 - Completed initialization in 1 ms
+[INFO]2022-07-18 15:41:32,764 - HikariPool-1 - Starting...
+[INFO]2022-07-18 15:41:32,832 - HikariPool-1 - Start completed.
+[INFO]2022-07-18 16:00:35,484 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-18 16:00:35,488 - HikariPool-1 - Shutdown completed.
+[INFO]2022-07-18 16:00:35,541 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 14916 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 16:00:35,541 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 16:00:35,691 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 16:00:35,691 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:00:35,691 - Starting service [Tomcat]
+[INFO]2022-07-18 16:00:35,691 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 16:00:35,708 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 16:00:35,708 - Root WebApplicationContext: initialization completed in 165 ms
+[INFO]2022-07-18 16:00:35,864 - Adding welcome page template: index
+[INFO]2022-07-18 16:00:35,901 - LiveReload server is running on port 35729
+[INFO]2022-07-18 16:00:35,907 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:00:35,909 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 16:00:35,927 - Started Demo1Application in 0.403 seconds (JVM running for 1149.715)
+[INFO]2022-07-18 16:00:35,928 - Condition evaluation unchanged
+[INFO]2022-07-18 16:06:18,477 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 14916 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 16:06:18,477 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 16:06:18,632 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 16:06:18,633 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:06:18,633 - Starting service [Tomcat]
+[INFO]2022-07-18 16:06:18,633 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 16:06:18,656 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 16:06:18,656 - Root WebApplicationContext: initialization completed in 177 ms
+[INFO]2022-07-18 16:06:18,804 - Adding welcome page template: index
+[INFO]2022-07-18 16:06:18,838 - LiveReload server is running on port 35729
+[INFO]2022-07-18 16:06:18,844 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:06:18,846 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 16:06:18,866 - Started Demo1Application in 0.41 seconds (JVM running for 1492.653)
+[INFO]2022-07-18 16:06:18,866 - Condition evaluation unchanged
+[INFO]2022-07-18 16:06:47,576 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 14916 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 16:06:47,577 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 16:06:47,722 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 16:06:47,723 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:06:47,723 - Starting service [Tomcat]
+[INFO]2022-07-18 16:06:47,723 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 16:06:47,738 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 16:06:47,738 - Root WebApplicationContext: initialization completed in 160 ms
+[INFO]2022-07-18 16:06:47,854 - Adding welcome page template: index
+[INFO]2022-07-18 16:06:47,883 - LiveReload server is running on port 35729
+[INFO]2022-07-18 16:06:47,888 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:06:47,889 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 16:06:47,906 - Started Demo1Application in 0.349 seconds (JVM running for 1521.694)
+[INFO]2022-07-18 16:06:47,907 - Condition evaluation unchanged
+[INFO]2022-07-18 16:06:57,799 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 14916 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 16:06:57,799 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 16:06:57,934 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 16:06:57,934 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:06:57,934 - Starting service [Tomcat]
+[INFO]2022-07-18 16:06:57,935 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 16:06:57,949 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 16:06:57,949 - Root WebApplicationContext: initialization completed in 149 ms
+[INFO]2022-07-18 16:06:58,074 - Adding welcome page template: index
+[INFO]2022-07-18 16:06:58,102 - LiveReload server is running on port 35729
+[INFO]2022-07-18 16:06:58,107 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:06:58,109 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 16:06:58,127 - Started Demo1Application in 0.345 seconds (JVM running for 1531.915)
+[INFO]2022-07-18 16:06:58,128 - Condition evaluation unchanged
+[INFO]2022-07-18 16:07:31,007 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 14916 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 16:07:31,007 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 16:07:31,144 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 16:07:31,145 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:07:31,145 - Starting service [Tomcat]
+[INFO]2022-07-18 16:07:31,145 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 16:07:31,160 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 16:07:31,160 - Root WebApplicationContext: initialization completed in 151 ms
+[INFO]2022-07-18 16:07:31,279 - Adding welcome page template: index
+[INFO]2022-07-18 16:07:31,310 - LiveReload server is running on port 35729
+[INFO]2022-07-18 16:07:31,315 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:07:31,317 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 16:07:31,337 - Started Demo1Application in 0.345 seconds (JVM running for 1565.125)
+[INFO]2022-07-18 16:07:31,338 - Condition evaluation unchanged
+[INFO]2022-07-18 16:07:32,645 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 16:07:32,645 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 16:07:32,646 - Completed initialization in 1 ms
+[INFO]2022-07-18 16:07:32,800 - HikariPool-2 - Starting...
+[INFO]2022-07-18 16:07:32,810 - HikariPool-2 - Start completed.
+[INFO]2022-07-18 16:17:30,012 - HikariPool-2 - Shutdown initiated...
+[INFO]2022-07-18 16:17:30,014 - HikariPool-2 - Shutdown completed.
+[INFO]2022-07-18 16:17:30,077 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 14916 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 16:17:30,077 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 16:17:30,217 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 16:17:30,218 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:17:30,218 - Starting service [Tomcat]
+[INFO]2022-07-18 16:17:30,218 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 16:17:30,239 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 16:17:30,239 - Root WebApplicationContext: initialization completed in 160 ms
+[INFO]2022-07-18 16:17:30,353 - Adding welcome page template: index
+[INFO]2022-07-18 16:17:30,383 - LiveReload server is running on port 35729
+[INFO]2022-07-18 16:17:30,388 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:17:30,389 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 16:17:30,407 - Started Demo1Application in 0.347 seconds (JVM running for 2164.195)
+[INFO]2022-07-18 16:17:30,408 - Condition evaluation unchanged
+[INFO]2022-07-18 16:17:42,489 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 14916 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 16:17:42,490 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 16:17:42,622 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 16:17:42,623 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:17:42,623 - Starting service [Tomcat]
+[INFO]2022-07-18 16:17:42,623 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 16:17:42,637 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 16:17:42,637 - Root WebApplicationContext: initialization completed in 146 ms
+[INFO]2022-07-18 16:17:42,737 - Adding welcome page template: index
+[INFO]2022-07-18 16:17:42,767 - LiveReload server is running on port 35729
+[INFO]2022-07-18 16:17:42,772 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:17:42,774 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 16:17:42,792 - Started Demo1Application in 0.316 seconds (JVM running for 2176.58)
+[INFO]2022-07-18 16:17:42,792 - Condition evaluation unchanged
+[INFO]2022-07-18 16:18:02,127 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 14916 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 16:18:02,127 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 16:18:02,245 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 16:18:02,246 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:18:02,246 - Starting service [Tomcat]
+[INFO]2022-07-18 16:18:02,246 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 16:18:02,260 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 16:18:02,260 - Root WebApplicationContext: initialization completed in 132 ms
+[INFO]2022-07-18 16:18:02,386 - Adding welcome page template: index
+[INFO]2022-07-18 16:18:02,434 - LiveReload server is running on port 35729
+[INFO]2022-07-18 16:18:02,444 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:18:02,447 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 16:18:02,475 - Started Demo1Application in 0.361 seconds (JVM running for 2196.263)
+[INFO]2022-07-18 16:18:02,476 - Condition evaluation unchanged
+[INFO]2022-07-18 16:23:47,109 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 14916 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 16:23:47,110 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 16:23:47,245 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 16:23:47,246 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:23:47,246 - Starting service [Tomcat]
+[INFO]2022-07-18 16:23:47,246 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 16:23:47,267 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 16:23:47,267 - Root WebApplicationContext: initialization completed in 156 ms
+[INFO]2022-07-18 16:23:47,392 - Adding welcome page template: index
+[INFO]2022-07-18 16:23:47,433 - LiveReload server is running on port 35729
+[INFO]2022-07-18 16:23:47,439 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:23:47,440 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 16:23:47,461 - Started Demo1Application in 0.366 seconds (JVM running for 2541.249)
+[INFO]2022-07-18 16:23:47,462 - Condition evaluation unchanged
+[INFO]2022-07-18 16:30:55,721 - Starting Demo1Application using Java 15.0.2 on LAPTOP-DIJ1NOBV with PID 10308 (D:\js\springboot\demo\target\classes started by lenovo in D:\js\springboot\demo)
+[INFO]2022-07-18 16:30:55,722 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2022-07-18 16:30:55,747 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2022-07-18 16:30:55,748 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2022-07-18 16:30:56,420 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2022-07-18 16:30:56,425 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:30:56,425 - Starting service [Tomcat]
+[INFO]2022-07-18 16:30:56,425 - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO]2022-07-18 16:30:56,471 - Initializing Spring embedded WebApplicationContext
+[INFO]2022-07-18 16:30:56,471 - Root WebApplicationContext: initialization completed in 723 ms
+[INFO]2022-07-18 16:30:56,842 - Adding welcome page template: index
+[INFO]2022-07-18 16:30:56,964 - LiveReload server is running on port 35729
+[INFO]2022-07-18 16:30:56,977 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2022-07-18 16:30:56,996 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2022-07-18 16:30:57,033 - Started Demo1Application in 1.567 seconds (JVM running for 2.11)
+[INFO]2022-07-18 16:31:18,242 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2022-07-18 16:31:18,242 - Initializing Servlet 'dispatcherServlet'
+[INFO]2022-07-18 16:31:18,243 - Completed initialization in 1 ms
+[INFO]2022-07-18 16:31:18,269 - HikariPool-1 - Starting...
+[INFO]2022-07-18 16:31:18,337 - HikariPool-1 - Start completed.
+[INFO]2022-07-18 16:33:52,580 - HikariPool-1 - Shutdown initiated...
+[INFO]2022-07-18 16:33:52,587 - HikariPool-1 - Shutdown completed.
